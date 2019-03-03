@@ -21,6 +21,7 @@ All text has been converted from a variety of original formats into text files e
 - Titles are presented on separate lines
 - For pieces of text with multiple sections (such as a book with multiple chapters), an empty line indicates a section break.
 - Unicode encodings have been chosen in their fully decomposed form. 
+- Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus
 
 ## Copyright
 
