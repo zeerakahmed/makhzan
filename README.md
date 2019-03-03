@@ -16,7 +16,7 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 
 All text has been converted from a variety of original formats into text files encoded in Unicode. The following patterns are generally followed:
 
-- Each file in `text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
+- Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
 - A paragraph of text is represented as a single line of text with a new line character at the end
 - Titles are presented on separate lines
 - For pieces of text with multiple sections (such as a book with multiple chapters), an empty line indicates a section break.
