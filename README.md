@@ -14,14 +14,28 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 
 ## Text Formatting
 
-All text has been converted from a variety of original formats into text files encoded in Unicode. The following patterns are generally followed:
+### Basic structure
 
 - Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
-- A paragraph of text is represented as a single line of text with a new line character at the end
-- Titles are presented on separate lines
+- A paragraph of text is represented as a single line of text with a new line character at the end.
+- Titles are presented on separate lines.
 - For pieces of text with multiple sections (such as a book with multiple chapters), an empty line indicates a section break.
-- Unicode encodings have been chosen in their fully decomposed form. 
-- Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus
+
+### Annotations
+
+- Annotations have been made using XML syntax, using an ```<annotation>``` element.
+- Due to the use of XML syntax for annotations, ```<```, ```>``` and ```&``` characters have been escaped as ```&lt;```, ```&gt```, and ```&amp``` respectively.
+- A language (```lang```) attribute is added to the ```<annotation>``` element to indicate text in other languages (such as quoted text or technical vocabulary presented in other languages and scripts). The attribute value a two-character ISO 639-1 code. So the resultant annotation for an Arabic quote for example, will be ```<annotation lang="ar"></annotation>```. 
+
+### Encoding
+
+- All text has been converted from a variety of original formats into text files using Unicode code points in ```utf-8``` encoding.
+- Unicode code points have been chosen in their fully decomposed form. 
+
+### Textual modifications
+
+- Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
+- Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
 
 ## Copyright
 
