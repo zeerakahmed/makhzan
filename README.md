@@ -1,10 +1,10 @@
 # corpus
 
-An Urdu text corpus to enable research and applications for the Urdu language. All text in this repository is free to use as for commercial and non-commercial projects.
+An Urdu text corpus to enable research and applications for the Urdu language. All text in this repository is free to use for commercial and non-commercial projects.
 
 ## How text was selected
 
-Given the poor quality of most published Urdu text in digital form, all text in this repository has been selected for quality of language, upholding high editorial standards.
+All text in this repository has been selected for quality of language, upholding high editorial standards. Given the poor quality of most published Urdu text in digital form, this selection criteria allows the use of this text for natural language process, and machine learning applications without the need to address fundamental quality issues in the text.
 
 We have made efforts to ensure this text is as broadly representative as possible. Specifically we have attempted to select for as many authors as possible, and diversity in the gender of the author, as well as years and city of publication. This effort is imperfect, and we appreciate any attempts at pointing us to resources that can help diversify this text even further.
 
