@@ -17,9 +17,6 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 ### Basic structure
 
 - Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
-- A paragraph of text is represented as a single line of text with a new line character at the end.
-- Titles are presented on separate lines.
-- For pieces of text with multiple sections (such as a book with multiple chapters), an empty line indicates a section break.
 - Text is structured and annotated using XML syntax. 
 - The root node is a `<document>` element.
 - Each document is divided into `<section>` elements. When a new section begins is a bit of an editorial decision. In general the rule is that a clear visual demarkation in the original text (such as a page break, or a horizontal rule) is used to indicate a section break. A heading does not automatically create a new section.
