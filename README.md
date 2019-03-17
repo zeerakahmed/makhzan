@@ -30,15 +30,11 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 
 ### Annotations
 
-- Annotations have been made using XML syntax, using an ```<annotation>``` element.
-- Due to the use of XML syntax for annotations, ```<```, ```>``` and ```&``` characters have been escaped as ```&lt;```, ```&gt```, and ```&amp``` respectively.
-- A language (```lang```) attribute is added to the ```<annotation>``` element to indicate text in other languages (such as quoted text or technical vocabulary presented in other languages and scripts). The attribute value a two-character ISO 639-1 code. So the resultant annotation for an Arabic quote for example, will be ```<annotation lang="ar"></annotation>```. 
 - Annotations have been made inline using an `<annotation>` element.
 - A language (`lang`) attribute is added to the `<annotation>` element to indicate text in other languages (such as quoted text or technical vocabulary presented in other languages and scripts). The attribute value a two-character ISO 639-1 code. So the resultant annotation for an Arabic quote for example, will be `<annotation lang="ar"></annotation>`. 
 
 ### Encoding
 
-- All text has been converted from a variety of original formats into text files using Unicode code points in ```utf-8``` encoding.
 - All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding.
 - Unicode code points have been chosen in their fully decomposed form. 
 
@@ -47,7 +43,6 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 - Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
 - Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
 
-### Metadata in ```sources.csv```
 ### Metadata in `sources.csv`
 
 There are various reasons to provide metadata on our text sourcing:
@@ -62,4 +57,4 @@ Notes on how we have formatted this metadata:
 
 Each piece of text has been included with explicit permission of respective copyright holders, where available. Otherwise the text is copyright free. You are free to use this text to help with your research work, but you are not allowed to redistribute, or republish this text in any form without explicit permission of the copyright holders.
 
-In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in the ```Notes``` column of `sources.csv`, and we strongly encourage you to contact them before redistributing this text in any form.In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in the `Notes` column of `sources.csv`, and we strongly encourage you to contact them before redistributing this text in any form.
+In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in the `Notes` column of `sources.csv`, and we strongly encourage you to contact them before redistributing this text in any form.
