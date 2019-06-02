@@ -16,17 +16,22 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 
 ### Basic structure
 
-- Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
-- Text is structured and annotated using XML syntax, and where possible HTML elements or similar syntax has been used for clarity and ease. 
+Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
+
+Text is structured and annotated using XML syntax. The ontology of elements used is loosely based around HTML, with simplifications made when HTML's specificity is not needed, and additions made to express common occurences in this corpus that would be useful for linguistic analysis. The semantic tagging of text is editorial in nature, which is to say that another person semantically tagging the text may do so differently. Effort has been made however to ensure consistency, and to retain the original meaning of the text while making it easy to parse through linguistically different pieces of text for analysis. 
+
+The resulting structure of tags in the text documents is as follows:
 - The root node is a `<document>` element.
-- Each document is divided into `<section>` elements. When a new section begins is a bit of an editorial decision. In general the rule is that a clear visual demarkation in the original text (such as a page break, or a horizontal rule) is used to indicate a section break. A heading does not automatically create a new section.
+- Each document is divided into `<section>` elements. In general the rule is that a clear visual demarkation in the original text (such as a page break, or a horizontal rule) is used to indicate a section break. A heading does not automatically create a new section.
 - Each paragraph is a `<p>` element.
 - Titles and headings are wrapped in an `<heading>` element. 
-- Blockquotes are wrapped in a `<blockquote>` element.
-- Lists are wrapped in an `<list>`. Individual items in each lists are wrapped in an `<li>` element. 
+- Blockquotes are wrapped in a `<blockquote>` element. Blockquotes may themselves contain other elements.
+- Lists are wrapped in an `<list>`. Individual items in each list are wrapped in an `<li>` element. 
 - Poetic verses are wrapped in a `<verse>` element. Each verse is on a separate line but is not wrapped in an individual element.
-- Each `<p>`, `<heading>`, `<blockquote>`, `<list>` and `<li>` element is on a separate line.
-- Due to the use of XML syntax for annotations, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt`, and `&amp` respectively.
+- Tables are wrapped in a `<table>` element. A table is divided into rows marked by `<tr>` and columns marked by `<td>`. 
+- `<p>`, `<heading>`, `<li>`, `<td>` and `<annotation>` tags are inline with the text (i.e. there is no new line character before and after the tag). Other tags have a new line after the opening and before the closing tag. 
+
+Due to the use of XML syntax for annotations, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt`, and `&amp` respectively.
 
 ### Annotations
 
