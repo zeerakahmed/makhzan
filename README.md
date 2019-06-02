@@ -6,7 +6,7 @@ An Urdu text corpus to enable research and applications for the Urdu language. A
 
 All text in this repository has been selected for quality of language, upholding high editorial standards. Given the poor quality of most published Urdu text in digital form, this selection criteria allows the use of this text for natural language process, and machine learning applications without the need to address fundamental quality issues in the text.
 
-We have made efforts to ensure this text is as broadly representative as possible. Specifically we have attempted to select for as many authors as possible, and diversity in the gender of the author, as well as years and city of publication. This effort is imperfect, and we appreciate any attempts at pointing us to resources that can help diversify this text even further.
+We have made efforts to ensure this text is as broadly representative as possible. Specifically we have attempted to select for as many authors as possible, and diversity in the gender of the author, as well as years and city of publication. This effort is imperfect, and we appreciate any attempts at pointing us to resources that can help diversify this text further.
 
 ## File structure
 
@@ -23,9 +23,9 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 - Each paragraph is a `<p>` element.
 - Titles and headings are wrapped in an `<heading>` element. 
 - Blockquotes are wrapped in a `<blockquote>` element.
-- Lists are wrapped in an `<ol>` or `<ul>` element for ordered and unordered lists respectively. Individual items in each lists are wrapped in an `<li>` element. 
+- Lists are wrapped in an `<list>`. Individual items in each lists are wrapped in an `<li>` element. 
 - Poetic verses are wrapped in a `<verse>` element. Each verse is on a separate line but is not wrapped in an individual element.
-- Each `<p>`, `<heading>`, `<blockquote>`, `<ol>`, `<ul>` and `<li>` element is on a separate line.
+- Each `<p>`, `<heading>`, `<blockquote>`, `<list>` and `<li>` element is on a separate line.
 - Due to the use of XML syntax for annotations, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt`, and `&amp` respectively.
 
 ### Annotations
@@ -43,7 +43,7 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 - Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
 - Occassionally punctuation has been changed for clarity. For example, curly quotes have been replaced with straight quotes to make text easier to parse electronically. And in one particular case repeated a number of times in this corpus, an Arabic period was used to indicate a date range (e.e. ۱۹۶۵۔۱۹۷۶). Here the period has been replaced with a hyphen so as to not break any sentence breaking code.
 - Footnotes and captions, where present, have been omitted for ease of transcription. In most cases these contained source information which was not particularly rich linguistically. 
-- In some cases  source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
+- In some cases source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
 - Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
 
 ### Metadata in `sources.csv`
