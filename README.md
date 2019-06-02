@@ -42,7 +42,7 @@ The text repository itself is contained within `/text`. `sources.csv` contains m
 
 - Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
 - Footnotes and captions, where present, have been omitted for ease of transcription. In most cases these contained source information which was not particularly rich linguistically. 
-- In some cases  source text makes both a visual demarcation of a block quotation and also uses quotation marks. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
+- In some cases  source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
 - Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
 
 ### Metadata in `sources.csv`
