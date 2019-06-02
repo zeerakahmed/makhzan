@@ -31,7 +31,7 @@ The resulting structure of tags in the text documents is as follows:
 - Tables are wrapped in a `<table>` element. A table is divided into rows marked by `<tr>` and columns marked by `<td>`. 
 - `<p>`, `<heading>`, `<li>`, `<td>` and `<annotation>` tags are inline with the text (i.e. there is no new line character before and after the tag). Other tags have a new line after the opening and before the closing tag. 
 
-Due to the use of XML syntax for annotations, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt`, and `&amp` respectively.
+Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt`, and `&amp` respectively.
 
 ### Annotations
 
