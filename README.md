@@ -10,7 +10,7 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 ## File structure
 
-The text repository itself is contained within `/text`. `sources.csv` contains metadata for each text file.
+The text repository itself is contained within `/text`. A template for how the text files are structured is in `base-template.xml`.	
 
 ## Text Formatting
 
@@ -22,16 +22,18 @@ Text is structured and annotated using XML syntax. The ontology of elements used
 
 The resulting structure of tags in the text documents is as follows:
 - The root node is a `<document>` element.
-- Each document is divided into `<section>` elements. In general the rule is that a clear visual demarkation in the original text (such as a page break, or a horizontal rule) is used to indicate a section break. A heading does not automatically create a new section.
+- Each `<document>` is divided into `<meta>` and `<body>` tags. 
+- The `<meta>` tag, as the name suggests, contains metadata on the document such as the document's title, information about the author and publication, as well as other potentially useful facts such as the number of Urdu words in the document and whether the document contains text in any other languages.
+- The `<body>` tag is divided into `<section>` elements. In general the rule is that a clear visual demarkation in the original text (such as a page break, or a horizontal rule) is used to indicate a section break. A heading does not automatically create a new section.
 - Each paragraph is a `<p>` element.
-- Titles and headings are wrapped in an `<heading>` element. 
+- Headings are wrapped in an `<heading>` element. 
 - Blockquotes are wrapped in a `<blockquote>` element. Blockquotes may themselves contain other elements.
 - Lists are wrapped in an `<list>`. Individual items in each list are wrapped in an `<li>` element. 
 - Poetic verses are wrapped in a `<verse>` element. Each verse is on a separate line but is not wrapped in an individual element.
 - Tables are wrapped in a `<table>` element. A table is divided into rows marked by `<tr>` and columns marked by `<td>`. 
 - `<p>`, `<heading>`, `<li>`, `<td>` and `<annotation>` tags are inline with the text (i.e. there is no new line character before and after the tag). Other tags have a new line after the opening and before the closing tag. 
 
-Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt;`, and `&amp;` respectively.
+Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt;`, and `&amp;` respectively. This includes the use of these characters in URLs inside `<meta>` tags.
 
 ### Annotations
 
@@ -40,8 +42,8 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 
 ### Encoding
 
-- All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding.
-- Unicode code points have been chosen in their fully decomposed form. 
+- All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding. *(in progress)*
+- Unicode code points have been chosen in their fully decomposed form. *(in progress)*
 
 ### Textual modifications
 
@@ -51,7 +53,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 - In some cases source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
 - Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
 
-### Metadata in `sources.csv`
+### Metadata
 
 There are various reasons to provide metadata on our text sourcing:
 - Attribution to authors, copyright holders, and other contributors.
