@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Naqqash",
+        "repositoryURL": "https://github.com/zeerakahmed/naqqash",
+        "state": {
+          "branch": null,
+          "revision": "c3b4313c8bcc41e1686bb15b0be42c5440a5bb55",
+          "version": "0.1.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
