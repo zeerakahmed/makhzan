@@ -45,7 +45,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 ### Encoding
 
 - All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding and `LF` line endings.
-- Unicode code points have been chosen in their fully decomposed form. *(in progress)*
+- Unicode code points have been chosen in their fully decomposed form.
 
 ### Textual modifications
 

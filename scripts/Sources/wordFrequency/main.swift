@@ -32,8 +32,11 @@ class ParserDelegate: NSObject, XMLParserDelegate {
 var wordFreq : [String:Int] = [:]
 
 // get file URLs from ../text directory
-let textDirectoryPath: URL = NSURL.fileURL(withPath:"../text/")
-let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryPath, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles])
+let textDirectoryPath = "../text/"
+let textDirectoryURL: URL = NSURL.fileURL(withPath: textDirectoryPath)
+let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
+                                                         includingPropertiesForKeys: nil,
+                                                         options: [.skipsHiddenFiles])
 
 // process every file
 for file in files {
