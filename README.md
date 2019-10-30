@@ -42,7 +42,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 
 ### Encoding
 
-- All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding. *(in progress)*
+- All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding and `LF` line endings.
 - Unicode code points have been chosen in their fully decomposed form. *(in progress)*
 
 ### Textual modifications
@@ -67,4 +67,4 @@ Notes on how we have formatted this metadata:
 
 Each piece of text has been included with explicit permission of respective copyright holders, where available. Otherwise the text is copyright free. You are free to use this text to help with your research work, but you are not allowed to redistribute, or republish this text in any form without explicit permission of the copyright holders.
 
-In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in the `Notes` column of `sources.csv`, and we strongly encourage you to contact them before redistributing this text in any form.
+In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a  `Notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
