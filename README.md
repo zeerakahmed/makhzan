@@ -1,4 +1,4 @@
-# corpus
+# maḵẖzan مخزن
 
 An Urdu text corpus to enable research and applications for the Urdu language. All text in this repository is free to use for commercial and non-commercial projects.
 
