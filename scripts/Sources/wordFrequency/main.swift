@@ -28,7 +28,7 @@ class ParserDelegate: NSObject, XMLParserDelegate {
     }
 }
 
-var wordFreq: [String: Int]
+var wordFreq : [String:Int] = [:]
 
 // get file URLs from ../text directory
 let textDirectoryPath: URL = NSURL.fileURL(withPath:"../text/")
@@ -36,11 +36,6 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryPath, 
 
 // process every file
 for file in files {
-    
-    // to test only run it on one file
-    if !file.absoluteString.hasSuffix("0002.xml") {
-        continue
-    }
     
     // get the relevant text from the text file
     let parserDelegate = ParserDelegate()
@@ -59,5 +54,44 @@ for file in files {
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
      
     // split into words
-    print(text)
+    var word = ""
+    
+    // go through each character
+    for char in text {
+        
+        var c = char
+        
+        // add to word if letter
+        if Naqqash.isLetter(c) {
+            if Naqqash.isDecomposable(c) { c = Naqqash.decompose(c) }
+            word += String(c)
+        }
+        
+        // add to dictionary if end of word
+        else if c == " " {
+            if wordFreq.index(forKey: word) == nil {
+                wordFreq[word] = 1
+            } else {
+                let count = wordFreq[word]!
+                wordFreq.updateValue(count + 1, forKey: word)
+            }
+            word = ""
+        }
+        
+        // ignore any other characters
+        else {
+            continue
+        }
+    }
 }
+
+// write to file
+var outputPath = "../stats/wordFrequency"
+var outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
+outputStream?.open()
+JSONSerialization.writeJSONObject(wordFreq,
+                                  to: outputStream!,
+                                  options: [JSONSerialization.WritingOptions.prettyPrinted],
+                                  error: nil)
+outputStream?.close()
+
