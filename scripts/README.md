@@ -10,7 +10,7 @@ The `Package.swift` file contains the names of executables and lists dependencie
 
 ## How to run
 
-To build the scripts on your machine, run
+To build the scripts on your machine, `cd` to this package directory and then run
 `swift build`
 
 To run a script, identify the target you want to run as follows:
@@ -19,4 +19,9 @@ To run a script, identify the target you want to run as follows:
 For example if you wanted to run the `wordFrequency` script, you would run it as
 `swift run wordFrequency`
 
+## Sample scripts included
+
+The `preProcessor` executable goes through each character in every file, and decomposes it into multiple Unicode codepoints if needed.
+
+The `wordFrequency` executable counts how often each word appears in the full corpus. Text in non-Urdu languages and metadata is ignored for this count.
 
