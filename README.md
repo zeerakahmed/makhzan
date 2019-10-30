@@ -67,7 +67,13 @@ Notes on how we have formatted this metadata:
 
 ## Contribution
 
+We would love your help in a number of ways. Please get in touch if you:
+- have any text to contribute to this repository
+- spot an error in the text
+- write a script that should be distributed with the corpus
+- can transform documents from InPage format to the XML structure of the text in this repository
 
+Start an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact). 
 
 ## License / Copyright
 
