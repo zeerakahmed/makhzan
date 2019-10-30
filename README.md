@@ -65,8 +65,14 @@ There are various reasons to provide metadata on our text sourcing:
 Notes on how we have formatted this metadata:
 - The number of words is calculated subtracting XML annotations, and text from languages other than Urdu. For Urdu projects this text is most likely to be ignored, and so the word count subtracting such text presents a more accurate estimate of the actual Urdu words used.
 
-## Copyright
+## Contribution
 
-Each piece of text has been included with explicit permission of respective copyright holders, where available. Otherwise the text is copyright free. You are free to use this text to help with your research work, but you are not allowed to redistribute, or republish this text in any form without explicit permission of the copyright holders.
+## License / Copyright
 
-In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a  `Notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
+All files in the `/text` directory are covered under standard copyright. Each piece of text has been included in this repository with explicity permission of respective copyright holders, who are identified in the `<meta>` tag for each file. You are free to use this text for analysis, research and development, but you are not allowed to redistribute or republish this text. 
+
+In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a  `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
+
+All other materials in this repository (such software, aggregated analyses and documentation) in the `/scripts`, `/stats` or `/templates` directory are licensed under the terms of the MIT license.
+
+If you feel any material has been included in this repository erroneously and/or copyright arrangements have not been respected, please file an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact). 
