@@ -28,6 +28,7 @@ class ParserDelegate: NSObject, XMLParserDelegate {
     }
 }
 
+// dictionary to store words and their frequencies
 var wordFreq : [String:Int] = [:]
 
 // get file URLs from ../text directory
@@ -52,13 +53,10 @@ for file in files {
     text.removeAll { String($0).rangeOfCharacter(from:charactersToRemove) != nil }
     text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
-     
-    // split into words
-    var word = ""
     
     // go through each character
+    var word = ""
     for char in text {
-        
         var c = char
         
         // add to word if letter
@@ -91,7 +89,7 @@ var outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
 outputStream?.open()
 JSONSerialization.writeJSONObject(wordFreq,
                                   to: outputStream!,
-                                  options: [JSONSerialization.WritingOptions.prettyPrinted],
+                                  options: [.prettyPrinted],
                                   error: nil)
 outputStream?.close()
 
