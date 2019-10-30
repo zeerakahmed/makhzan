@@ -13,7 +13,7 @@ The `Package.swift` file contains the names of executables and lists dependencie
 To build the scripts on your machine, run
 `swift build`
 
-To run a script, identify the target you want to run as follows
+To run a script, identify the target you want to run as follows:
 `swift run <target>`
 
 For example if you wanted to run the `wordFrequency` script, you would run it as
