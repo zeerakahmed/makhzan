@@ -1,5 +1,5 @@
 **/.DS_Store
 /scripts/.build
-/scripts//Packages
+/scripts/Packages
 /*.xcodeproj
 xcuserdata/
