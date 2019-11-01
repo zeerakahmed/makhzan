@@ -10,7 +10,7 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 ## File structure
 
-The text courpus itself is contained within `/text`. A template for how the text files are structured is in `templates`. Some common scripts to analyze the text are in `/scripts`, and the output of these analyses are in `stats`, if you'd like to use this output directly.
+The text courpus itself is contained within `/text`. A template for how the text files are structured is in `/templates`. Some common scripts to analyze the text are in `/scripts`, and the output of these analyses are in `/stats`, if you'd like to use this output directly.
 
 Details of how the text is structured are below. For more information on how the scripts function, step into [documentation in the `/scripts` directory](/scripts).
 
