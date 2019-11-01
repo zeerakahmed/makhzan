@@ -4,7 +4,7 @@ An Urdu text corpus to enable research and applications for the Urdu language.
 
 ## How text was selected
 
-All text in this repository has been selected for quality of language, upholding high editorial standards. Given the poor quality of most published Urdu text in digital form, this selection criteria allows the use of this text for natural language process, and machine learning applications without the need to address fundamental quality issues in the text.
+All text in this repository has been selected for quality of language, upholding high editorial standards. Given the poor quality of most published Urdu text in digital form, this selection criteria allows the use of this text for natural language processing, and machine learning applications without the need to address fundamental quality issues in the text.
 
 We have made efforts to ensure this text is as broadly representative as possible. Specifically we have attempted to select for as many authors as possible, and diversity in the gender of the author, as well as years and city of publication. This effort is imperfect, and we appreciate any attempts at pointing us to resources that can help diversify this text further.
 
@@ -79,7 +79,7 @@ Start an issue on this repository or get in touch [through our website](https://
 
 All files in the `/text` directory are covered under standard copyright. Each piece of text has been included in this repository with explicity permission of respective copyright holders, who are identified in the `<meta>` tag for each file. You are free to use this text for analysis, research and development, but you are not allowed to redistribute or republish this text. 
 
-In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a  `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
+In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
 
 All other materials in this repository (such software, aggregated analyses and documentation) in the `/scripts`, `/stats` or `/templates` directory are licensed under the terms of the MIT license.
 
