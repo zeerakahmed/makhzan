@@ -1,4 +1,4 @@
-# maḵẖzan مخزن
+# Maḵẖzan مخزن
 
 An Urdu text corpus to enable research and applications for the Urdu language. 
 
