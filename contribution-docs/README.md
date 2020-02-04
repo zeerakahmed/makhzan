@@ -32,10 +32,10 @@ A lot of text in the Urdu language is typeset using the InPage application. Near
 - **Ensure spacing is correct around punctuation**
   - Remove leading space in anything that matches `\s[۔،:\(\[“‘]`.
   - Add a trailing space in anything that matches `[۔،:\(\[“‘][^\s]`.
-  - Add a leading space in anything that matches `[^\s][\)\]”’]`
-  - Remove trailing space in anything that matches `[\)\]”’]\s`
+  - Add a leading space in anything that matches `[^\s][\)\]”’]`.
+  - Remove trailing space in anything that matches `[\)\]”’]\s`.
 - **Remove double spaces**
-  - Replace `\ \ ` with `\ ` until there are no more characters matching `  `. 
+  - Replace occurences of two consecutive spaces with a single space until there are no more occurences of two consecutive spaces.
 
 Further, we find that text typset in Nastaliq typefaces often has a number of spacing errors in and around words. Mostly these spaces are added to make the text more aesthetically pleasing, and due to incorrect/non-existent usage of the zero width non-joiner character. 
 
