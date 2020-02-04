@@ -10,7 +10,7 @@ Once ready please open a pull request to add a file to the `../text` directory. 
 
 ## Obtaining source text
 
-We are in possession of a large anount of text that needs to be cleaned and transformed for addition to this corpus. If you would like to help by cleaning and transforming this data please reach out to zeerak dot ahmed at gmail dot com.
+We are in possession of a large anount of text that needs to be cleaned and transformed for addition to this corpus. If you would like to help by cleaning and transforming this data please reach out [through our website](https://matnsaz.net/en/contact).
 
 If you are in the possession of Urdu text that is not already, or is not slated to be, part of this corpus please get in touch. We are especially in need of text that is not typeset in Nastaliq typefaces, which mostly contains errors detailed below.
 
@@ -35,7 +35,7 @@ A lot of text in the Urdu language is typeset using the InPage application. Near
   - Add a leading space in anything that matches `[^\s][\)\]”’]`
   - Remove trailing space in anything that matches `[\)\]”’]\s`
 - **Remove double spaces**
-  - Replace `  ` with ` ` until there are no more characters matching `  `. 
+  - Replace `\ \ ` with `\ ` until there are no more characters matching `  `. 
 
 Further, we find that text typset in Nastaliq typefaces often has a number of spacing errors in and around words. Mostly these spaces are added to make the text more aesthetically pleasing, and due to incorrect/non-existent usage of the zero width non-joiner character. 
 
