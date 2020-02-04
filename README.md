@@ -10,9 +10,9 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 ## File structure
 
-The text courpus itself is contained within `/text`. Some common scripts to analyze the text are in `/scripts`, and the output of these analyses are in `/stats`, if you'd like to use this output directly.
+The text courpus itself is contained within [`/text`](/text). Some common scripts to analyze the text are in [`/scripts`](/scripts), and the output of these analyses are in [`/stats`](/stats), if you'd like to use this output directly.
 
-Documentation on how source text is cleaned and structured for this corpus is contained in `/contributing-docs`. This includes [instructions on how to fix commonly occuring problems in Urdu source text](/contribution-docs/README.md), and a [base template on how each text file is structured once cleaned](/contribution-docs/base-template.xml).
+Documentation on how source text is cleaned and structured for this corpus is contained in [`/contribution-docs`](/contribution-docs). This includes [instructions on how to fix commonly occuring problems in Urdu source text](/contribution-docs/README.md), and a [base template on how each text file is structured once cleaned](/contribution-docs/base-template.xml).
 
 Details of how the text is structured are below. For more information on how the scripts function, step into [documentation in the `/scripts` directory](/scripts).
 
