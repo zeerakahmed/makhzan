@@ -22,7 +22,7 @@ If you are in the possession of Urdu text that is not already, or is not slated 
   - Remove footnotes/endnotes from the document. In text sourced from Bunyad, these are often at the end of each document.
   - Remove all footnote markers. These are mostly digits. Search for `\d` and remove as necessary. Note that other digits are part of the text and should not be removed.
 
-## Spacing issues in InPage & Nastaliq text
+### Spacing issues in InPage & Nastaliq text
 
 A lot of text in the Urdu language is typeset using the InPage application. Nearly the entirety of text we have come across that is typeset in this manner has a number of common issues that need to be resolved.
 
