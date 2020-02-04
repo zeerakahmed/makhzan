@@ -10,7 +10,9 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 ## File structure
 
-The text courpus itself is contained within `/text`. A template for how the text files are structured is in `/templates`. Some common scripts to analyze the text are in `/scripts`, and the output of these analyses are in `/stats`, if you'd like to use this output directly.
+The text courpus itself is contained within `/text`. Some common scripts to analyze the text are in `/scripts`, and the output of these analyses are in `/stats`, if you'd like to use this output directly.
+
+Documentation on how source text is cleaned and structured for this corpus is contained in `/contributing-docs`. This includes [instructions on how to fix commonly occuring problems in Urdu source text](/contribution-docs/README.md), and a [base template on how each text file is structured once cleaned](/contribution-docs/base-template.xml).
 
 Details of how the text is structured are below. For more information on how the scripts function, step into [documentation in the `/scripts` directory](/scripts).
 
@@ -50,7 +52,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 ### Textual modifications
 
 - Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
-- Occassionally punctuation has been changed for clarity. For example, curly quotes have been replaced with straight quotes to make text easier to parse electronically. And in one particular case repeated a number of times in this corpus, an Arabic period was used to indicate a date range. Here the period has been replaced with a hyphen so as to not break any sentence breaking code.
+- Occassionally punctuation has been changed for clarity. For example, in one particular case repeated a number of times in this corpus, an Arabic period was used to indicate a date range. Here the period has been replaced with a hyphen so as to not break any sentence breaking code.
 - Footnotes and captions, where present, have been omitted for ease of transcription. In most cases these contained source information which was not particularly rich linguistically. 
 - In some cases source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
 - Efforts have been made to ensure the correct usage of the zero-width non-joiner character. The character is used to break cursive without adding a space, often used in compound words. Errant spaces mid-word have been removed where necessary and noticed.
