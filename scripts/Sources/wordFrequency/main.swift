@@ -70,12 +70,22 @@ for file in files {
         
         // add to dictionary if end of word
         else if c == " " {
+            // ignore if word is an empty string, can happen if we removed some non-letter characters that were their own words
+            if word == "" { 
+                continue 
+            }
+            // add to dictionary if not there
             if wordFreq.index(forKey: word) == nil {
                 wordFreq[word] = 1
-            } else {
+            } 
+
+            // increment if already in dictionary
+            else {
                 let count = wordFreq[word]!
                 wordFreq.updateValue(count + 1, forKey: word)
             }
+
+            // reset word
             word = ""
         }
         
