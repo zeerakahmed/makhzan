@@ -5,6 +5,10 @@
 		"children":
 		[
 			{
+				"caption" : "Fix Common InPage Issues",
+				"command" : "fix_inpage_issues"
+			},
+			{
 				"caption" : "Add Body Tags",
 				"command" : "add_body_tags"
 			},
