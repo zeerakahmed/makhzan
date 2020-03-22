@@ -83,6 +83,6 @@ All files in the `/text` directory are covered under standard copyright. Each pi
 
 In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
 
-All other materials in this repository (such software, aggregated analyses and documentation) in the `/scripts`, `/stats` or `/templates` directory are licensed under the terms of the MIT license.
+All other materials in this repository (such as software, aggregated analyses and documentation) in the `/scripts`, `/stats` or `/templates` directory are licensed under the terms of the MIT license.
 
 If you feel any material has been included in this repository erroneously and/or copyright arrangements have not been respected, please file an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact). 
