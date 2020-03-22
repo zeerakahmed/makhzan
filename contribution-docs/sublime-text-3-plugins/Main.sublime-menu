@@ -27,6 +27,10 @@
 			{
 				"caption" : "Add Verse Tags",
 				"command" : "add_verse_tags"
+			},
+			{
+				"caption" : "Add Annotation Tags",
+				"command" : "add_annotation_tags"
 			}
 		]
 	}
