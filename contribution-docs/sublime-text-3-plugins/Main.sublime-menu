@@ -7,6 +7,10 @@
 			{
 				"caption" : "Add Paragraph Tags",
 				"command" : "add_paragraph_tags"
+			},
+			{
+				"caption" : "Add Heading Tags",
+				"command" : "add_heading_tags"
 			}
 		]
 	}
