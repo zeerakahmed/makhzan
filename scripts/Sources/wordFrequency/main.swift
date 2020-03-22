@@ -11,6 +11,7 @@ class ParserDelegate: NSObject, XMLParserDelegate {
                 namespaceURI: String?,
                 qualifiedName qName: String?,
                 attributes attributeDict: [String : String] = [:]) {
+        if elementName == "title" { readText = true }
         if elementName == "body" { readText = true }
         if elementName == "annotation" { readText = false }
     }
@@ -19,6 +20,7 @@ class ParserDelegate: NSObject, XMLParserDelegate {
                 didEndElement elementName: String,
                 namespaceURI: String?,
                 qualifiedName qName: String?) {
+        if elementName == "title" { readText = false }
         if elementName == "annotation" { readText = true }
     }
 
