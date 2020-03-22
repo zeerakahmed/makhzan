@@ -1,0 +1,13 @@
+[
+	{
+		"id" : "makhzan",
+		"caption": "Makhzan",
+		"children":
+		[
+			{
+				"caption" : "Add Paragraph Tags",
+				"command" : "add_paragraph_tags"
+			}
+		]
+	}
+]
