@@ -40,9 +40,9 @@ A lot of text in the Urdu language is typeset using the InPage application. Near
 Further, we find that text typset in Nastaliq typefaces often has a number of spacing errors in and around words. Mostly these spaces are added to make the text more aesthetically pleasing, and due to incorrect/non-existent usage of the zero width non-joiner character. 
 
 - **Check for floating letters:** Single characters hanging out with spaces on either side is a sign of a typographical error. A `و` character is usually ok, but anything else needs to be manually investigated.
-  - Find all characters matching ` [^و] ` and investigate
+  - Find all characters matching `\s[^و]\s` and investigate
 - **Correct spaces with *zer* underneath**
-  - Find all sequences matching ` ِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself should be replaced with a zero width non-joiner character.
+  - Find all sequences matching `\sِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself should be replaced with a zero width non-joiner character.
 
 ### Using the right Unicode characters and file format
 
@@ -50,7 +50,7 @@ Before merging new text with the `master` branch, two precautions need to be tak
 1. Text encoding is `UTF-8`. 
 2. Unicode characters are chosen in their decomposed form. 
 
-To ensure you are doing both, run the `preProcessor` script in the `../scripts` before merging. This runs a cleaner on all text files to ensure the correct encoding and character choices. 
+To ensure you are doing both, run the `preProcessor` script in the [`../scripts`](/scripts) folder before merging. This runs a cleaner on all text files to ensure the correct encoding and character choices. 
 
 ## Tools to help with modification of source text
 
