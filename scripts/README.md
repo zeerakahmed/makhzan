@@ -14,7 +14,7 @@ To build the scripts on your machine, `cd` to this package directory and then ru
 
 ## Sample scripts included
 
-Each script can be found in the `/Sources` directory.
+Each script can be found in the [`/Sources`](/Sources) directory.
 - The `preProcessor` executable goes through each character in every file, and decomposes it into multiple Unicode codepoints if needed.
 - The `wordFrequency` executable counts how often each word appears in the full corpus. Text in non-Urdu languages and metadata is ignored for this count.
 

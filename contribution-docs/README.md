@@ -56,7 +56,7 @@ To ensure you are doing both, run the `preProcessor` script in the [`../scripts`
 
 ### Sublime Text 3 Plugins
 
-To help with the arduous task of cleaning, and semantically tagging source text we are beginning to develop text editor plugins. A first draft of these is included in the `/sublime-text-3-plugins` directory. As the name suggests these plugins are for the Sublime Text 3 text editor.
+To help with the arduous task of cleaning, and semantically tagging source text we are beginning to develop text editor plugins. A first draft of these is included in the [`/sublime-text-3-plugins`](/sublime-text-3-plugins) directory. As the name suggests these plugins are for the Sublime Text 3 text editor.
 
 Using these plugins will provide a `Makhzan` menu next to the other Sublime Text menu, containing helpful commands. Using these plugins a number of time-intensive transformations are automated with one click:
 - Use the `Fix Common Inpage Issues` command to fix most spacing issues identified above. Only floating letters, and spaces with a *zer* underneath need to be manually addressed.
