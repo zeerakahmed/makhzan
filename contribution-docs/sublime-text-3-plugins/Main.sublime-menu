@@ -11,6 +11,10 @@
 			{
 				"caption" : "Add Heading Tags",
 				"command" : "add_heading_tags"
+			},
+			{
+				"caption" : "Add List Item Tags",
+				"command" : "add_list_item_tags"
 			}
 		]
 	}
