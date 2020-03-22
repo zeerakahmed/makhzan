@@ -1,0 +1,37 @@
+[
+	{
+		"id" : "makhzan",
+		"caption": "Makhzan",
+		"children":
+		[
+			{
+				"caption" : "Add Paragraph Tags",
+				"command" : "add_paragraph_tags"
+			},
+			{
+				"caption" : "Add Heading Tags",
+				"command" : "add_heading_tags"
+			},
+			{
+				"caption" : "Add List Tags",
+				"command" : "add_list_tags"
+			},
+			{
+				"caption" : "Add List Item Tags",
+				"command" : "add_list_item_tags"
+			},
+			{
+				"caption" : "Add Blockquote Tags",
+				"command" : "add_blockquote_tags"
+			},
+			{
+				"caption" : "Add Verse Tags",
+				"command" : "add_verse_tags"
+			},
+			{
+				"caption" : "Add Annotation Tags",
+				"command" : "add_annotation_tags"
+			}
+		]
+	}
+]

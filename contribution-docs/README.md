@@ -43,3 +43,11 @@ Further, we find that text typset in Nastaliq typefaces often has a number of sp
   - Find all characters matching ` [^و] ` and investigate
 - **Correct spaces with *zer* underneath**
   - Find all sequences matching ` ِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself should be replaced with a zero width non-joiner character.
+
+## Tools to help with modification of source text
+
+To help with the arduous task of cleaning, and semantically tagging source text we are beginning to develop text editor plugins. A first draft of these is included in the `/sublime-text-3-plugins` directory. As the name suggests these plugins are for the Sublime Text 3 text editor.
+
+Using these plugins will provide a `Makhzan` menu next to the other Sublime Text menu, containing helpful commands. For example one command will add `<p>` tags to selected lines.
+
+To utilize these plugins, copy all the files in this directory to your `Sublime Text 3/Packages/User` folder. This folder will be in different places depending on your operating system. If you already have a `Main.sublime-menu` file that you have used to add a custom menu to Sublime Text, then simply append the dictionary item in this file to your existing `Main.sublime-menu` file.
