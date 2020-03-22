@@ -5,6 +5,14 @@
 		"children":
 		[
 			{
+				"caption" : "Add Body Tags",
+				"command" : "add_body_tags"
+			},
+			{
+				"caption" : "Add Section Tags",
+				"command" : "add_section_tags"
+			},
+			{
 				"caption" : "Add Paragraph Tags",
 				"command" : "add_paragraph_tags"
 			},
