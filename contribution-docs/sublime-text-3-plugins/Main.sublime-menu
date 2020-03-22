@@ -13,8 +13,20 @@
 				"command" : "add_heading_tags"
 			},
 			{
+				"caption" : "Add List Tags",
+				"command" : "add_list_tags"
+			},
+			{
 				"caption" : "Add List Item Tags",
 				"command" : "add_list_item_tags"
+			},
+			{
+				"caption" : "Add Blockquote Tags",
+				"command" : "add_blockquote_tags"
+			},
+			{
+				"caption" : "Add Verse Tags",
+				"command" : "add_verse_tags"
 			}
 		]
 	}
