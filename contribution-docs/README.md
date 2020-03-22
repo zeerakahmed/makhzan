@@ -44,7 +44,17 @@ Further, we find that text typset in Nastaliq typefaces often has a number of sp
 - **Correct spaces with *zer* underneath**
   - Find all sequences matching ` ِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself should be replaced with a zero width non-joiner character.
 
+### Using the right Unicode characters and file format
+
+Before merging new text with the `master` branch, two precautions need to be taken:
+1. Text encoding is `UTF-8`. 
+2. Unicode characters are chosen in their decomposed form. 
+
+To ensure you are doing both, run the `preProcessor` script in the `../scripts` before merging. This runs a cleaner on all text files to ensure the correct encoding and character choices. 
+
 ## Tools to help with modification of source text
+
+### Sublime Text 3 Plugins
 
 To help with the arduous task of cleaning, and semantically tagging source text we are beginning to develop text editor plugins. A first draft of these is included in the `/sublime-text-3-plugins` directory. As the name suggests these plugins are for the Sublime Text 3 text editor.
 
