@@ -10,12 +10,16 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "preProcessor",
+            dependencies: ["Naqqash"]
+        ),
+        .target(
             name: "wordFrequency",
             dependencies: ["Naqqash"]
         ),
         .target(
-            name: "preProcessor",
+            name: "nGram",
             dependencies: ["Naqqash"]
-        ),
+        )
     ]
 )
