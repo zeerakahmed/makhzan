@@ -20,7 +20,7 @@ class FixInpageIssuesCommand(sublime_plugin.TextCommand):
 			region = self.view.find(leftQuotesPattern, 0)
 
 		# remove leading space
-		removeLeadingSpacePattern = r'\s[۔،:\(\[“‘]'
+		removeLeadingSpacePattern = r'\s[۔،:?!\(\[“‘]'
 		region = self.view.find(removeLeadingSpacePattern, 0)
 		while region.begin() > 0:
 			text = self.view.substr(region)
@@ -28,9 +28,8 @@ class FixInpageIssuesCommand(sublime_plugin.TextCommand):
 			self.view.replace(edit, region, text)
 			region = self.view.find(removeLeadingSpacePattern, 0)
 
-
 		# add trailing space
-		addTrailingSpacePattern = r'[۔،:\(\[“‘][^\s]'
+		addTrailingSpacePattern = r'[۔،:?!\(\[“‘][^\s]'
 		region = self.view.find(addTrailingSpacePattern, 0)
 		while region.begin() > 0:
 			self.view.insert(edit, region.end() - 1, ' ')

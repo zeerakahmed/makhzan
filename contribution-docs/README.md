@@ -30,8 +30,8 @@ A lot of text in the Urdu language is typeset using the InPage application. Near
   - Replace `’’` with `”`.
   - Replace `‘‘` with `“`.
 - **Ensure spacing is correct around punctuation**
-  - Remove leading space in anything that matches `\s[۔،:\(\[“‘]`.
-  - Add a trailing space in anything that matches `[۔،:\(\[“‘][^\s]`.
+  - Remove leading space in anything that matches `\s[۔،:?!\(\[“‘]`.
+  - Add a trailing space in anything that matches `[۔،:?!\(\[“‘][^\s]`.
   - Add a leading space in anything that matches `[^\s][\)\]”’]`.
   - Remove trailing space in anything that matches `[\)\]”’]\s`.
 - **Remove double spaces**
