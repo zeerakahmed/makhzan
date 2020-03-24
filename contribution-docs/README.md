@@ -42,7 +42,7 @@ Further, we find that text typset in Nastaliq typefaces often has a number of sp
 - **Check for floating letters:** Single characters hanging out with spaces on either side is a sign of a typographical error. A `و` character is usually ok, but anything else needs to be manually investigated.
   - Find all characters matching `\s[^و]\s` and investigate
 - **Correct spaces with *zer* underneath**
-  - Find all sequences matching `\sِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself should be replaced with a zero width non-joiner character.
+  - Find all sequences matching `\sِ`. In most of these cases the *zer* is indicating the presence of a compound word. In such cases the *zer* needs to move to the letter preceding the space, and the space itself could perhaps be replaced with a zero width non-joiner character.
 
 ### Using the right Unicode characters and file format
 
