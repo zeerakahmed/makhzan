@@ -19,7 +19,7 @@ class FixInpageIssuesCommand(sublime_plugin.TextCommand):
 			region = self.view.find(leftQuotesPattern, 0)
 
 		# remove leading space
-		removeLeadingSpacePattern = r'\s[۔،:?!\(\[“‘]'
+		removeLeadingSpacePattern = r'\s[۔،:?!\)\]“‘]'
 		region = self.view.find(removeLeadingSpacePattern, 0)
 		while region.begin() > 0:
 			text = self.view.substr(region)
@@ -28,21 +28,21 @@ class FixInpageIssuesCommand(sublime_plugin.TextCommand):
 			region = self.view.find(removeLeadingSpacePattern, 0)
 
 		# add trailing space
-		addTrailingSpacePattern = r'[۔،:?!\(\[“‘][^\s]'
+		addTrailingSpacePattern = r'[۔،:?!\)\]“‘][^\s]'
 		region = self.view.find(addTrailingSpacePattern, 0)
 		while region.begin() > 0:
 			self.view.insert(edit, region.end() - 1, ' ')
 			region = self.view.find(addTrailingSpacePattern, 0)
 
 		# add leading space
-		addLeadingSpacePattern = r'[^\s][\)\]”’]'
+		addLeadingSpacePattern = r'[^\s][\(\[”’]'
 		region = self.view.find(addLeadingSpacePattern, 0)
 		while region.begin() > 0:
 			self.view.insert(edit, region.begin() + 1, ' ')
 			region = self.view.find(addLeadingSpacePattern, 0)
 
 		# remove trailing space
-		removeTrailingSpacePattern = r'[\)\]”’]\s'
+		removeTrailingSpacePattern = r'[\(\[”’]\s'
 		region = self.view.find(removeTrailingSpacePattern, 0)
 		while region.begin() > 0:
 			text = self.view.substr(region)
