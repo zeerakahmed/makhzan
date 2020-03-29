@@ -93,4 +93,6 @@ Where a separate license is provided along with the text, we have provided corre
 
 All other materials in this repository (such as software, aggregated analyses and documentation) in the [`/scripts`](/scripts), [`/stats`](/stats) or [`/contribution-docs`](/contribution-docs) directory are licensed under the terms of the MIT license.
 
+### Copyright concerns
+
 If you feel any material has been included in this repository erroneously and/or copyright arrangements have not been respected, please file an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact). 
