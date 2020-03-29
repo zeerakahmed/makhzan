@@ -61,27 +61,27 @@ class AddBodyTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
-			prefix = '<body>\n'
-			suffix = '</body>\n'
-			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
-			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 			for line in self.view.lines(region):
 				prefix = '\t'
 				self.view.insert(edit, line.begin() + charsInserted, prefix)
 				charsInserted += len(prefix)
+			prefix = '<body>\n'
+			suffix = '</body>\n'
+			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
+			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 
 class AddSectionTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
-			prefix = '<section>\n'
-			suffix = '</section>\n'
-			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
-			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 			for line in self.view.lines(region):
 				prefix = '\t'
 				self.view.insert(edit, line.begin() + charsInserted, prefix)
 				charsInserted += len(prefix)
+			prefix = '<section>\n'
+			suffix = '</section>\n'
+			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
+			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 
 class AddParagraphTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
@@ -111,14 +111,14 @@ class AddListTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
-			prefix = '<list>\n'
-			suffix = '</list>\n'
-			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
-			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 			for line in self.view.lines(region):
 				prefix = '\t'
 				self.view.insert(edit, line.begin() + charsInserted, prefix)
 				charsInserted += len(prefix)
+			prefix = '<list>\n'
+			suffix = '</list>\n'
+			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
+			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 
 class AddListItemTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
@@ -136,33 +136,55 @@ class AddBlockquoteTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
-			prefix = '<blockquote>\n'
-			suffix = '</blockquote>\n'
-			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
-			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 			for line in self.view.lines(region):
 				prefix = '\t'
 				self.view.insert(edit, line.begin() + charsInserted, prefix)
 				charsInserted += len(prefix)
+			prefix = '<blockquote>\n'
+			suffix = '</blockquote>\n'
+			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
+			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 
 class AddVerseTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
-			prefix = '<verse>\n'
-			suffix = '</verse>\n'
-			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
-			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 			for line in self.view.lines(region):
 				prefix = '\t'
 				self.view.insert(edit, line.begin() + charsInserted, prefix)
 				charsInserted += len(prefix)
+			prefix = '<verse>\n'
+			suffix = '</verse>\n'
+			self.view.insert(edit, self.view.full_line(region).begin(), prefix)
+			self.view.insert(edit, self.view.full_line(region).end(), suffix)
 
 class AddAnnotationTagsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		charsInserted = 0
 		for region in self.view.sel():
 			prefix = '<annotation lang=\"\">'
+			suffix = '</annotation>'
+			self.view.insert(edit, region.begin() + charsInserted, prefix)
+			charsInserted += len(prefix)
+			self.view.insert(edit, region.end() + charsInserted, suffix)
+			charsInserted += len(suffix)
+
+class AddAnnotationTagsEnCommand(sublime_plugin.TextCommand):
+	def run(self, edit):
+		charsInserted = 0
+		for region in self.view.sel():
+			prefix = '<annotation lang=\"en\">'
+			suffix = '</annotation>'
+			self.view.insert(edit, region.begin() + charsInserted, prefix)
+			charsInserted += len(prefix)
+			self.view.insert(edit, region.end() + charsInserted, suffix)
+			charsInserted += len(suffix)
+
+class AddAnnotationTagsArCommand(sublime_plugin.TextCommand):
+	def run(self, edit):
+		charsInserted = 0
+		for region in self.view.sel():
+			prefix = '<annotation lang=\"ar\">'
 			suffix = '</annotation>'
 			self.view.insert(edit, region.begin() + charsInserted, prefix)
 			charsInserted += len(prefix)

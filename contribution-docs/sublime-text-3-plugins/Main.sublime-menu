@@ -43,6 +43,14 @@
 			{
 				"caption" : "Add Annotation Tags",
 				"command" : "add_annotation_tags"
+			},
+			{
+				"caption" : "Add Annotation Tags (en)",
+				"command" : "add_annotation_tags_en"
+			},
+			{
+				"caption" : "Add Annotation Tags (ar)",
+				"command" : "add_annotation_tags_ar"
 			}
 		]
 	}
