@@ -6,6 +6,7 @@
 			<year>2020</year>
 			<link>http://unicode.org/Public/cldr/36.1/</link>
 			<copyright-holder>Unicode, Inc.</copyright-holder>
+			<license-link>https://www.unicode.org/license.html</license-link>
 		</publication>
 		<num-words>7458</num-words>
 		<contains-non-urdu-languages>Yes</contains-non-urdu-languages>

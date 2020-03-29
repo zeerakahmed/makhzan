@@ -79,9 +79,17 @@ Start an issue on this repository or get in touch [through our website](https://
 
 ## License / Copyright
 
+### Material in the [`/text`](/text) directory
+
 All files in the [`/text`](/text) directory are covered under standard copyright. Each piece of text has been included in this repository with explicity permission of respective copyright holders, who are identified in the `<meta>` tag for each file. You are free to use this text for analysis, research and development, but you are not allowed to redistribute or republish this text. 
 
+Some cases where a less restrictive license could apply to files in the [`/text`](/text) directory are presented below. 
+
 In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
+
+Where a separate license is provided along with the text, we have provided corresponding data in the `publication` field in a file's metadata. 
+
+### All other materials
 
 All other materials in this repository (such as software, aggregated analyses and documentation) in the [`/scripts`](/scripts), [`/stats`](/stats) or [`/contribution-docs`](/contribution-docs) directory are licensed under the terms of the MIT license.
 
