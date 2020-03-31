@@ -124,6 +124,14 @@ func runNGram(N: Int) {
         }
     }
 
+
+    // remove nGrams that only have one entry
+    for item in nGramFreq {
+        if item.value.count <= 1 {
+            nGramFreq.removeValue(forKey: item.key)
+        }
+    }
+
     // write to file
     let outputPath = "../stats/\(N)-Gram"
     let outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
