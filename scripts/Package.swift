@@ -18,6 +18,14 @@ let package = Package(
             dependencies: ["Naqqash"]
         ),
         .target(
+            name: "characterFrequency",
+            dependencies: ["Naqqash"]
+        ),
+        .target(
+            name: "diacriticFrequency",
+            dependencies: ["Naqqash"]
+        ),
+        .target(
             name: "nGram",
             dependencies: ["Naqqash"]
         )
