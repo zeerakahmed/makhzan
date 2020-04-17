@@ -190,3 +190,106 @@ class AddAnnotationTagsArCommand(sublime_plugin.TextCommand):
 			charsInserted += len(prefix)
 			self.view.insert(edit, region.end() + charsInserted, suffix)
 			charsInserted += len(suffix)
+
+def display_message(message):
+	active_window = sublime.active_window()
+	panel = active_window.create_output_panel('makhzan_plugin')
+	active_window.run_command('show_panel', {'panel': 'output.makhzan_plugin'})
+	panel.run_command('insert', {'characters': message})
+
+def get_xml_from_dom(dom, level):
+	output = ""
+	for key in dom.keys():
+		if isinstance(dom[key], list):
+			output += "{}<{}>\n".format("\t"*level, key)
+			for element in dom[key]:
+				if isinstance(element,dict):
+					output += get_xml_from_dom(element, level+1)
+				else:
+					output += "{}{}\n".format("\t"*(level+1), element)
+			output += "{}</{}>\n".format("\t"*level, key)
+		else:
+			output += "{}<{}>{}</{}>\n".format("\t"*level, key, dom[key], key)
+	return output
+
+class AddBunyadStylesCommand(sublime_plugin.TextCommand):
+	def run(self, edit, **kwargs):
+		if not "styles" in kwargs:
+			active_window = sublime.active_window()
+			active_window.show_input_panel("Please enter bunyad styles (one for each line of currently open text):",
+										   "Typing\nShair Name\nTyping\ntext", self.validate_styles, None, None)
+		else:
+			styles = kwargs["styles"].split("\n")
+			self.process_text(edit, styles)
+
+	def validate_styles(self, user_input):
+		styles_line_count = user_input.count("\n") + 1
+		content_line_count = self.view.rowcol(self.view.size())[0] + 1
+		if styles_line_count != content_line_count:
+			display_message("Error: The number of style lines ({}) and content lines ({}) are not equal".format(
+				styles_line_count, content_line_count))
+		else:
+			self.view.run_command("add_bunyad_styles", {"styles": user_input})
+
+	def process_text(self, edit, styles):
+		dom = {
+			"document": [
+				{
+					"meta": [
+						{
+							"title": ""
+						},
+						{
+							"author": [
+								{
+									"name": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"body": [
+						{
+							"section": []
+						}
+					]
+				}
+			]
+		}
+		i = 0
+		while i < len(styles):
+			current_line_style = styles[i]
+			current_line_region = self.view.line(self.view.text_point(i, 0))
+			current_line_content = self.view.substr(current_line_region)
+			if current_line_style == "Shair Name":
+				dom["document"][0]["meta"][1]["author"][0]["name"] = current_line_content
+			elif current_line_style == "text":
+				dom["document"][0]["meta"][0]["title"] = current_line_content
+			elif current_line_style in ["Typing", "Normal"]:
+				dom["document"][1]["body"][0]["section"].append(
+					{"p": current_line_content})
+			elif current_line_style == "Qotions":
+				blockquote = {"blockquote": [
+					{"p": current_line_content}]}
+				while styles[i+1] == current_line_style:
+					next_line_content = self.view.substr(
+						self.view.line(self.view.text_point(i+1, 0)))
+					blockquote["blockquote"].append(
+						{"p": next_line_content})
+					i += 1
+				dom["document"][1]["body"][0]["section"].append(blockquote)
+			elif current_line_style == "First Share":
+				lines = [current_line_content]
+				while styles[i+1] == current_line_style:
+					next_line_content = self.view.substr(
+						self.view.line(self.view.text_point(i+1, 0)))
+					lines.append(next_line_content)
+					i += 1
+				dom["document"][1]["body"][0]["section"].append({"blockquote": [{"verse": lines}]})
+			else:
+				dom["document"][1]["body"][0]["section"].append(
+					{"UNPROCESSED_{}".format(current_line_style.replace(" ", "_")): current_line_content})
+			i += 1
+		all_lines_region = sublime.Region(0, self.view.size())
+		self.view.replace(edit, all_lines_region, get_xml_from_dom(dom, 0))

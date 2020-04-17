@@ -51,6 +51,10 @@
 			{
 				"caption" : "Add Annotation Tags (ar)",
 				"command" : "add_annotation_tags_ar"
+			},
+			{
+				"caption" : "Add Bunyad Styles",
+				"command" : "add_bunyad_styles"
 			}
 		]
 	}
