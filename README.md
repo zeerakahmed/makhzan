@@ -12,8 +12,6 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 The text courpus itself is contained within [`/text`](/text). Some common scripts to analyze the text are in [`/scripts`](/scripts), and the output of these analyses are in [`/stats`](/stats), if you'd like to use this output directly.
 
-Documentation on how source text is cleaned and structured for this corpus is contained in [`/contribution-docs`](/contribution-docs). This includes [instructions on how to fix commonly occuring problems in Urdu source text](/contribution-docs/README.md), and a [base template on how each text file is structured once cleaned](/contribution-docs/base-template.xml).
-
 Details of how the text is structured are below. For more information on how the scripts function, step into [documentation in the `/scripts` directory](/scripts).
 
 ## Text Formatting
@@ -91,7 +89,7 @@ Where a separate license is provided along with the text, we have provided corre
 
 ### All other materials
 
-All other materials in this repository (such as software, aggregated analyses and documentation) in the [`/scripts`](/scripts), [`/stats`](/stats) or [`/contribution-docs`](/contribution-docs) directory are licensed under the terms of the MIT license.
+All other materials in this repository (such as software, aggregated analyses and documentation) in the [`/scripts`](/scripts) or [`/stats`](/stats) directory are licensed under the terms of the MIT license.
 
 ### Copyright concerns
 
