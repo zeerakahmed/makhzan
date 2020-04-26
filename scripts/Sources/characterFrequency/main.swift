@@ -57,7 +57,6 @@ for file in files {
     charactersToRemove.formUnion(.decimalDigits)
     text.removeAll { String($0).rangeOfCharacter(from:charactersToRemove) != nil }
     text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
-    text = text.replacingOccurrences(of: "‌", with: " ", options: .regularExpression) // zwnj removal
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     
     // go through each character
