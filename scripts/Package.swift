@@ -28,6 +28,10 @@ let package = Package(
         .target(
             name: "nGram",
             dependencies: ["Naqqash"]
-        )
+        ),
+        .target(
+            name: "wordBreakingValidator",
+            dependencies: ["Naqqash"]
+        ),
     ]
 )
