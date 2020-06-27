@@ -44,6 +44,13 @@ inputStream?.open()
 var wordFrequencyDict =  try! JSONSerialization.jsonObject(with: inputStream!, options: []) as! [String: Int]
 inputStream?.close()
 
+// read 2Gram
+path = "../stats/2-Gram"
+inputStream = InputStream.init(fileAtPath: path)
+inputStream?.open()
+var BigramDict =  try! JSONSerialization.jsonObject(with: inputStream!, options: []) as! [String: [String: Int]]
+inputStream?.close()
+
 // read approveList
 let data = try String(contentsOfFile: "./Sources/wordBreakingValidator/approveList", encoding: .utf8)
 let approveList = data.components(separatedBy: .newlines)
@@ -106,6 +113,7 @@ for file in files {
                     t.count > 1 &&
                     wordFrequencyDict[s]! > 100 &&
                     wordFrequencyDict[t]! > 100 &&
+                    BigramDict[s]?[t] ?? 0 > wordFrequencyDict[currentWord]! &&
                     !approveList.contains(currentWord)) {
                     addToCorrectionList(Correction(text: currentWord,
                                                    suggestedCorrection: "\(s) \(t)"))
@@ -115,7 +123,11 @@ for file in files {
             
             if lastWord != nil {
                 let s = currentWord + lastWord!
-                if (wordFrequencyDict[s] != nil && !approveList.contains(s)) {
+                if (wordFrequencyDict[s] != nil &&
+                    !approveList.contains(s) &&
+                    wordFrequencyDict[s]! > (wordFrequencyDict[currentWord] ?? 0) &&
+                    wordFrequencyDict[s]! > (wordFrequencyDict[lastWord!] ?? 0)
+                    ) {
                     addToCorrectionList(Correction(text: "\(currentWord) \(lastWord!)",
                                                    suggestedCorrection: s))
                 }
