@@ -52,10 +52,8 @@ for file in files {
     var text = parserDelegate.text
     
     // remove punctuation, numbers, extraneous whitespace and non-essential diacritics
-    var charactersToRemove = CharacterSet()
-    charactersToRemove.formUnion(.punctuationCharacters)
-    charactersToRemove.formUnion(.decimalDigits)
-    text.removeAll { String($0).rangeOfCharacter(from:charactersToRemove) != nil }
+    text = text.replacingOccurrences(of: "\\W", with: " ", options: .regularExpression)
+    text = text.replacingOccurrences(of: "\\d", with: " ", options: .regularExpression)
     text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     
