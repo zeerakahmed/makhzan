@@ -55,7 +55,6 @@ for file in files {
     text = text.replacingOccurrences(of: "\\W", with: " ", options: .regularExpression)
     text = text.replacingOccurrences(of: "\\d", with: " ", options: .regularExpression)
     text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
-    text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     text = text.replacingOccurrences(of: "‌", with: " ", options: .regularExpression) // zwnj removal
     
     // go through each character
