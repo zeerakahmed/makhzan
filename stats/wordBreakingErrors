@@ -1,5 +1,5 @@
-327 suggested corrections
-909 total frequency
+768 suggested corrections
+1612 total frequency
 
 Text: جاسکتا
 Suggestion: جا سکتا
@@ -41,9 +41,17 @@ Text: ہوکر
 Suggestion: ہو کر
 Frequency: 16
 
+Text: ہوگی
+Suggestion: ہو گی
+Frequency: 14
+
 Text: اردوتھیئٹر
 Suggestion: اردو تھیئٹر
 Frequency: 14
+
+Text: جاسکتی
+Suggestion: جا سکتی
+Frequency: 13
 
 Text: کردی
 Suggestion: کر دی
@@ -53,29 +61,65 @@ Text: تھااور
 Suggestion: تھا اور
 Frequency: 13
 
+Text: اسباب
+Suggestion: اس باب
+Frequency: 13
+
 Text: ہوجاتی
 Suggestion: ہو جاتی
 Frequency: 12
 
-Text: ہوسکتا
-Suggestion: ہو سکتا
+Text: ہوسکتی
+Suggestion: ہو سکتی
 Frequency: 10
 
 Text: ہوجاتا
 Suggestion: ہو جاتا
 Frequency: 10
 
+Text: ہوسکتا
+Suggestion: ہو سکتا
+Frequency: 10
+
+Text: غیرمعمولی
+Suggestion: غیر معمولی
+Frequency: 10
+
 Text: گیاہے
 Suggestion: گیا ہے
 Frequency: 10
+
+Text: اوران
+Suggestion: اور ان
+Frequency: 9
 
 Text: اوراس
 Suggestion: اور اس
 Frequency: 9
 
-Text: اوران
-Suggestion: اور ان
-Frequency: 9
+Text: کلومیٹر
+Suggestion: کلو میٹر
+Frequency: 8
+
+Text: کیسی
+Suggestion: کی سی
+Frequency: 7
+
+Text: ہوچکا
+Suggestion: ہو چکا
+Frequency: 7
+
+Text: فیصد
+Suggestion: فی صد
+Frequency: 7
+
+Text: یاددہانی
+Suggestion: یاد دہانی
+Frequency: 7
+
+Text: یونینسٹ
+Suggestion: یو نینسٹ
+Frequency: 7
 
 Text: تھیئٹرکی
 Suggestion: تھیئٹر کی
@@ -85,1227 +129,2947 @@ Text: کایہ
 Suggestion: کا یہ
 Frequency: 7
 
-Text: کرلیا
-Suggestion: کر لیا
+Text: ہوجانے
+Suggestion: ہو جانے
 Frequency: 6
 
-Text: کیاتھا
-Suggestion: کیا تھا
+Text: ہوسکے
+Suggestion: ہو سکے
 Frequency: 6
 
-Text: کرتاہے
-Suggestion: کرتا ہے
+Text: کرسکتے
+Suggestion: کر سکتے
 Frequency: 6
 
-Text: میںبھی
-Suggestion: میں بھی
+Text: ردعمل
+Suggestion: رد عمل
+Frequency: 6
+
+Text: ہوسکتے
+Suggestion: ہو سکتے
 Frequency: 6
 
 Text: کررہے
 Suggestion: کر رہے
 Frequency: 6
 
-Text: ہوجانے
-Suggestion: ہو جانے
+Text: کیاتھا
+Suggestion: کیا تھا
 Frequency: 6
 
-Text: سکتاہے
-Suggestion: سکتا ہے
+Text: کاشتکار
+Suggestion: کاشت کار
 Frequency: 6
 
 Text: کرسکتا
 Suggestion: کر سکتا
 Frequency: 6
 
-Text: مگراس
-Suggestion: مگر اس
-Frequency: 5
+Text: میںبھی
+Suggestion: میں بھی
+Frequency: 6
 
-Text: جینے
-Suggestion: جی نے
-Frequency: 5
+Text: کرتاہے
+Suggestion: کرتا ہے
+Frequency: 6
 
-Text: ہوتاہے
-Suggestion: ہوتا ہے
-Frequency: 5
+Text: طالبعلم
+Suggestion: طالب علم
+Frequency: 6
 
-Text: بنادیا
-Suggestion: بنا دیا
-Frequency: 5
+Text: سکتاہے
+Suggestion: سکتا ہے
+Frequency: 6
 
-Text: ہیںاور
-Suggestion: ہیں اور
+Text: کرلیا
+Suggestion: کر لیا
+Frequency: 6
+
+Text: کرلی
+Suggestion: کر لی
+Frequency: 6
+
+Text: لاعلمی
+Suggestion: لا علمی
 Frequency: 5
 
 Text: کررہا
 Suggestion: کر رہا
 Frequency: 5
 
-Text: اوریہ
-Suggestion: اور یہ
-Frequency: 5
-
-Text: جارہا
-Suggestion: جا رہا
-Frequency: 5
-
-Text: ہوجائے
-Suggestion: ہو جائے
+Text: ہوتاہے
+Suggestion: ہوتا ہے
 Frequency: 5
 
 Text: کیاہے
 Suggestion: کیا ہے
 Frequency: 5
 
+Text: مگراس
+Suggestion: مگر اس
+Frequency: 5
+
+Text: ہیںاور
+Suggestion: ہیں اور
+Frequency: 5
+
+Text: کردیے
+Suggestion: کر دیے
+Frequency: 5
+
+Text: بنادیا
+Suggestion: بنا دیا
+Frequency: 5
+
+Text: ملتاہے
+Suggestion: ملتا ہے
+Frequency: 5
+
+Text: ہوجائے
+Suggestion: ہو جائے
+Frequency: 5
+
+Text: جینے
+Suggestion: جی نے
+Frequency: 5
+
+Text: ہوجاتے
+Suggestion: ہو جاتے
+Frequency: 5
+
+Text: اوریہ
+Suggestion: اور یہ
+Frequency: 5
+
 Text: ہیںجو
 Suggestion: ہیں جو
 Frequency: 5
 
-Text: میںایک
-Suggestion: میں ایک
-Frequency: 4
+Text: جارہا
+Suggestion: جا رہا
+Frequency: 5
 
-Text: انسے
-Suggestion: ان سے
-Frequency: 4
+Text: سرحد
+Suggestion: سر حد
+Frequency: 5
 
-Text: جاتاہے
-Suggestion: جاتا ہے
+Text: استاذگرامی
+Suggestion: استاذ گرامی
 Frequency: 4
 
 Text: میںاس
 Suggestion: میں اس
 Frequency: 4
 
-Text: صورتحال
-Suggestion: صورت حال
+Text: ہیںکہ
+Suggestion: ہیں کہ
+Frequency: 4
+
+Text: حدتک
+Suggestion: حد تک
+Frequency: 4
+
+Text: نظرآتا
+Suggestion: نظر آتا
+Frequency: 4
+
+Text: کردیں
+Suggestion: کر دیں
+Frequency: 4
+
+Text: ہوچکے
+Suggestion: ہو چکے
+Frequency: 4
+
+Text: اعتبارسے
+Suggestion: اعتبار سے
+Frequency: 4
+
+Text: جاتاہے
+Suggestion: جاتا ہے
 Frequency: 4
 
 Text: میںاردو
 Suggestion: میں اردو
 Frequency: 4
 
+Text: میراسین
+Suggestion: میرا سین
+Frequency: 4
+
+Text: معاہدہ
+Suggestion: معا ہدہ
+Frequency: 4
+
+Text: صورتحال
+Suggestion: صورت حال
+Frequency: 4
+
+Text: انسے
+Suggestion: ان سے
+Frequency: 4
+
+Text: کرسکے
+Suggestion: کر سکے
+Frequency: 4
+
+Text: کردینے
+Suggestion: کر دینے
+Frequency: 4
+
+Text: انقلابکے
+Suggestion: انقلاب کے
+Frequency: 4
+
+Text: ہوسکا
+Suggestion: ہو سکا
+Frequency: 4
+
+Text: یونینسٹوں
+Suggestion: یو نینسٹوں
+Frequency: 4
+
+Text: جاسکے
+Suggestion: جا سکے
+Frequency: 4
+
+Text: میںایک
+Suggestion: میں ایک
+Frequency: 4
+
 Text: تھاکہ
 Suggestion: تھا کہ
 Frequency: 4
 
-Text: ہیںکہ
-Suggestion: ہیں کہ
-Frequency: 4
-
-Text: اوروہ
-Suggestion: اور وہ
+Text: ہوسکی
+Suggestion: ہو سکی
 Frequency: 3
 
-Text: نظرانداز
-Suggestion: نظر انداز
+Text: جاسکتے
+Suggestion: جا سکتے
 Frequency: 3
 
-Text: میںیہ
-Suggestion: میں یہ
+Text: انتظارحسین
+Suggestion: انتظار حسین
 Frequency: 3
 
-Text: ہواور
-Suggestion: ہو اور
+Text: انقلابنے
+Suggestion: انقلاب نے
 Frequency: 3
 
-Text: میںکی
-Suggestion: میں کی
-Frequency: 3
-
-Text: م ن
-Suggestion: من
-Frequency: 3
-
-Text: پران
-Suggestion: پر ان
-Frequency: 3
-
-Text: میںپیش
-Suggestion: میں پیش
-Frequency: 3
-
-Text: میںزندگی
-Suggestion: میں زندگی
-Frequency: 3
-
-Text: کانام
-Suggestion: کا نام
-Frequency: 3
-
-Text: نہیںہے
-Suggestion: نہیں ہے
+Text: دیکھاہے
+Suggestion: دیکھا ہے
 Frequency: 3
 
 Text: گیاتھا
 Suggestion: گیا تھا
 Frequency: 3
 
-Text: اورنہ
-Suggestion: اور نہ
-Frequency: 2
+Text: کانام
+Suggestion: کا نام
+Frequency: 3
 
-Text: میںلکھا
-Suggestion: میں لکھا
-Frequency: 2
+Text: م ن
+Suggestion: من
+Frequency: 3
 
-Text: نہیںکر
-Suggestion: نہیں کر
-Frequency: 2
+Text: میںکی
+Suggestion: میں کی
+Frequency: 3
 
-Text: توان
-Suggestion: تو ان
-Frequency: 2
+Text: میںزندگی
+Suggestion: میں زندگی
+Frequency: 3
 
-Text: کریہ
-Suggestion: کر یہ
-Frequency: 2
+Text: اوروہ
+Suggestion: اور وہ
+Frequency: 3
+
+Text: ہوناچاہیے
+Suggestion: ہونا چاہیے
+Frequency: 3
+
+Text: پران
+Suggestion: پر ان
+Frequency: 3
+
+Text: میںیہ
+Suggestion: میں یہ
+Frequency: 3
+
+Text: آخرکار
+Suggestion: آخر کار
+Frequency: 3
+
+Text: پرزور
+Suggestion: پر زور
+Frequency: 3
+
+Text: آتاہے
+Suggestion: آتا ہے
+Frequency: 3
+
+Text: نشاندہی
+Suggestion: نشان دہی
+Frequency: 3
+
+Text: ہواور
+Suggestion: ہو اور
+Frequency: 3
+
+Text: میںپیش
+Suggestion: میں پیش
+Frequency: 3
+
+Text: فکرکی
+Suggestion: فکر کی
+Frequency: 3
+
+Text: ہوچکی
+Suggestion: ہو چکی
+Frequency: 3
+
+Text: نظرانداز
+Suggestion: نظر انداز
+Frequency: 3
+
+Text: کاباعث
+Suggestion: کا باعث
+Frequency: 3
+
+Text: کرسکا
+Suggestion: کر سکا
+Frequency: 3
+
+Text: نہیںہے
+Suggestion: نہیں ہے
+Frequency: 3
+
+Text: باربار
+Suggestion: بار بار
+Frequency: 3
 
 Text: تھاجس
 Suggestion: تھا جس
 Frequency: 2
 
-Text: میںان
-Suggestion: میں ان
+Text: اندرایک
+Suggestion: اندر ایک
 Frequency: 2
 
-Text: میںتھیئٹر
-Suggestion: میں تھیئٹر
-Frequency: 2
-
-Text: بنالیا
-Suggestion: بنا لیا
-Frequency: 2
-
-Text: کاکام
-Suggestion: کا کام
-Frequency: 2
-
-Text: کوتو
-Suggestion: کو تو
-Frequency: 2
-
-Text: دنیاکے
-Suggestion: دنیا کے
-Frequency: 2
-
-Text: کوان
-Suggestion: کو ان
-Frequency: 2
-
-Text: میںہے
-Suggestion: میں ہے
-Frequency: 2
-
-Text: تویہ
-Suggestion: تو یہ
-Frequency: 2
-
-Text: میںوہ
-Suggestion: میں وہ
-Frequency: 2
-
-Text: تونے
-Suggestion: تو نے
-Frequency: 2
-
-Text: گاتو
-Suggestion: گا تو
-Frequency: 2
-
-Text: ہورہا
-Suggestion: ہو رہا
-Frequency: 2
-
-Text: کاہے
-Suggestion: کا ہے
-Frequency: 2
-
-Text: گااور
-Suggestion: گا اور
-Frequency: 2
-
-Text: تھاجو
-Suggestion: تھا جو
-Frequency: 2
-
-Text: اورپھر
-Suggestion: اور پھر
-Frequency: 2
-
-Text: اندازمیں
-Suggestion: انداز میں
-Frequency: 2
-
-Text: بناکر
-Suggestion: بنا کر
-Frequency: 2
-
-Text: پرتو
-Suggestion: پر تو
-Frequency: 2
-
-Text: کہنہ
-Suggestion: کہ نہ
-Frequency: 2
-
-Text: میںموجود
-Suggestion: میں موجود
-Frequency: 2
-
-Text: جواس
-Suggestion: جو اس
-Frequency: 2
-
-Text: کیاجاتا
-Suggestion: کیا جاتا
-Frequency: 2
-
-Text: میںبے
-Suggestion: میں بے
-Frequency: 2
-
-Text: یاپھر
-Suggestion: یا پھر
-Frequency: 2
-
-Text: جدیداردو
-Suggestion: جدید اردو
-Frequency: 2
-
-Text: میںجو
-Suggestion: میں جو
-Frequency: 2
-
-Text: تواس
-Suggestion: تو اس
-Frequency: 2
-
-Text: کردیتا
-Suggestion: کر دیتا
-Frequency: 2
-
-Text: میںکسی
-Suggestion: میں کسی
-Frequency: 2
-
-Text: میںشائع
-Suggestion: میں شائع
-Frequency: 2
-
-Text: ہیںجن
-Suggestion: ہیں جن
-Frequency: 2
-
-Text: جواردو
-Suggestion: جو اردو
-Frequency: 2
-
-Text: میںکچھ
-Suggestion: میں کچھ
-Frequency: 2
-
-Text: اورجو
-Suggestion: اور جو
-Frequency: 2
-
-Text: دیاہے
-Suggestion: دیا ہے
-Frequency: 2
-
-Text: انھوںنے
-Suggestion: انھوں نے
-Frequency: 2
-
-Text: اظہارکے
-Suggestion: اظہار کے
-Frequency: 2
-
-Text: اورایک
-Suggestion: اور ایک
-Frequency: 2
-
-Text: گیااور
-Suggestion: گیا اور
-Frequency: 2
-
-Text: کہاتھا
-Suggestion: کہا تھا
+Text: اورنہ
+Suggestion: اور نہ
 Frequency: 2
 
 Text: پراردو
 Suggestion: پر اردو
 Frequency: 2
 
-Text: ت صور
-Suggestion: تصور
+Text: ہوسکتاہے
+Suggestion: ہوسکتا ہے
 Frequency: 2
 
-Text: کہاہے
-Suggestion: کہا ہے
+Text: کرچکے
+Suggestion: کر چکے
 Frequency: 2
 
-Text: مگروہ
-Suggestion: مگر وہ
+Text: قراراللغات
+Suggestion: قرار اللغات
 Frequency: 2
 
-Text: کواپنی
-Suggestion: کو اپنی
+Text: کرسکیں
+Suggestion: کر سکیں
+Frequency: 2
+
+Text: امیراللغات
+Suggestion: امیر اللغات
+Frequency: 2
+
+Text: کاکام
+Suggestion: کا کام
+Frequency: 2
+
+Text: قلمبند
+Suggestion: قلم بند
+Frequency: 2
+
+Text: گااور
+Suggestion: گا اور
+Frequency: 2
+
+Text: تویہ
+Suggestion: تو یہ
+Frequency: 2
+
+Text: کرلے
+Suggestion: کر لے
+Frequency: 2
+
+Text: میںتھیئٹر
+Suggestion: میں تھیئٹر
+Frequency: 2
+
+Text: آتشبازی
+Suggestion: آتش بازی
+Frequency: 2
+
+Text: بناکر
+Suggestion: بنا کر
+Frequency: 2
+
+Text: میںکچھ
+Suggestion: میں کچھ
+Frequency: 2
+
+Text: ناشاد
+Suggestion: نا شاد
+Frequency: 2
+
+Text: میںوہ
+Suggestion: میں وہ
+Frequency: 2
+
+Text: کاہے
+Suggestion: کا ہے
+Frequency: 2
+
+Text: انھوںنے
+Suggestion: انھوں نے
+Frequency: 2
+
+Text: ہورہی
+Suggestion: ہو رہی
+Frequency: 2
+
+Text: میںکسی
+Suggestion: میں کسی
+Frequency: 2
+
+Text: پرتو
+Suggestion: پر تو
 Frequency: 2
 
 Text: اورکئی
 Suggestion: اور کئی
 Frequency: 2
 
-Text: بعداپنے
-Suggestion: بعد اپنے
+Text: دیاہے
+Suggestion: دیا ہے
 Frequency: 2
 
-Text: میںطباعت
-Suggestion: میں طباعت
+Text: کھیلوںکی
+Suggestion: کھیلوں کی
+Frequency: 2
+
+Text: ایشیاکی
+Suggestion: ایشیا کی
+Frequency: 2
+
+Text: جواس
+Suggestion: جو اس
+Frequency: 2
+
+Text: خودمختار
+Suggestion: خود مختار
+Frequency: 2
+
+Text: تونے
+Suggestion: تو نے
+Frequency: 2
+
+Text: تواس
+Suggestion: تو اس
+Frequency: 2
+
+Text: راکا
+Suggestion: را کا
+Frequency: 2
+
+Text: ہورہا
+Suggestion: ہو رہا
+Frequency: 2
+
+Text: نثرمیں
+Suggestion: نثر میں
+Frequency: 2
+
+Text: کرسکتی
+Suggestion: کر سکتی
+Frequency: 2
+
+Text: کھیلوںکے
+Suggestion: کھیلوں کے
+Frequency: 2
+
+Text: وزیراعظم
+Suggestion: وزیر اعظم
+Frequency: 2
+
+Text: نوراللغات
+Suggestion: نور اللغات
+Frequency: 2
+
+Text: مرادیہ
+Suggestion: مراد یہ
+Frequency: 2
+
+Text: یاپھر
+Suggestion: یا پھر
+Frequency: 2
+
+Text: جواردو
+Suggestion: جو اردو
+Frequency: 2
+
+Text: اظہارکے
+Suggestion: اظہار کے
+Frequency: 2
+
+Text: گیسودراز
+Suggestion: گیسو دراز
+Frequency: 2
+
+Text: زادڈرامہ
+Suggestion: زاد ڈرامہ
 Frequency: 2
 
 Text: دیاتھا
 Suggestion: دیا تھا
 Frequency: 2
 
-Text: تھیئٹرکا
-Suggestion: تھیئٹر کا
+Text: لاہورکے
+Suggestion: لاہور کے
+Frequency: 2
+
+Text: بنالیا
+Suggestion: بنا لیا
+Frequency: 2
+
+Text: اورایک
+Suggestion: اور ایک
+Frequency: 2
+
+Text: مستعارمنہ
+Suggestion: مستعار منہ
+Frequency: 2
+
+Text: دلچسپیوں
+Suggestion: دل چسپیوں
+Frequency: 2
+
+Text: میںموجود
+Suggestion: میں موجود
+Frequency: 2
+
+Text: کردیتا
+Suggestion: کر دیتا
+Frequency: 2
+
+Text: میںطباعت
+Suggestion: میں طباعت
+Frequency: 2
+
+Text: ت صور
+Suggestion: تصور
+Frequency: 2
+
+Text: گیااور
+Suggestion: گیا اور
+Frequency: 2
+
+Text: پرمشتمل
+Suggestion: پر مشتمل
+Frequency: 2
+
+Text: جاسکتاہے
+Suggestion: جاسکتا ہے
+Frequency: 2
+
+Text: میںان
+Suggestion: میں ان
+Frequency: 2
+
+Text: میںشائع
+Suggestion: میں شائع
+Frequency: 2
+
+Text: میںلکھا
+Suggestion: میں لکھا
+Frequency: 2
+
+Text: غوروفکر
+Suggestion: غور وفکر
+Frequency: 2
+
+Text: آخرمیں
+Suggestion: آخر میں
+Frequency: 2
+
+Text: میںجو
+Suggestion: میں جو
+Frequency: 2
+
+Text: آجاتاہے
+Suggestion: آجاتا ہے
+Frequency: 2
+
+Text: میںہے
+Suggestion: میں ہے
+Frequency: 2
+
+Text: نہیںکر
+Suggestion: نہیں کر
+Frequency: 2
+
+Text: خودکشی
+Suggestion: خود کشی
+Frequency: 2
+
+Text: منظرنامے
+Suggestion: منظر نامے
+Frequency: 2
+
+Text: اورپھر
+Suggestion: اور پھر
+Frequency: 2
+
+Text: کیاجاتا
+Suggestion: کیا جاتا
+Frequency: 2
+
+Text: کوتو
+Suggestion: کو تو
+Frequency: 2
+
+Text: کہاہے
+Suggestion: کہا ہے
+Frequency: 2
+
+Text: کوان
+Suggestion: کو ان
+Frequency: 2
+
+Text: میںاردوتھیئٹر
+Suggestion: میںاردو تھیئٹر
+Frequency: 2
+
+Text: جدیداردو
+Suggestion: جدید اردو
+Frequency: 2
+
+Text: کرلینے
+Suggestion: کر لینے
+Frequency: 2
+
+Text: ہیںجن
+Suggestion: ہیں جن
+Frequency: 2
+
+Text: تھاجو
+Suggestion: تھا جو
+Frequency: 2
+
+Text: لاہورمیں
+Suggestion: لاہور میں
+Frequency: 2
+
+Text: نثرنگار
+Suggestion: نثر نگار
+Frequency: 2
+
+Text: کردیتی
+Suggestion: کر دیتی
+Frequency: 2
+
+Text: کواپنی
+Suggestion: کو اپنی
+Frequency: 2
+
+Text: کریہ
+Suggestion: کر یہ
+Frequency: 2
+
+Text: جداگانہ
+Suggestion: جدا گانہ
+Frequency: 2
+
+Text: مسلمانان
+Suggestion: مسلما نان
+Frequency: 2
+
+Text: دنیاکے
+Suggestion: دنیا کے
+Frequency: 2
+
+Text: اندازمیں
+Suggestion: انداز میں
+Frequency: 2
+
+Text: بعداپنے
+Suggestion: بعد اپنے
+Frequency: 2
+
+Text: نیدرلینڈز
+Suggestion: نیدر لینڈز
+Frequency: 2
+
+Text: کہنہ
+Suggestion: کہ نہ
+Frequency: 2
+
+Text: کہاتھا
+Suggestion: کہا تھا
+Frequency: 2
+
+Text: گاتو
+Suggestion: گا تو
+Frequency: 2
+
+Text: میںتقسیم
+Suggestion: میں تقسیم
+Frequency: 2
+
+Text: اورجو
+Suggestion: اور جو
+Frequency: 2
+
+Text: توان
+Suggestion: تو ان
+Frequency: 2
+
+Text: ہوسکتاہے
+Suggestion: ہو سکتاہے
+Frequency: 2
+
+Text: مگروہ
+Suggestion: مگر وہ
+Frequency: 2
+
+Text: میںبے
+Suggestion: میں بے
+Frequency: 2
+
+Text: میںایسی
+Suggestion: میں ایسی
 Frequency: 1
 
-Text: کوپیش
-Suggestion: کو پیش
-Frequency: 1
-
-Text: مگریہ
-Suggestion: مگر یہ
-Frequency: 1
-
-Text: پرڈاکٹر
-Suggestion: پر ڈاکٹر
-Frequency: 1
-
-Text: پرکسی
-Suggestion: پر کسی
-Frequency: 1
-
-Text: کونہیں
-Suggestion: کو نہیں
-Frequency: 1
-
-Text: میںانھیں
-Suggestion: میں انھیں
-Frequency: 1
-
-Text: کاکو
-Suggestion: کا کو
-Frequency: 1
-
-Text: اختیارکرتے
-Suggestion: اختیار کرتے
-Frequency: 1
-
-Text: اگرکسی
-Suggestion: اگر کسی
-Frequency: 1
-
-Text: ہیسے
-Suggestion: ہی سے
-Frequency: 1
-
-Text: اورکچھ
-Suggestion: اور کچھ
-Frequency: 1
-
-Text: میںکیا
-Suggestion: میں کیا
-Frequency: 1
-
-Text: دورمیں
-Suggestion: دور میں
-Frequency: 1
-
-Text: اسکی
-Suggestion: اس کی
-Frequency: 1
-
-Text: اورمعنی
-Suggestion: اور معنی
-Frequency: 1
-
-Text: کوایک
-Suggestion: کو ایک
-Frequency: 1
-
-Text: نہیںہوتی
-Suggestion: نہیں ہوتی
-Frequency: 1
-
-Text: ذکرکیا
-Suggestion: ذکر کیا
-Frequency: 1
-
-Text: کیاگیا
-Suggestion: کیا گیا
-Frequency: 1
-
-Text: کونظر
-Suggestion: کو نظر
-Frequency: 1
-
-Text: نہیںہیں
-Suggestion: نہیں ہیں
-Frequency: 1
-
-Text: میںمین
-Suggestion: میں مین
-Frequency: 1
-
-Text: اندازکیا
-Suggestion: انداز کیا
-Frequency: 1
-
-Text: اوربات
-Suggestion: اور بات
-Frequency: 1
-
-Text: ہیںان
-Suggestion: ہیں ان
-Frequency: 1
-
-Text: بناہے
-Suggestion: بنا ہے
+Text: پرپابندی
+Suggestion: پر پابندی
 Frequency: 1
 
 Text: اظہارکا
 Suggestion: اظہار کا
 Frequency: 1
 
-Text: کہاگیا
-Suggestion: کہا گیا
+Text: میںبظاہر
+Suggestion: میں بظاہر
 Frequency: 1
 
-Text: کیاجانے
-Suggestion: کیا جانے
+Text: جوتصور
+Suggestion: جو تصور
 Frequency: 1
 
-Text: لیاگیا
-Suggestion: لیا گیا
-Frequency: 1
-
-Text: اردوکا
-Suggestion: اردو کا
-Frequency: 1
-
-Text: میںکا
-Suggestion: میں کا
-Frequency: 1
-
-Text: میںاپنے
-Suggestion: میں اپنے
-Frequency: 1
-
-Text: کرتااور
-Suggestion: کرتا اور
-Frequency: 1
-
-Text: دوسال
-Suggestion: دو سال
-Frequency: 1
-
-Text: میںدو
-Suggestion: میں دو
-Frequency: 1
-
-Text: تککے
-Suggestion: تک کے
-Frequency: 1
-
-Text: کاذکر
-Suggestion: کا ذکر
-Frequency: 1
-
-Text: غیرسیاسی
-Suggestion: غیر سیاسی
-Frequency: 1
-
-Text: میںمسلم
-Suggestion: میں مسلم
-Frequency: 1
-
-Text: کاایک
-Suggestion: کا ایک
-Frequency: 1
-
-Text: اورجدید
-Suggestion: اور جدید
-Frequency: 1
-
-Text: اورانسان
-Suggestion: اور انسان
-Frequency: 1
-
-Text: میںجس
-Suggestion: میں جس
-Frequency: 1
-
-Text: میںجب
-Suggestion: میں جب
-Frequency: 1
-
-Text: کااس
-Suggestion: کا اس
-Frequency: 1
-
-Text: تھیئٹرکو
-Suggestion: تھیئٹر کو
-Frequency: 1
-
-Text: ہرحال
-Suggestion: ہر حال
-Frequency: 1
-
-Text: میںکم
-Suggestion: میں کم
-Frequency: 1
-
-Text: میںبہت
-Suggestion: میں بہت
-Frequency: 1
-
-Text: اوراپنی
-Suggestion: اور اپنی
-Frequency: 1
-
-Text: توپھر
-Suggestion: تو پھر
-Frequency: 1
-
-Text: ہمیںایک
-Suggestion: ہمیں ایک
-Frequency: 1
-
-Text: توکی
-Suggestion: تو کی
-Frequency: 1
-
-Text: کاجن
-Suggestion: کا جن
+Text: اورسماجی
+Suggestion: اور سماجی
 Frequency: 1
 
 Text: اندازسے
 Suggestion: انداز سے
 Frequency: 1
 
-Text: میںمیں
-Suggestion: میں میں
+Text: ز ور
+Suggestion: زور
 Frequency: 1
 
-Text: میںکردار
-Suggestion: میں کردار
+Text: کوہندوستان
+Suggestion: کو ہندوستان
 Frequency: 1
 
-Text: کاموضوع
-Suggestion: کا موضوع
+Text: نظرثانی
+Suggestion: نظر ثانی
 Frequency: 1
 
-Text: یہاںسے
-Suggestion: یہاں سے
-Frequency: 1
-
-Text: وجودمیں
-Suggestion: وجود میں
-Frequency: 1
-
-Text: میںاور
-Suggestion: میں اور
-Frequency: 1
-
-Text: مگراپنے
-Suggestion: مگر اپنے
-Frequency: 1
-
-Text: میںہر
-Suggestion: میں ہر
-Frequency: 1
-
-Text: بعدکی
-Suggestion: بعد کی
-Frequency: 1
-
-Text: دیاگیا
-Suggestion: دیا گیا
-Frequency: 1
-
-Text: تھالیکن
-Suggestion: تھا لیکن
-Frequency: 1
-
-Text: کاوہ
-Suggestion: کا وہ
-Frequency: 1
-
-Text: اردوزبان
-Suggestion: اردو زبان
-Frequency: 1
-
-Text: میںایسی
-Suggestion: میں ایسی
-Frequency: 1
-
-Text: کوبھی
-Suggestion: کو بھی
-Frequency: 1
-
-Text: اسکے
-Suggestion: اس کے
-Frequency: 1
-
-Text: دنیاکا
-Suggestion: دنیا کا
-Frequency: 1
-
-Text: اوراردو
-Suggestion: اور اردو
-Frequency: 1
-
-Text: ہوتارہا
-Suggestion: ہوتا رہا
-Frequency: 1
-
-Text: ہیکوئی
-Suggestion: ہی کوئی
-Frequency: 1
-
-Text: خودہی
-Suggestion: خود ہی
-Frequency: 1
-
-Text: جوایک
-Suggestion: جو ایک
-Frequency: 1
-
-Text: میںعلی
-Suggestion: میں علی
-Frequency: 1
-
-Text: کراسے
-Suggestion: کر اسے
-Frequency: 1
-
-Text: کرلیے
-Suggestion: کر لیے
-Frequency: 1
-
-Text: کیاجائے
-Suggestion: کیا جائے
-Frequency: 1
-
-Text: ہوتاگیا
-Suggestion: ہوتا گیا
-Frequency: 1
-
-Text: نہیںکہا
-Suggestion: نہیں کہا
-Frequency: 1
-
-Text: مگران
-Suggestion: مگر ان
-Frequency: 1
-
-Text: میںایسا
-Suggestion: میں ایسا
-Frequency: 1
-
-Text: تھیئٹرکے
-Suggestion: تھیئٹر کے
-Frequency: 1
-
-Text: جیکے
-Suggestion: جی کے
-Frequency: 1
-
-Text: جدیددور
-Suggestion: جدید دور
-Frequency: 1
-
-Text: کواپنے
-Suggestion: کو اپنے
-Frequency: 1
-
-Text: ہویا
-Suggestion: ہو یا
-Frequency: 1
-
-Text: دوایک
-Suggestion: دو ایک
-Frequency: 1
-
-Text: سکتااور
-Suggestion: سکتا اور
-Frequency: 1
-
-Text: کرتاہوں
-Suggestion: کرتا ہوں
-Frequency: 1
-
-Text: بناپر
-Suggestion: بنا پر
-Frequency: 1
-
-Text: موجودتھی
-Suggestion: موجود تھی
-Frequency: 1
-
-Text: ہورہے
-Suggestion: ہو رہے
-Frequency: 1
-
-Text: پھران
-Suggestion: پھر ان
-Frequency: 1
-
-Text: کوزندگی
-Suggestion: کو زندگی
-Frequency: 1
-
-Text: باتنہ
-Suggestion: بات نہ
-Frequency: 1
-
-Text: پرذکر
-Suggestion: پر ذکر
-Frequency: 1
-
-Text: یاایک
-Suggestion: یا ایک
-Frequency: 1
-
-Text: جدیدانسان
-Suggestion: جدید انسان
-Frequency: 1
-
-Text: قراردیتے
-Suggestion: قرار دیتے
-Frequency: 1
-
-Text: میںہوا
-Suggestion: میں ہوا
-Frequency: 1
-
-Text: انھیںیہ
-Suggestion: انھیں یہ
-Frequency: 1
-
-Text: نہیںکہ
-Suggestion: نہیں کہ
-Frequency: 1
-
-Text: ہواتھا
-Suggestion: ہوا تھا
-Frequency: 1
-
-Text: کواس
-Suggestion: کو اس
-Frequency: 1
-
-Text: میںوجود
-Suggestion: میں وجود
-Frequency: 1
-
-Text: تھیئٹرپر
-Suggestion: تھیئٹر پر
-Frequency: 1
-
-Text: کیاکہ
-Suggestion: کیا کہ
-Frequency: 1
-
-Text: تھیئٹرہوا
-Suggestion: تھیئٹر ہوا
-Frequency: 1
-
-Text: کہقرار
-Suggestion: کہ قرار
-Frequency: 1
-
-Text: ایساہے
-Suggestion: ایسا ہے
-Frequency: 1
-
-Text: انداززندگی
-Suggestion: انداز زندگی
-Frequency: 1
-
-Text: نہیںکی
-Suggestion: نہیں کی
-Frequency: 1
-
-Text: اسطور
-Suggestion: اس طور
+Text: کاسامنا
+Suggestion: کا سامنا
 Frequency: 1
 
 Text: لیاتھا
 Suggestion: لیا تھا
 Frequency: 1
 
-Text: تکایک
-Suggestion: تک ایک
-Frequency: 1
-
-Text: اورجن
-Suggestion: اور جن
-Frequency: 1
-
-Text: یااپنے
-Suggestion: یا اپنے
-Frequency: 1
-
-Text: کانہ
-Suggestion: کا نہ
-Frequency: 1
-
-Text: کویہاں
-Suggestion: کو یہاں
-Frequency: 1
-
-Text: جوانھیں
-Suggestion: جو انھیں
-Frequency: 1
-
-Text: کردیتے
-Suggestion: کر دیتے
-Frequency: 1
-
-Text: اردومیں
-Suggestion: اردو میں
-Frequency: 1
-
-Text: دیتاہے
-Suggestion: دیتا ہے
-Frequency: 1
-
-Text: کومین
-Suggestion: کو مین
-Frequency: 1
-
-Text: اوراپنے
-Suggestion: اور اپنے
-Frequency: 1
-
-Text: کاکردار
-Suggestion: کا کردار
-Frequency: 1
-
-Text: اورہمیں
-Suggestion: اور ہمیں
-Frequency: 1
-
-Text: قراردے
-Suggestion: قرار دے
-Frequency: 1
-
-Text: میرانام
-Suggestion: میرا نام
-Frequency: 1
-
-Text: میںاگر
-Suggestion: میں اگر
-Frequency: 1
-
-Text: اندازنظر
-Suggestion: انداز نظر
-Frequency: 1
-
-Text: س نگر
-Suggestion: سنگر
-Frequency: 1
-
-Text: کرتاتھا
-Suggestion: کرتا تھا
-Frequency: 1
-
-Text: کاخیال
-Suggestion: کا خیال
-Frequency: 1
-
-Text: اورایسے
-Suggestion: اور ایسے
-Frequency: 1
-
-Text: ہوااور
-Suggestion: ہوا اور
-Frequency: 1
-
-Text: میںہوں
-Suggestion: میں ہوں
-Frequency: 1
-
-Text: اوربے
-Suggestion: اور بے
-Frequency: 1
-
-Text: اردوادب
-Suggestion: اردو ادب
-Frequency: 1
-
-Text: ہیںلیکن
-Suggestion: ہیں لیکن
-Frequency: 1
-
-Text: انکا
-Suggestion: ان کا
-Frequency: 1
-
-Text: خوداپنے
-Suggestion: خود اپنے
-Frequency: 1
-
-Text: کوبعض
-Suggestion: کو بعض
-Frequency: 1
-
-Text: رہاہے
-Suggestion: رہا ہے
-Frequency: 1
-
-Text: پراس
-Suggestion: پر اس
-Frequency: 1
-
-Text: میںیعنی
-Suggestion: میں یعنی
-Frequency: 1
-
-Text: پرغیر
-Suggestion: پر غیر
-Frequency: 1
-
-Text: میںروشنی
-Suggestion: میں روشنی
-Frequency: 1
-
-Text: نہیںجو
-Suggestion: نہیں جو
-Frequency: 1
-
-Text: میںکوئی
-Suggestion: میں کوئی
-Frequency: 1
-
-Text: ہواکہ
-Suggestion: ہوا کہ
-Frequency: 1
-
-Text: یاخود
-Suggestion: یا خود
-Frequency: 1
-
-Text: تھاتو
-Suggestion: تھا تو
-Frequency: 1
-
-Text: اگریہ
-Suggestion: اگر یہ
-Frequency: 1
-
-Text: میںتو
-Suggestion: میں تو
-Frequency: 1
-
-Text: توایسی
-Suggestion: تو ایسی
-Frequency: 1
-
-Text: کوصرف
-Suggestion: کو صرف
-Frequency: 1
-
-Text: پربھی
-Suggestion: پر بھی
-Frequency: 1
-
-Text: کراپنی
-Suggestion: کر اپنی
-Frequency: 1
-
-Text: تووہ
-Suggestion: تو وہ
-Frequency: 1
-
-Text: دومیں
-Suggestion: دو میں
-Frequency: 1
-
-Text: ہوالیکن
-Suggestion: ہوا لیکن
-Frequency: 1
-
-Text: نظراس
-Suggestion: نظر اس
-Frequency: 1
-
-Text: میںکہا
-Suggestion: میں کہا
-Frequency: 1
-
-Text: پرہے
-Suggestion: پر ہے
-Frequency: 1
-
-Text: لکھاہے
-Suggestion: لکھا ہے
-Frequency: 1
-
-Text: توہم
-Suggestion: تو ہم
+Text: ذکرکرتے
+Suggestion: ذکر کرتے
 Frequency: 1
 
 Text: اورہر
 Suggestion: اور ہر
 Frequency: 1
 
-Text: پراپنے
-Suggestion: پر اپنے
+Text: کواس
+Suggestion: کو اس
 Frequency: 1
 
-Text: میںدور
-Suggestion: میں دور
+Text: پرنگاہ
+Suggestion: پر نگاہ
 Frequency: 1
 
-Text: اورانھوں
-Suggestion: اور انھوں
+Text: میںانھیں
+Suggestion: میں انھیں
 Frequency: 1
 
-Text: نہیںبلکہ
-Suggestion: نہیں بلکہ
+Text: عہدکی
+Suggestion: عہد کی
 Frequency: 1
 
-Text: اردوکھیل
-Suggestion: اردو کھیل
+Text: پرشکوہ
+Suggestion: پر شکوہ
 Frequency: 1
 
-Text: ہرشخص
-Suggestion: ہر شخص
+Text: عبدالستارصدیقی
+Suggestion: عبدالستار صدیقی
 Frequency: 1
 
-Text: اگرہم
-Suggestion: اگر ہم
-Frequency: 1
-
-Text: راست ہ
-Suggestion: راستہ
-Frequency: 1
-
-Text: میںبیان
-Suggestion: میں بیان
-Frequency: 1
-
-Text: کوعام
-Suggestion: کو عام
-Frequency: 1
-
-Text: میںپہلے
-Suggestion: میں پہلے
-Frequency: 1
-
-Text: دنیااور
-Suggestion: دنیا اور
-Frequency: 1
-
-Text: الفاظسے
-Suggestion: الفاظ سے
-Frequency: 1
-
-Text: ذکرکرتے
-Suggestion: ذکر کرتے
-Frequency: 1
-
-Text: اردونظم
-Suggestion: اردو نظم
-Frequency: 1
-
-Text: بعدیہ
-Suggestion: بعد یہ
-Frequency: 1
-
-Text: کابے
-Suggestion: کا بے
-Frequency: 1
-
-Text: اورجنوبی
-Suggestion: اور جنوبی
-Frequency: 1
-
-Text: کوبے
-Suggestion: کو بے
-Frequency: 1
-
-Text: میںمیرا
-Suggestion: میں میرا
-Frequency: 1
-
-Text: کوکم
-Suggestion: کو کم
-Frequency: 1
-
-Text: ز ور
-Suggestion: زور
-Frequency: 1
-
-Text: میںیا
-Suggestion: میں یا
-Frequency: 1
-
-Text: نہیںکرتا
-Suggestion: نہیں کرتا
-Frequency: 1
-
-Text: پیداکی
-Suggestion: پیدا کی
-Frequency: 1
-
-Text: اوربعد
-Suggestion: اور بعد
-Frequency: 1
-
-Text: دنیاہے
-Suggestion: دنیا ہے
-Frequency: 1
-
-Text: اگران
-Suggestion: اگر ان
-Frequency: 1
-
-Text: کرگیا
-Suggestion: کر گیا
-Frequency: 1
-
-Text: شاعریکے
-Suggestion: شاعری کے
+Text: رکھاہے
+Suggestion: رکھا ہے
 Frequency: 1
 
 Text: لکھاگیا
 Suggestion: لکھا گیا
 Frequency: 1
 
-Text: میںسے
-Suggestion: میں سے
+Text: بطورسند
+Suggestion: بطور سند
 Frequency: 1
 
-Text: ہروقت
-Suggestion: ہر وقت
+Text: لاہورسے
+Suggestion: لاہور سے
+Frequency: 1
+
+Text: اسکے
+Suggestion: اس کے
+Frequency: 1
+
+Text: راست ہ
+Suggestion: راستہ
+Frequency: 1
+
+Text: توڑکر
+Suggestion: توڑ کر
+Frequency: 1
+
+Text: الفاظسے
+Suggestion: الفاظ سے
+Frequency: 1
+
+Text: جوانھیں
+Suggestion: جو انھیں
+Frequency: 1
+
+Text: اردوادب
+Suggestion: اردو ادب
+Frequency: 1
+
+Text: سنارہا
+Suggestion: سنا رہا
+Frequency: 1
+
+Text: احمدعرب
+Suggestion: احمد عرب
+Frequency: 1
+
+Text: اوربہار
+Suggestion: اور بہار
+Frequency: 1
+
+Text: اوربے
+Suggestion: اور بے
+Frequency: 1
+
+Text: ہوالیکن
+Suggestion: ہوا لیکن
+Frequency: 1
+
+Text: تککے
+Suggestion: تک کے
+Frequency: 1
+
+Text: بتادیا
+Suggestion: بتا دیا
+Frequency: 1
+
+Text: کوبے
+Suggestion: کو بے
+Frequency: 1
+
+Text: وسعتاور
+Suggestion: وسعت اور
+Frequency: 1
+
+Text: کرلیے
+Suggestion: کر لیے
+Frequency: 1
+
+Text: کیاگیا
+Suggestion: کیا گیا
+Frequency: 1
+
+Text: تھیئٹرہوا
+Suggestion: تھیئٹر ہوا
+Frequency: 1
+
+Text: میںہوا
+Suggestion: میں ہوا
+Frequency: 1
+
+Text: کوکس
+Suggestion: کو کس
+Frequency: 1
+
+Text: پربھی
+Suggestion: پر بھی
+Frequency: 1
+
+Text: ہوںگی
+Suggestion: ہوں گی
+Frequency: 1
+
+Text: نیزیہ
+Suggestion: نیز یہ
+Frequency: 1
+
+Text: میںکیا
+Suggestion: میں کیا
+Frequency: 1
+
+Text: پڑھیںتو
+Suggestion: پڑھیں تو
+Frequency: 1
+
+Text: قدروقیمت
+Suggestion: قدر وقیمت
+Frequency: 1
+
+Text: لکھاہے
+Suggestion: لکھا ہے
+Frequency: 1
+
+Text: ابتداہی
+Suggestion: ابتدا ہی
+Frequency: 1
+
+Text: معاہدے
+Suggestion: معا ہدے
+Frequency: 1
+
+Text: کومستقل
+Suggestion: کو مستقل
+Frequency: 1
+
+Text: قابلذکر
+Suggestion: قابل ذکر
+Frequency: 1
+
+Text: دراندازی
+Suggestion: در اندازی
+Frequency: 1
+
+Text: ایپی
+Suggestion: ای پی
+Frequency: 1
+
+Text: اوراردو
+Suggestion: اور اردو
+Frequency: 1
+
+Text: اسکی
+Suggestion: اس کی
+Frequency: 1
+
+Text: نہیںبلکہ
+Suggestion: نہیں بلکہ
+Frequency: 1
+
+Text: کرتاہوں
+Suggestion: کرتا ہوں
+Frequency: 1
+
+Text: کہاگیا
+Suggestion: کہا گیا
+Frequency: 1
+
+Text: کرادی
+Suggestion: کرا دی
+Frequency: 1
+
+Text: اسطور
+Suggestion: اس طور
+Frequency: 1
+
+Text: نہیںکی
+Suggestion: نہیں کی
+Frequency: 1
+
+Text: کیوںکہ
+Suggestion: کیوں کہ
+Frequency: 1
+
+Text: میںگرفتار
+Suggestion: میں گرفتار
+Frequency: 1
+
+Text: اوریوں
+Suggestion: اور یوں
+Frequency: 1
+
+Text: میںجس
+Suggestion: میں جس
+Frequency: 1
+
+Text: افسانوںکے
+Suggestion: افسانوں کے
+Frequency: 1
+
+Text: دنیااور
+Suggestion: دنیا اور
+Frequency: 1
+
+Text: پرذکر
+Suggestion: پر ذکر
+Frequency: 1
+
+Text: میرکے
+Suggestion: میر کے
+Frequency: 1
+
+Text: زدمیں
+Suggestion: زد میں
+Frequency: 1
+
+Text: کوقابل
+Suggestion: کو قابل
+Frequency: 1
+
+Text: اداروںنے
+Suggestion: اداروں نے
+Frequency: 1
+
+Text: بڑھتاہے
+Suggestion: بڑھتا ہے
+Frequency: 1
+
+Text: ہویا
+Suggestion: ہو یا
+Frequency: 1
+
+Text: موجودتھی
+Suggestion: موجود تھی
+Frequency: 1
+
+Text: لکھنؤمیں
+Suggestion: لکھنؤ میں
+Frequency: 1
+
+Text: ناموںسے
+Suggestion: ناموں سے
+Frequency: 1
+
+Text: دروںبینی
+Suggestion: دروں بینی
+Frequency: 1
+
+Text: باتیںاس
+Suggestion: باتیں اس
+Frequency: 1
+
+Text: سیدعلی
+Suggestion: سید علی
+Frequency: 1
+
+Text: کمتر
+Suggestion: کم تر
+Frequency: 1
+
+Text: اورشدید
+Suggestion: اور شدید
+Frequency: 1
+
+Text: کامسئلہ
+Suggestion: کا مسئلہ
+Frequency: 1
+
+Text: اوربات
+Suggestion: اور بات
+Frequency: 1
+
+Text: کامزاج
+Suggestion: کا مزاج
+Frequency: 1
+
+Text: ہیںان
+Suggestion: ہیں ان
+Frequency: 1
+
+Text: جاپہنچتا
+Suggestion: جا پہنچتا
+Frequency: 1
+
+Text: خاطروہ
+Suggestion: خاطر وہ
+Frequency: 1
+
+Text: کررہی
+Suggestion: کر رہی
+Frequency: 1
+
+Text: اوربدن
+Suggestion: اور بدن
+Frequency: 1
+
+Text: کرتاتھا
+Suggestion: کرتا تھا
+Frequency: 1
+
+Text: اردوکا
+Suggestion: اردو کا
+Frequency: 1
+
+Text: میںمشترک
+Suggestion: میں مشترک
+Frequency: 1
+
+Text: بھرکی
+Suggestion: بھر کی
+Frequency: 1
+
+Text: کوایک
+Suggestion: کو ایک
+Frequency: 1
+
+Text: زیراہتمام
+Suggestion: زیر اہتمام
+Frequency: 1
+
+Text: اوراپنے
+Suggestion: اور اپنے
+Frequency: 1
+
+Text: اقدارکو
+Suggestion: اقدار کو
+Frequency: 1
+
+Text: پراپنے
+Suggestion: پر اپنے
+Frequency: 1
+
+Text: اٹھتاہے
+Suggestion: اٹھتا ہے
+Frequency: 1
+
+Text: نیزمیں
+Suggestion: نیز میں
+Frequency: 1
+
+Text: بعداز
+Suggestion: بعد از
+Frequency: 1
+
+Text: تومعلوم
+Suggestion: تو معلوم
+Frequency: 1
+
+Text: ہندکے
+Suggestion: ہند کے
+Frequency: 1
+
+Text: نظراس
+Suggestion: نظر اس
+Frequency: 1
+
+Text: میںیا
+Suggestion: میں یا
+Frequency: 1
+
+Text: اگریہ
+Suggestion: اگر یہ
+Frequency: 1
+
+Text: قائدین
+Suggestion: قا ئدین
+Frequency: 1
+
+Text: اردوکھیل
+Suggestion: اردو کھیل
+Frequency: 1
+
+Text: انسٹیٹیوٹ
+Suggestion: انسٹی ٹیوٹ
+Frequency: 1
+
+Text: میںبیان
+Suggestion: میں بیان
+Frequency: 1
+
+Text: پرمبنی
+Suggestion: پر مبنی
+Frequency: 1
+
+Text: لاشعورکی
+Suggestion: لاشعور کی
+Frequency: 1
+
+Text: میںجب
+Suggestion: میں جب
+Frequency: 1
+
+Text: وہاںتھیئٹر
+Suggestion: وہاں تھیئٹر
+Frequency: 1
+
+Text: کاعرفان
+Suggestion: کا عرفان
+Frequency: 1
+
+Text: پرہے
+Suggestion: پر ہے
+Frequency: 1
+
+Text: پنڈتاکی
+Suggestion: پنڈتا کی
+Frequency: 1
+
+Text: ہوناہے
+Suggestion: ہونا ہے
+Frequency: 1
+
+Text: پرڈاکٹر
+Suggestion: پر ڈاکٹر
+Frequency: 1
+
+Text: ارتقاکی
+Suggestion: ارتقا کی
+Frequency: 1
+
+Text: کررہاہے
+Suggestion: کررہا ہے
+Frequency: 1
+
+Text: اٹھاتاہے
+Suggestion: اٹھاتا ہے
+Frequency: 1
+
+Text: بہترطور
+Suggestion: بہتر طور
+Frequency: 1
+
+Text: میںعلی
+Suggestion: میں علی
+Frequency: 1
+
+Text: یہاںسے
+Suggestion: یہاں سے
+Frequency: 1
+
+Text: خاںنے
+Suggestion: خاں نے
+Frequency: 1
+
+Text: کاموضوع
+Suggestion: کا موضوع
+Frequency: 1
+
+Text: نگارخانہ
+Suggestion: نگار خانہ
+Frequency: 1
+
+Text: کیاجائے
+Suggestion: کیا جائے
+Frequency: 1
+
+Text: کوبطور
+Suggestion: کو بطور
+Frequency: 1
+
+Text: دورمیں
+Suggestion: دور میں
+Frequency: 1
+
+Text: میںجاری
+Suggestion: میں جاری
+Frequency: 1
+
+Text: کاکردار
+Suggestion: کا کردار
+Frequency: 1
+
+Text: سطحوںپر
+Suggestion: سطحوں پر
+Frequency: 1
+
+Text: نبردآزما
+Suggestion: نبرد آزما
+Frequency: 1
+
+Text: کاجائزہ
+Suggestion: کا جائزہ
+Frequency: 1
+
+Text: نہیںکرتا
+Suggestion: نہیں کرتا
+Frequency: 1
+
+Text: کوپیش
+Suggestion: کو پیش
+Frequency: 1
+
+Text: اگرکسی
+Suggestion: اگر کسی
+Frequency: 1
+
+Text: کاذریعہ
+Suggestion: کا ذریعہ
+Frequency: 1
+
+Text: اورتاریخی
+Suggestion: اور تاریخی
+Frequency: 1
+
+Text: پرغیر
+Suggestion: پر غیر
+Frequency: 1
+
+Text: قائداعظم
+Suggestion: قائد اعظم
+Frequency: 1
+
+Text: گردوپیش
+Suggestion: گردو پیش
+Frequency: 1
+
+Text: میںوجود
+Suggestion: میں وجود
+Frequency: 1
+
+Text: اوراسلوب
+Suggestion: اور اسلوب
+Frequency: 1
+
+Text: تیسراحصہ
+Suggestion: تیسرا حصہ
+Frequency: 1
+
+Text: رہاہے
+Suggestion: رہا ہے
+Frequency: 1
+
+Text: ہوجاتاہے
+Suggestion: ہوجاتا ہے
+Frequency: 1
+
+Text: اداکاروںکی
+Suggestion: اداکاروں کی
+Frequency: 1
+
+Text: میںمیں
+Suggestion: میں میں
+Frequency: 1
+
+Text: اوربالآخر
+Suggestion: اور بالآخر
+Frequency: 1
+
+Text: میںکلمۃ
+Suggestion: میں کلمۃ
+Frequency: 1
+
+Text: کلامکے
+Suggestion: کلام کے
+Frequency: 1
+
+Text: پھران
+Suggestion: پھر ان
 Frequency: 1
 
 Text: وجودہے
 Suggestion: وجود ہے
 Frequency: 1
 
+Text: جدیدانسان
+Suggestion: جدید انسان
+Frequency: 1
+
+Text: میںمعاون
+Suggestion: میں معاون
+Frequency: 1
+
+Text: اورجدید
+Suggestion: اور جدید
+Frequency: 1
+
+Text: اخذکیا
+Suggestion: اخذ کیا
+Frequency: 1
+
+Text: اورجنھیں
+Suggestion: اور جنھیں
+Frequency: 1
+
+Text: لکھنؤکے
+Suggestion: لکھنؤ کے
+Frequency: 1
+
+Text: زیرعنوان
+Suggestion: زیر عنوان
+Frequency: 1
+
+Text: کراپنی
+Suggestion: کر اپنی
+Frequency: 1
+
+Text: تھالیکن
+Suggestion: تھا لیکن
+Frequency: 1
+
+Text: کومل
+Suggestion: کو مل
+Frequency: 1
+
+Text: ہمیںایک
+Suggestion: ہمیں ایک
+Frequency: 1
+
+Text: دنیاکا
+Suggestion: دنیا کا
+Frequency: 1
+
+Text: کرلیتا
+Suggestion: کر لیتا
+Frequency: 1
+
+Text: کالفظ
+Suggestion: کا لفظ
+Frequency: 1
+
+Text: میںابن
+Suggestion: میں ابن
+Frequency: 1
+
+Text: تووہ
+Suggestion: تو وہ
+Frequency: 1
+
+Text: وقتاًفوقتاً
+Suggestion: وقتاً فوقتاً
+Frequency: 1
+
+Text: دوزخکی
+Suggestion: دوزخ کی
+Frequency: 1
+
+Text: پیداکی
+Suggestion: پیدا کی
+Frequency: 1
+
+Text: میںاور
+Suggestion: میں اور
+Frequency: 1
+
+Text: مختصرہے
+Suggestion: مختصر ہے
+Frequency: 1
+
+Text: اللغاتکی
+Suggestion: اللغات کی
+Frequency: 1
+
+Text: پاکر
+Suggestion: پا کر
+Frequency: 1
+
+Text: سرخضر
+Suggestion: سر خضر
+Frequency: 1
+
+Text: کومحفوظ
+Suggestion: کو محفوظ
+Frequency: 1
+
+Text: جہادکی
+Suggestion: جہاد کی
+Frequency: 1
+
+Text: اورمعنی
+Suggestion: اور معنی
+Frequency: 1
+
+Text: قراردیتے
+Suggestion: قرار دیتے
+Frequency: 1
+
+Text: لفظوںمیں
+Suggestion: لفظوں میں
+Frequency: 1
+
+Text: کابے
+Suggestion: کا بے
+Frequency: 1
+
+Text: کاراستہ
+Suggestion: کا راستہ
+Frequency: 1
+
+Text: غیرمادی
+Suggestion: غیر مادی
+Frequency: 1
+
+Text: دیومالا
+Suggestion: دیو مالا
+Frequency: 1
+
+Text: شکنتلاکے
+Suggestion: شکنتلا کے
+Frequency: 1
+
+Text: کاتکملہ
+Suggestion: کا تکملہ
+Frequency: 1
+
+Text: ضرورہے
+Suggestion: ضرور ہے
+Frequency: 1
+
+Text: میںانگریزی
+Suggestion: میں انگریزی
+Frequency: 1
+
+Text: کہتاہے
+Suggestion: کہتا ہے
+Frequency: 1
+
+Text: کرداروںکے
+Suggestion: کرداروں کے
+Frequency: 1
+
+Text: اورجنات
+Suggestion: اور جنات
+Frequency: 1
+
+Text: اورسند
+Suggestion: اور سند
+Frequency: 1
+
+Text: لکھنؤکا
+Suggestion: لکھنؤ کا
+Frequency: 1
+
+Text: چلاجاتا
+Suggestion: چلا جاتا
+Frequency: 1
+
+Text: سجادظہیر
+Suggestion: سجاد ظہیر
+Frequency: 1
+
+Text: آزادنے
+Suggestion: آزاد نے
+Frequency: 1
+
+Text: آغانے
+Suggestion: آغا نے
+Frequency: 1
+
+Text: باتوںکا
+Suggestion: باتوں کا
+Frequency: 1
+
+Text: اختیارکرتے
+Suggestion: اختیار کرتے
+Frequency: 1
+
+Text: اگرہم
+Suggestion: اگر ہم
+Frequency: 1
+
+Text: جدیددور
+Suggestion: جدید دور
+Frequency: 1
+
 Text: تکیہ
 Suggestion: تک یہ
 Frequency: 1
 
+Text: کاکو
+Suggestion: کا کو
+Frequency: 1
+
+Text: تقدیرکے
+Suggestion: تقدیر کے
+Frequency: 1
+
+Text: کہقرار
+Suggestion: کہ قرار
+Frequency: 1
+
+Text: ذکرکیا
+Suggestion: ذکر کیا
+Frequency: 1
+
+Text: لاہورکی
+Suggestion: لاہور کی
+Frequency: 1
+
+Text: زیرسایہ
+Suggestion: زیر سایہ
+Frequency: 1
+
+Text: پیشرفت
+Suggestion: پیش رفت
+Frequency: 1
+
+Text: کاکمال
+Suggestion: کا کمال
+Frequency: 1
+
+Text: رامپور
+Suggestion: رام پور
+Frequency: 1
+
+Text: دیکھاتھا
+Suggestion: دیکھا تھا
+Frequency: 1
+
+Text: تھیئٹرپر
+Suggestion: تھیئٹر پر
+Frequency: 1
+
+Text: لیاگیا
+Suggestion: لیا گیا
+Frequency: 1
+
+Text: ہوگئیں
+Suggestion: ہو گئیں
+Frequency: 1
+
+Text: اداروںمیں
+Suggestion: اداروں میں
+Frequency: 1
+
+Text: کارویہ
+Suggestion: کا رویہ
+Frequency: 1
+
+Text: تعدادکے
+Suggestion: تعداد کے
+Frequency: 1
+
+Text: اورعوام
+Suggestion: اور عوام
+Frequency: 1
+
+Text: میںشکنتلا
+Suggestion: میں شکنتلا
+Frequency: 1
+
+Text: بنیادپر
+Suggestion: بنیاد پر
+Frequency: 1
+
+Text: میںہوں
+Suggestion: میں ہوں
+Frequency: 1
+
 Text: اورعام
 Suggestion: اور عام
+Frequency: 1
+
+Text: جاچکا
+Suggestion: جا چکا
+Frequency: 1
+
+Text: کراسے
+Suggestion: کر اسے
+Frequency: 1
+
+Text: سیناکی
+Suggestion: سینا کی
+Frequency: 1
+
+Text: ممتازحسین
+Suggestion: ممتاز حسین
+Frequency: 1
+
+Text: کردیتے
+Suggestion: کر دیتے
+Frequency: 1
+
+Text: ہواتھا
+Suggestion: ہوا تھا
+Frequency: 1
+
+Text: میںیعنی
+Suggestion: میں یعنی
+Frequency: 1
+
+Text: میںمین
+Suggestion: میں مین
+Frequency: 1
+
+Text: مگراپنے
+Suggestion: مگر اپنے
+Frequency: 1
+
+Text: بتاتاہے
+Suggestion: بتاتا ہے
+Frequency: 1
+
+Text: کرگیا
+Suggestion: کر گیا
+Frequency: 1
+
+Text: میںایسا
+Suggestion: میں ایسا
+Frequency: 1
+
+Text: سوسال
+Suggestion: سو سال
+Frequency: 1
+
+Text: میںبہت
+Suggestion: میں بہت
+Frequency: 1
+
+Text: سکتااور
+Suggestion: سکتا اور
+Frequency: 1
+
+Text: میںروشنی
+Suggestion: میں روشنی
+Frequency: 1
+
+Text: چاہتاتھا
+Suggestion: چاہتا تھا
+Frequency: 1
+
+Text: قرۃالعین
+Suggestion: قرۃ العین
+Frequency: 1
+
+Text: افرادکی
+Suggestion: افراد کی
+Frequency: 1
+
+Text: متاثرہوا
+Suggestion: متاثر ہوا
+Frequency: 1
+
+Text: کاترجمہ
+Suggestion: کا ترجمہ
+Frequency: 1
+
+Text: دنیاہے
+Suggestion: دنیا ہے
+Frequency: 1
+
+Text: اورطبع
+Suggestion: اور طبع
+Frequency: 1
+
+Text: اکثران
+Suggestion: اکثر ان
+Frequency: 1
+
+Text: سفرکیا
+Suggestion: سفر کیا
+Frequency: 1
+
+Text: کولیشن
+Suggestion: کو لیشن
+Frequency: 1
+
+Text: میںمسلم
+Suggestion: میں مسلم
+Frequency: 1
+
+Text: خودہی
+Suggestion: خود ہی
+Frequency: 1
+
+Text: اورمذہبی
+Suggestion: اور مذہبی
+Frequency: 1
+
+Text: اوراپنی
+Suggestion: اور اپنی
+Frequency: 1
+
+Text: میرانام
+Suggestion: میرا نام
+Frequency: 1
+
+Text: کالباس
+Suggestion: کا لباس
+Frequency: 1
+
+Text: کیاگیاہے
+Suggestion: کیا گیاہے
+Frequency: 1
+
+Text: کااسلوب
+Suggestion: کا اسلوب
+Frequency: 1
+
+Text: نہیںکہا
+Suggestion: نہیں کہا
+Frequency: 1
+
+Text: پرسکون
+Suggestion: پر سکون
+Frequency: 1
+
+Text: راکے
+Suggestion: را کے
+Frequency: 1
+
+Text: پایاجاتا
+Suggestion: پایا جاتا
+Frequency: 1
+
+Text: یاخود
+Suggestion: یا خود
+Frequency: 1
+
+Text: کرلیتی
+Suggestion: کر لیتی
+Frequency: 1
+
+Text: غیرسیاسی
+Suggestion: غیر سیاسی
+Frequency: 1
+
+Text: کرسکتاہے
+Suggestion: کرسکتا ہے
+Frequency: 1
+
+Text: دورافتادہ
+Suggestion: دور افتادہ
+Frequency: 1
+
+Text: دیںتو
+Suggestion: دیں تو
+Frequency: 1
+
+Text: کاقول
+Suggestion: کا قول
+Frequency: 1
+
+Text: اولڈہال
+Suggestion: اولڈ ہال
+Frequency: 1
+
+Text: غالبکو
+Suggestion: غالب کو
+Frequency: 1
+
+Text: تعمیرکیا
+Suggestion: تعمیر کیا
+Frequency: 1
+
+Text: بنتاہے
+Suggestion: بنتا ہے
+Frequency: 1
+
+Text: باتنہ
+Suggestion: بات نہ
+Frequency: 1
+
+Text: نہیںہوتی
+Suggestion: نہیں ہوتی
+Frequency: 1
+
+Text: اورفن
+Suggestion: اور فن
+Frequency: 1
+
+Text: میںہر
+Suggestion: میں ہر
+Frequency: 1
+
+Text: اورایسے
+Suggestion: اور ایسے
+Frequency: 1
+
+Text: ازکم
+Suggestion: از کم
+Frequency: 1
+
+Text: اندازکیا
+Suggestion: انداز کیا
+Frequency: 1
+
+Text: س نگر
+Suggestion: سنگر
+Frequency: 1
+
+Text: یاایک
+Suggestion: یا ایک
+Frequency: 1
+
+Text: اردوتھیئٹرکے
+Suggestion: اردوتھیئٹر کے
+Frequency: 1
+
+Text: پہلااندراج
+Suggestion: پہلا اندراج
+Frequency: 1
+
+Text: میںنمایاں
+Suggestion: میں نمایاں
+Frequency: 1
+
+Text: اورعراق
+Suggestion: اور عراق
+Frequency: 1
+
+Text: میںخواجہ
+Suggestion: میں خواجہ
+Frequency: 1
+
+Text: ایساہے
+Suggestion: ایسا ہے
+Frequency: 1
+
+Text: ماہرلسانیات
+Suggestion: ماہر لسانیات
+Frequency: 1
+
+Text: چوںکہ
+Suggestion: چوں کہ
+Frequency: 1
+
+Text: میںکا
+Suggestion: میں کا
+Frequency: 1
+
+Text: لاعلم
+Suggestion: لا علم
+Frequency: 1
+
+Text: لاسکتی
+Suggestion: لا سکتی
+Frequency: 1
+
+Text: ہوکروہ
+Suggestion: ہوکر وہ
+Frequency: 1
+
+Text: احمدنے
+Suggestion: احمد نے
+Frequency: 1
+
+Text: کیاکہ
+Suggestion: کیا کہ
+Frequency: 1
+
+Text: تاریخمیں
+Suggestion: تاریخ میں
+Frequency: 1
+
+Text: میںکردار
+Suggestion: میں کردار
+Frequency: 1
+
+Text: کونظر
+Suggestion: کو نظر
+Frequency: 1
+
+Text: جونئے
+Suggestion: جو نئے
+Frequency: 1
+
+Text: کاالمیہ
+Suggestion: کا المیہ
+Frequency: 1
+
+Text: چاہتاہے
+Suggestion: چاہتا ہے
+Frequency: 1
+
+Text: تھیئٹرکے
+Suggestion: تھیئٹر کے
+Frequency: 1
+
+Text: کیاجانے
+Suggestion: کیا جانے
+Frequency: 1
+
+Text: کرداروںکی
+Suggestion: کرداروں کی
+Frequency: 1
+
+Text: دومیں
+Suggestion: دو میں
+Frequency: 1
+
+Text: ہرشے
+Suggestion: ہر شے
+Frequency: 1
+
+Text: ہیںلیکن
+Suggestion: ہیں لیکن
+Frequency: 1
+
+Text: کمیاب
+Suggestion: کم یاب
+Frequency: 1
+
+Text: مرجاتی
+Suggestion: مر جاتی
+Frequency: 1
+
+Text: کردارادا
+Suggestion: کردار ادا
+Frequency: 1
+
+Text: داداازم
+Suggestion: دادا ازم
+Frequency: 1
+
+Text: کومین
+Suggestion: کو مین
+Frequency: 1
+
+Text: کویہاں
+Suggestion: کو یہاں
+Frequency: 1
+
+Text: عہدمیں
+Suggestion: عہد میں
+Frequency: 1
+
+Text: اورجنوبی
+Suggestion: اور جنوبی
+Frequency: 1
+
+Text: میںکم
+Suggestion: میں کم
+Frequency: 1
+
+Text: علماکے
+Suggestion: علما کے
+Frequency: 1
+
+Text: غیرمادیت
+Suggestion: غیر مادیت
+Frequency: 1
+
+Text: انکا
+Suggestion: ان کا
+Frequency: 1
+
+Text: ہرجگہ
+Suggestion: ہر جگہ
+Frequency: 1
+
+Text: ناخوش
+Suggestion: نا خوش
+Frequency: 1
+
+Text: تھاتو
+Suggestion: تھا تو
+Frequency: 1
+
+Text: کانہ
+Suggestion: کا نہ
+Frequency: 1
+
+Text: گفتگوکی
+Suggestion: گفتگو کی
+Frequency: 1
+
+Text: نافہمی
+Suggestion: نا فہمی
+Frequency: 1
+
+Text: پرآمادہ
+Suggestion: پر آمادہ
+Frequency: 1
+
+Text: لہٰذایہ
+Suggestion: لہٰذا یہ
+Frequency: 1
+
+Text: نہیںرہ
+Suggestion: نہیں رہ
+Frequency: 1
+
+Text: جیساکہ
+Suggestion: جیسا کہ
+Frequency: 1
+
+Text: سجادحیدر
+Suggestion: سجاد حیدر
+Frequency: 1
+
+Text: کوبعض
+Suggestion: کو بعض
+Frequency: 1
+
+Text: میںدرج
+Suggestion: میں درج
+Frequency: 1
+
+Text: پختونخوا
+Suggestion: پختون خوا
+Frequency: 1
+
+Text: کاانتقال
+Suggestion: کا انتقال
+Frequency: 1
+
+Text: میںبنگال
+Suggestion: میں بنگال
+Frequency: 1
+
+Text: نفسانسانی
+Suggestion: نفس انسانی
+Frequency: 1
+
+Text: انورسجاد
+Suggestion: انور سجاد
+Frequency: 1
+
+Text: لایاگیا
+Suggestion: لایا گیا
+Frequency: 1
+
+Text: کافنی
+Suggestion: کا فنی
+Frequency: 1
+
+Text: نظررکھا
+Suggestion: نظر رکھا
+Frequency: 1
+
+Text: میںرپورتاژ
+Suggestion: میں رپورتاژ
+Frequency: 1
+
+Text: وزیرآغا
+Suggestion: وزیر آغا
+Frequency: 1
+
+Text: میںمیرا
+Suggestion: میں میرا
+Frequency: 1
+
+Text: تکایک
+Suggestion: تک ایک
+Frequency: 1
+
+Text: افرادنے
+Suggestion: افراد نے
+Frequency: 1
+
+Text: دکھایاگیا
+Suggestion: دکھایا گیا
+Frequency: 1
+
+Text: میںجذبات
+Suggestion: میں جذبات
+Frequency: 1
+
+Text: کومقامی
+Suggestion: کو مقامی
+Frequency: 1
+
+Text: جیکے
+Suggestion: جی کے
+Frequency: 1
+
+Text: جواگرچہ
+Suggestion: جو اگرچہ
+Frequency: 1
+
+Text: اورانسان
+Suggestion: اور انسان
+Frequency: 1
+
+Text: تیارکیا
+Suggestion: تیار کیا
+Frequency: 1
+
+Text: زورصرف
+Suggestion: زور صرف
+Frequency: 1
+
+Text: ماخذمتن
+Suggestion: ماخذ متن
+Frequency: 1
+
+Text: میںاگر
+Suggestion: میں اگر
+Frequency: 1
+
+Text: میںسے
+Suggestion: میں سے
+Frequency: 1
+
+Text: ہوتاگیا
+Suggestion: ہوتا گیا
+Frequency: 1
+
+Text: اردونظم
+Suggestion: اردو نظم
+Frequency: 1
+
+Text: کاغالب
+Suggestion: کا غالب
+Frequency: 1
+
+Text: کوزندگی
+Suggestion: کو زندگی
+Frequency: 1
+
+Text: کررہ
+Suggestion: کر رہ
+Frequency: 1
+
+Text: ہرشخص
+Suggestion: ہر شخص
+Frequency: 1
+
+Text: اوروہاں
+Suggestion: اور وہاں
+Frequency: 1
+
+Text: بناہے
+Suggestion: بنا ہے
+Frequency: 1
+
+Text: پیشکش
+Suggestion: پیش کش
+Frequency: 1
+
+Text: کوعام
+Suggestion: کو عام
+Frequency: 1
+
+Text: مددسے
+Suggestion: مدد سے
+Frequency: 1
+
+Text: کاخاتمہ
+Suggestion: کا خاتمہ
+Frequency: 1
+
+Text: گھروالوں
+Suggestion: گھر والوں
+Frequency: 1
+
+Text: تعمیرکی
+Suggestion: تعمیر کی
+Frequency: 1
+
+Text: میںقید
+Suggestion: میں قید
+Frequency: 1
+
+Text: طاقتور
+Suggestion: طاقت ور
+Frequency: 1
+
+Text: اورکچھ
+Suggestion: اور کچھ
+Frequency: 1
+
+Text: خودکلامی
+Suggestion: خود کلامی
+Frequency: 1
+
+Text: مگریہ
+Suggestion: مگر یہ
+Frequency: 1
+
+Text: ورڈزورتھ
+Suggestion: ورڈز ورتھ
+Frequency: 1
+
+Text: چندنے
+Suggestion: چند نے
+Frequency: 1
+
+Text: سیدمحمد
+Suggestion: سید محمد
+Frequency: 1
+
+Text: نہیںہیں
+Suggestion: نہیں ہیں
+Frequency: 1
+
+Text: دیگرافسانوں
+Suggestion: دیگر افسانوں
+Frequency: 1
+
+Text: میںتحریر
+Suggestion: میں تحریر
+Frequency: 1
+
+Text: علیگڑھ
+Suggestion: علی گڑھ
+Frequency: 1
+
+Text: انقلابکی
+Suggestion: انقلاب کی
+Frequency: 1
+
+Text: مگریوں
+Suggestion: مگر یوں
+Frequency: 1
+
+Text: کامکمل
+Suggestion: کا مکمل
+Frequency: 1
+
+Text: توکی
+Suggestion: تو کی
+Frequency: 1
+
+Text: سینااس
+Suggestion: سینا اس
+Frequency: 1
+
+Text: کررکھا
+Suggestion: کر رکھا
+Frequency: 1
+
+Text: ہیکوئی
+Suggestion: ہی کوئی
+Frequency: 1
+
+Text: میںسیاہی
+Suggestion: میں سیاہی
+Frequency: 1
+
+Text: کاوہ
+Suggestion: کا وہ
+Frequency: 1
+
+Text: تھیئٹرکا
+Suggestion: تھیئٹر کا
+Frequency: 1
+
+Text: میںسالک
+Suggestion: میں سالک
+Frequency: 1
+
+Text: ہوااور
+Suggestion: ہوا اور
+Frequency: 1
+
+Text: پرکسی
+Suggestion: پر کسی
+Frequency: 1
+
+Text: پرمزید
+Suggestion: پر مزید
+Frequency: 1
+
+Text: روسے
+Suggestion: رو سے
+Frequency: 1
+
+Text: اساطیرکی
+Suggestion: اساطیر کی
+Frequency: 1
+
+Text: کوکم
+Suggestion: کو کم
+Frequency: 1
+
+Text: شکارنامہ
+Suggestion: شکار نامہ
+Frequency: 1
+
+Text: پرجوش
+Suggestion: پر جوش
+Frequency: 1
+
+Text: کامطالعہ
+Suggestion: کا مطالعہ
+Frequency: 1
+
+Text: اوربعد
+Suggestion: اور بعد
+Frequency: 1
+
+Text: کاذوق
+Suggestion: کا ذوق
+Frequency: 1
+
+Text: اورہمیں
+Suggestion: اور ہمیں
+Frequency: 1
+
+Text: اورعلاقائی
+Suggestion: اور علاقائی
+Frequency: 1
+
+Text: میںہینرک
+Suggestion: میں ہینرک
+Frequency: 1
+
+Text: میںدور
+Suggestion: میں دور
+Frequency: 1
+
+Text: اورشکنتلا
+Suggestion: اور شکنتلا
+Frequency: 1
+
+Text: انقلابکو
+Suggestion: انقلاب کو
+Frequency: 1
+
+Text: کوبھی
+Suggestion: کو بھی
+Frequency: 1
+
+Text: پیکرخاکی
+Suggestion: پیکر خاکی
+Frequency: 1
+
+Text: عقائدکے
+Suggestion: عقائد کے
+Frequency: 1
+
+Text: خاطرخواہ
+Suggestion: خاطر خواہ
+Frequency: 1
+
+Text: اگران
+Suggestion: اگر ان
+Frequency: 1
+
+Text: تصورسے
+Suggestion: تصور سے
+Frequency: 1
+
+Text: اداکرنا
+Suggestion: ادا کرنا
+Frequency: 1
+
+Text: اداروںکی
+Suggestion: اداروں کی
+Frequency: 1
+
+Text: میںنئے
+Suggestion: میں نئے
+Frequency: 1
+
+Text: توپھر
+Suggestion: تو پھر
+Frequency: 1
+
+Text: دردکی
+Suggestion: درد کی
+Frequency: 1
+
+Text: کاجن
+Suggestion: کا جن
+Frequency: 1
+
+Text: نظرآتے
+Suggestion: نظر آتے
+Frequency: 1
+
+Text: بناپر
+Suggestion: بنا پر
+Frequency: 1
+
+Text: یاراںدوزخ
+Suggestion: یاراں دوزخ
+Frequency: 1
+
+Text: پسندتحریک
+Suggestion: پسند تحریک
+Frequency: 1
+
+Text: توایسی
+Suggestion: تو ایسی
+Frequency: 1
+
+Text: ہرحال
+Suggestion: ہر حال
+Frequency: 1
+
+Text: دریاکے
+Suggestion: دریا کے
+Frequency: 1
+
+Text: دوسال
+Suggestion: دو سال
+Frequency: 1
+
+Text: نہیںکہ
+Suggestion: نہیں کہ
+Frequency: 1
+
+Text: خوداپنے
+Suggestion: خود اپنے
+Frequency: 1
+
+Text: اوریک
+Suggestion: اور یک
+Frequency: 1
+
+Text: ڈاکٹرانور
+Suggestion: ڈاکٹر انور
+Frequency: 1
+
+Text: زمینداراور
+Suggestion: زمیندار اور
+Frequency: 1
+
+Text: بعدکی
+Suggestion: بعد کی
+Frequency: 1
+
+Text: ہوجاتاہے
+Suggestion: ہو جاتاہے
+Frequency: 1
+
+Text: قراردے
+Suggestion: قرار دے
+Frequency: 1
+
+Text: میںدو
+Suggestion: میں دو
+Frequency: 1
+
+Text: اردومیں
+Suggestion: اردو میں
+Frequency: 1
+
+Text: ذراسی
+Suggestion: ذرا سی
+Frequency: 1
+
+Text: رہیںگے
+Suggestion: رہیں گے
+Frequency: 1
+
+Text: جائزنہیں
+Suggestion: جائز نہیں
+Frequency: 1
+
+Text: طرزفکر
+Suggestion: طرز فکر
+Frequency: 1
+
+Text: غیرسرکاری
+Suggestion: غیر سرکاری
+Frequency: 1
+
+Text: موسیقیاور
+Suggestion: موسیقی اور
+Frequency: 1
+
+Text: بغیراپنے
+Suggestion: بغیر اپنے
+Frequency: 1
+
+Text: جزکے
+Suggestion: جز کے
+Frequency: 1
+
+Text: یکطرفہ
+Suggestion: یک طرفہ
+Frequency: 1
+
+Text: نظروںسے
+Suggestion: نظروں سے
+Frequency: 1
+
+Text: کولے
+Suggestion: کو لے
+Frequency: 1
+
+Text: شاعریکے
+Suggestion: شاعری کے
+Frequency: 1
+
+Text: کاآغاز
+Suggestion: کا آغاز
+Frequency: 1
+
+Text: کانگرسی
+Suggestion: کا نگرسی
+Frequency: 1
+
+Text: گھپلاہے
+Suggestion: گھپلا ہے
+Frequency: 1
+
+Text: مینائیکے
+Suggestion: مینائی کے
+Frequency: 1
+
+Text: کاخیال
+Suggestion: کا خیال
+Frequency: 1
+
+Text: اورخصوصاً
+Suggestion: اور خصوصاً
+Frequency: 1
+
+Text: بےپناہ
+Suggestion: بے پناہ
+Frequency: 1
+
+Text: کابنیادی
+Suggestion: کا بنیادی
+Frequency: 1
+
+Text: رپورتاژکی
+Suggestion: رپورتاژ کی
+Frequency: 1
+
+Text: یارغار
+Suggestion: یار غار
+Frequency: 1
+
+Text: دوایک
+Suggestion: دو ایک
+Frequency: 1
+
+Text: کوصحیح
+Suggestion: کو صحیح
+Frequency: 1
+
+Text: کواپنے
+Suggestion: کو اپنے
+Frequency: 1
+
+Text: علمااور
+Suggestion: علما اور
+Frequency: 1
+
+Text: میںڈھالا
+Suggestion: میں ڈھالا
+Frequency: 1
+
+Text: کاستارہ
+Suggestion: کا ستارہ
+Frequency: 1
+
+Text: خبردی
+Suggestion: خبر دی
+Frequency: 1
+
+Text: مسنداقتدار
+Suggestion: مسند اقتدار
+Frequency: 1
+
+Text: میںتو
+Suggestion: میں تو
+Frequency: 1
+
+Text: مگران
+Suggestion: مگر ان
+Frequency: 1
+
+Text: کاہیرو
+Suggestion: کا ہیرو
+Frequency: 1
+
+Text: بعدیہ
+Suggestion: بعد یہ
+Frequency: 1
+
+Text: اردوزبان
+Suggestion: اردو زبان
+Frequency: 1
+
+Text: نہیںجو
+Suggestion: نہیں جو
+Frequency: 1
+
+Text: والوںکا
+Suggestion: والوں کا
+Frequency: 1
+
+Text: کامیلان
+Suggestion: کا میلان
+Frequency: 1
+
+Text: لگتاہے
+Suggestion: لگتا ہے
+Frequency: 1
+
+Text: سیداحمد
+Suggestion: سید احمد
+Frequency: 1
+
+Text: کونہیں
+Suggestion: کو نہیں
+Frequency: 1
+
+Text: انسانوںکی
+Suggestion: انسانوں کی
+Frequency: 1
+
+Text: اورروایتی
+Suggestion: اور روایتی
+Frequency: 1
+
+Text: اندازنظر
+Suggestion: انداز نظر
+Frequency: 1
+
+Text: تھیئٹرکو
+Suggestion: تھیئٹر کو
+Frequency: 1
+
+Text: اورفتویٰ
+Suggestion: اور فتویٰ
+Frequency: 1
+
+Text: کوقبول
+Suggestion: کو قبول
+Frequency: 1
+
+Text: اورجن
+Suggestion: اور جن
+Frequency: 1
+
+Text: پرسخت
+Suggestion: پر سخت
+Frequency: 1
+
+Text: کاایک
+Suggestion: کا ایک
+Frequency: 1
+
+Text: نوںکے
+Suggestion: نوں کے
+Frequency: 1
+
+Text: محمودالظفر
+Suggestion: محمود الظفر
+Frequency: 1
+
+Text: ہورہے
+Suggestion: ہو رہے
+Frequency: 1
+
+Text: منکا
+Suggestion: من کا
+Frequency: 1
+
+Text: انداززندگی
+Suggestion: انداز زندگی
+Frequency: 1
+
+Text: میںمحصور
+Suggestion: میں محصور
+Frequency: 1
+
+Text: کاشعور
+Suggestion: کا شعور
+Frequency: 1
+
+Text: کاذکر
+Suggestion: کا ذکر
+Frequency: 1
+
+Text: ہیسے
+Suggestion: ہی سے
+Frequency: 1
+
+Text: زیرسطح
+Suggestion: زیر سطح
+Frequency: 1
+
+Text: کوصرف
+Suggestion: کو صرف
+Frequency: 1
+
+Text: میںکوئی
+Suggestion: میں کوئی
+Frequency: 1
+
+Text: چیزکی
+Suggestion: چیز کی
+Frequency: 1
+
+Text: کاشکار
+Suggestion: کا شکار
+Frequency: 1
+
+Text: چلتاہے
+Suggestion: چلتا ہے
+Frequency: 1
+
+Text: رکھتاہے
+Suggestion: رکھتا ہے
+Frequency: 1
+
+Text: کاسہارا
+Suggestion: کا سہارا
+Frequency: 1
+
+Text: انھیںیہ
+Suggestion: انھیں یہ
+Frequency: 1
+
+Text: اورانھوں
+Suggestion: اور انھوں
+Frequency: 1
+
+Text: مرزاغالب
+Suggestion: مرزا غالب
+Frequency: 1
+
+Text: میںتراجم
+Suggestion: میں تراجم
+Frequency: 1
+
+Text: دوزخکے
+Suggestion: دوزخ کے
+Frequency: 1
+
+Text: میںپہلے
+Suggestion: میں پہلے
+Frequency: 1
+
+Text: کااعلان
+Suggestion: کا اعلان
+Frequency: 1
+
+Text: انڈیاکمپنی
+Suggestion: انڈیا کمپنی
+Frequency: 1
+
+Text: تاہے
+Suggestion: تا ہے
+Frequency: 1
+
+Text: چیزوںمیں
+Suggestion: چیزوں میں
+Frequency: 1
+
+Text: شیرشاہ
+Suggestion: شیر شاہ
+Frequency: 1
+
+Text: کرتااور
+Suggestion: کرتا اور
+Frequency: 1
+
+Text: اورنواب
+Suggestion: اور نواب
+Frequency: 1
+
+Text: کاموںکے
+Suggestion: کاموں کے
+Frequency: 1
+
+Text: زادکھیل
+Suggestion: زاد کھیل
+Frequency: 1
+
+Text: یکسو
+Suggestion: یک سو
+Frequency: 1
+
+Text: دیاگیا
+Suggestion: دیا گیا
+Frequency: 1
+
+Text: کااس
+Suggestion: کا اس
+Frequency: 1
+
+Text: پرتدریس
+Suggestion: پر تدریس
+Frequency: 1
+
+Text: میںکہا
+Suggestion: میں کہا
+Frequency: 1
+
+Text: ناکام
+Suggestion: نا کام
+Frequency: 1
+
+Text: توہم
+Suggestion: تو ہم
+Frequency: 1
+
+Text: کادوسرا
+Suggestion: کا دوسرا
+Frequency: 1
+
+Text: چکاہے
+Suggestion: چکا ہے
+Frequency: 1
+
+Text: وجودمیں
+Suggestion: وجود میں
+Frequency: 1
+
+Text: یااپنے
+Suggestion: یا اپنے
+Frequency: 1
+
+Text: پراس
+Suggestion: پر اس
+Frequency: 1
+
+Text: میںکامیاب
+Suggestion: میں کامیاب
+Frequency: 1
+
+Text: شعراکی
+Suggestion: شعرا کی
+Frequency: 1
+
+Text: عمربھر
+Suggestion: عمر بھر
+Frequency: 1
+
+Text: ہوتارہا
+Suggestion: ہوتا رہا
+Frequency: 1
+
+Text: میںاپنے
+Suggestion: میں اپنے
+Frequency: 1
+
+Text: جوایک
+Suggestion: جو ایک
+Frequency: 1
+
+Text: ہواکہ
+Suggestion: ہوا کہ
+Frequency: 1
+
+Text: دیتاہے
+Suggestion: دیتا ہے
+Frequency: 1
+
+Text: ہوسکیں
+Suggestion: ہو سکیں
+Frequency: 1
+
+Text: میںتقلیب
+Suggestion: میں تقلیب
+Frequency: 1
+
+Text: اورموت
+Suggestion: اور موت
+Frequency: 1
+
+Text: ہروقت
+Suggestion: ہر وقت
 Frequency: 1
 

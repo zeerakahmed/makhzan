@@ -111,8 +111,6 @@ for file in files {
                     wordFrequencyDict[t] != nil &&
                     s.count > 1 &&
                     t.count > 1 &&
-                    wordFrequencyDict[s]! > 100 &&
-                    wordFrequencyDict[t]! > 100 &&
                     BigramDict[s]?[t] ?? 0 > wordFrequencyDict[currentWord]! &&
                     !approveList.contains(currentWord)) {
                     addToCorrectionList(Correction(text: currentWord,
