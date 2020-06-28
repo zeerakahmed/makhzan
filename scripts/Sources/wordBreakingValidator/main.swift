@@ -106,7 +106,8 @@ for file in files {
             while (j < currentWord.endIndex) {
                 let s = String(currentWord[..<j])
                 let t = String(currentWord[j...])
-                if (wordFrequencyDict[s] != nil &&
+                if (wordFrequencyDict[currentWord] != nil &&
+                    wordFrequencyDict[s] != nil &&
                     wordFrequencyDict[t] != nil &&
                     s.count > 1 &&
                     t.count > 1 &&
