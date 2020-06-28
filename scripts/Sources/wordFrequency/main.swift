@@ -52,9 +52,7 @@ for file in files {
     var text = parserDelegate.text
     
     // remove punctuation, numbers, extraneous whitespace and non-essential diacritics
-    text = text.replacingOccurrences(of: "\\W", with: " ", options: .regularExpression)
-    text = text.replacingOccurrences(of: "\\d", with: " ", options: .regularExpression)
-    text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
+    text = text.replacingOccurrences(of: "\\P{Lo}", with: " ", options: .regularExpression)
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     
     // go through each character
