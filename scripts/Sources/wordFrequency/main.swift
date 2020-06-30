@@ -94,13 +94,16 @@ for file in files {
     }
 }
 
-// write to file
-var outputPath = "../stats/wordFrequency"
-var outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
-outputStream?.open()
-JSONSerialization.writeJSONObject(wordFreq,
-                                  to: outputStream!,
-                                  options: [.prettyPrinted],
-                                  error: nil)
-outputStream?.close()
+// format output
+let sorted = wordFreq.sorted { $0.value > $1.value }
+var output = ""
+print("{", to: &output)
+for item in sorted {
+    print("\t\"\(item.key)\" : \(item.value)", to: &output)
+}
+output.removeLast(1)
+print("\n}", to: &output)
 
+// write to file
+let file = URL(fileURLWithPath: "../stats/wordFrequency")
+try! output.write(to: file, atomically: false, encoding: .utf8)

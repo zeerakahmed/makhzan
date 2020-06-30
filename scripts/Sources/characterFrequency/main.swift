@@ -69,13 +69,17 @@ for file in files {
     }
 }
 
+// format output
+let sorted = charFreq.sorted { $0.value > $1.value }
+var output = ""
+print("{", to: &output)
+for item in sorted {
+    print("\t\"\(item.key)\" : \(item.value)", to: &output)
+}
+output.removeLast(1)
+print("\n}", to: &output)
+
 // write to file
-var outputPath = "../stats/characterFrequency"
-var outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
-outputStream?.open()
-JSONSerialization.writeJSONObject(charFreq,
-                                  to: outputStream!,
-                                  options: [.prettyPrinted],
-                                  error: nil)
-outputStream?.close()
+let file = URL(fileURLWithPath: "../stats/characterFrequency")
+try! output.write(to: file, atomically: false, encoding: .utf8)
 
