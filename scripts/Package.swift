@@ -33,5 +33,9 @@ let package = Package(
             name: "wordBreakingValidator",
             dependencies: ["Naqqash"]
         ),
+        .target(
+            name: "characterPairFrequency",
+            dependencies: ["Naqqash"]
+        ),
     ]
 )
