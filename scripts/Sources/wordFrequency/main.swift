@@ -99,9 +99,9 @@ let sorted = wordFreq.sorted { $0.value > $1.value }
 var output = ""
 print("{", to: &output)
 for item in sorted {
-    print("\t\"\(item.key)\" : \(item.value)", to: &output)
+    print("\t\"\(item.key)\" : \(item.value),", to: &output)
 }
-output.removeLast(1)
+output.removeLast(2)
 print("\n}", to: &output)
 
 // write to file
