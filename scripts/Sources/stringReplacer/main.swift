@@ -35,6 +35,4 @@ for file in files {
     } catch {
         print("Failed to write file \(file)")
     }
-    
-    break
 }
