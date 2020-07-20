@@ -34,6 +34,10 @@ let package = Package(
             dependencies: ["Naqqash"]
         ),
         .target(
+            name: "stringReplacer",
+            dependencies: ["Naqqash"]
+        ),
+        .target(
             name: "characterPairFrequency",
             dependencies: ["Naqqash"]
         ),
