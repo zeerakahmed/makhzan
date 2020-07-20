@@ -22,6 +22,7 @@ class ParserDelegate: NSObject, XMLParserDelegate {
                 qualifiedName qName: String?) {
         if elementName == "title" { readText = false }
         if elementName == "annotation" { readText = true }
+        text.append("\n")
     }
 
     func parser(_ parser: XMLParser,
@@ -52,9 +53,7 @@ for file in files {
     var text = parserDelegate.text
     
     // remove punctuation, numbers, extraneous whitespace and non-essential diacritics
-    text = text.replacingOccurrences(of: "\\W", with: " ", options: .regularExpression)
-    text = text.replacingOccurrences(of: "\\d", with: " ", options: .regularExpression)
-    text = text.replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
+    text = text.replacingOccurrences(of: "[\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{N}\\p{P}\\p{S}\\p{Z}\\p{Cc}]", with: " ", options: .regularExpression)
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     
     // go through each character

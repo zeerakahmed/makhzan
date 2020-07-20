@@ -59,7 +59,7 @@ for file in files {
     var text = parserDelegate.text
     
     // replace all punctuation, digits and tabs with new lines, replace consecutive new lines with a single new line
-    text = text.replacingOccurrences(of: "[\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{M}\\p{N}\\p{P}\\p{S}\\p{C}]", with: "\n", options: .regularExpression)
+    text = text.replacingOccurrences(of: "[\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{N}\\p{P}\\p{S}\\p{Z}\\p{Cc}]", with: "\n", options: .regularExpression)
     text = text.replacingOccurrences(of: "\\n\\n+", with: "\n", options: .regularExpression)
     
     // go through each character

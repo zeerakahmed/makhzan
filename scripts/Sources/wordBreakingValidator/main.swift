@@ -84,7 +84,7 @@ for file in files {
     var text = parserDelegate.text
     
     // replace all punctuation, digits and tabs with new lines, replace consecutive new lines with a single new line
-    text = text.replacingOccurrences(of: "[\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{M}\\p{N}\\p{P}\\p{S}]", with: "\n", options: .regularExpression)
+    text = text.replacingOccurrences(of: "[\\p{Lu}\\p{Ll}\\p{Lt}\\p{Lm}\\p{N}\\p{P}\\p{S}\\p{Zl}\\p{Zp}\\p{Cc}]", with: "\n", options: .regularExpression)
     text = text.replacingOccurrences(of: "\\n\\n+", with: "\n", options: .regularExpression)
     text = Naqqash.removeDiacritics(text, ofType: Naqqash.DiacriticType.NonEssential)
     
@@ -131,7 +131,8 @@ for file in files {
                 }
             }
             
-            lastWord = currentWord
+            if c == " " { lastWord = currentWord }
+            else { lastWord = nil }
             currentWord = ""
         }
     }
