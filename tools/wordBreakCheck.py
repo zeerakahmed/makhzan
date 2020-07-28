@@ -9,19 +9,18 @@ maybe_option = ['maybe', 'm']
 quit_option = ['quit', 'q']
 
 input_filename = "tst"
-output_filename = '../scripts/Sources/wordBreakingValidator/approveList'
+output_filename = '../scripts/Sources/stringReplacer/replacements'
 
 acceptable_answers = yes_option + no_option + maybe_option + quit_option
 
 def next_n_lines(file_opened, N = 4):
     return [x.strip() for x in islice(file_opened, N)]
 
-def do_yes_things(suggestion):
+def do_yes_things(word, suggestion):
   with open(output_filename, "a") as file_obj:
-    file_obj.write(suggestion)
+    file_obj.write('{} {}'.format(word, suggestion))
     file_obj.write('\n')
     print('word: {} added to file: {}'.format(suggestion, output_filename))
-    commitWord(output_filename, suggestion)
 
 def do_no_things():
   pass
@@ -51,7 +50,7 @@ with open(input_filename) as file_obj:
         break
       
       if answer in yes_option:
-        do_yes_things(suggestion[1])
+        do_yes_things(text[1], suggestion[1])
       
       if answer in no_option:
         do_no_things()
