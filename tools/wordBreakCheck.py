@@ -23,13 +23,11 @@ def do_yes_things(word, suggestion):
     file_obj.write('\n')
     print('word: {} added to file: {}'.format(suggestion, replacements_filename))
 
+def do_no_things(suggestion):
   with open(approvelist_filename, "a") as file_obj:
     file_obj.write(suggestion)
     file_obj.write('\n')
     print('word: {} added to file: {}'.format(suggestion, approvelist_filename))
-
-def do_no_things():
-  pass
 
 def do_maybe_things():
   pass
@@ -59,7 +57,7 @@ with open(input_filename) as file_obj:
         do_yes_things(text[1], suggestion[1])
       
       if answer in no_option:
-        do_no_things()
+        do_no_things(suggestion[1])
       
       if answer in maybe_option:
         do_maybe_things()
