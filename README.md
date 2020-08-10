@@ -10,7 +10,7 @@ We have made efforts to ensure this text is as broadly representative as possibl
 
 ## File structure
 
-The text courpus itself is contained within [`/text`](/text). Some common scripts to analyze the text are in [`/scripts`](/scripts), and the output of these analyses are in [`/stats`](/stats), if you'd like to use this output directly.
+The text courpus itself is contained within [`/text`](/text). Some common scripts to analyze the text are in [`/scripts`](/scripts), and the output of these analyses are in [`/stats`](/stats), if you'd like to use this output directly. [`/tools`](/tools) contains command line tools for data cleaning. These will only be of use if you are helping improve the quality of Maḵẖzan.
 
 Details of how the text is structured are below. For more information on how the scripts function, step into [documentation in the `/scripts` directory](/scripts).
 
@@ -32,7 +32,8 @@ The resulting structure of tags in the text documents is as follows:
 - Blockquotes are wrapped in a `<blockquote>` element. Blockquotes may themselves contain other elements.
 - Lists are wrapped in an `<list>`. Individual items in each list are wrapped in an `<li>` element. 
 - Poetic verses are wrapped in a `<verse>` element. Each verse is on a separate line but is not wrapped in an individual element.
-- Tables are wrapped in a `<table>` element. A table is divided into rows marked by `<tr>` and columns marked by `<td>`. 
+- Tables are wrapped in a `<table>` element. A table is divided into rows marked by `<tr>` and columns marked by `<td>`.
+- Text not in the Urdu language is wrapped in an `<annotation>` tag (more below). 
 - `<p>`, `<heading>`, `<li>`, `<td>` and `<annotation>` tags are inline with the text (i.e. there is no new line character before and after the tag). Other tags have a new line after the opening and before the closing tag. 
 
 Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt;`, and `&amp;` respectively. This includes the use of these characters in URLs inside `<meta>` tags.
@@ -41,6 +42,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 
 - Annotations have been made inline using an `<annotation>` element.
 - A language (`lang`) attribute is added to the `<annotation>` element to indicate text in other languages (such as quoted text or technical vocabulary presented in other languages and scripts). The attribute value a two-character ISO 639-1 code. So the resultant annotation for an Arabic quote for example, will be `<annotation lang="ar"></annotation>`. 
+- A type (`type`) attributed is added to indicate text that is not in a language per se but is not Urdu text. URLs for example are wrapped in an `<annotation type="url">` tag. 
 
 ### Encoding
 
@@ -50,6 +52,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 ### Textual modifications
 
 - Typographical errors have been fixed in the text we obtained where possible to ensure a standardized typographical format. These include removing spaces before punctuation such as periods and commas, adding spaces after periods and commas, using the correct quotation characters, removing unnecessary whitespace, and fixing any obvious spelling errors. This is done to prevent downstream bugs in software that uses this corpus.
+- Egregious word breaking errors have been fixed. We use a custom algorirthm to identify such errors, then manually review candidate errors and suggestions. Original text is correct when we we are certain that there is a canonical representation of a word.
 - Occassionally punctuation has been changed for clarity. For example, in one particular case repeated a number of times in this corpus, an Arabic period was used to indicate a date range. Here the period has been replaced with a hyphen so as to not break any sentence breaking code.
 - Footnotes and captions, where present, have been omitted for ease of transcription. In most cases these contained source information which was not particularly rich linguistically. 
 - In some cases source text makes both a visual demarcation of a block quotation and also uses quotation marks at the beginning and end of the blockquote. In these cases extraneous quotation marks have been removed from elements already marked as `<blockquote>`.
