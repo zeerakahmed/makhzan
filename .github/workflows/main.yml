@@ -22,8 +22,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Build Swift package
         run: |
-        cd scripts
-        swift build
-
+          cd scripts,
+          swift build
+  
       - name: Run preProcessor
         run: swift run preProcessor
