@@ -9,7 +9,6 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
                                                          options: [.skipsHiddenFiles])
 
 for file in files {
-    print("Processing \(file)")
 
     let contents = try! String(contentsOf: file)
 
