@@ -2,7 +2,7 @@ import Foundation
 import Naqqash
 
 // get file URLs from ../text directory
-let textDirectoryPath = "../tex/"
+let textDirectoryPath = "../text/"
 let textDirectoryURL: URL = NSURL.fileURL(withPath: textDirectoryPath)
 let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
                                                          includingPropertiesForKeys: nil,
