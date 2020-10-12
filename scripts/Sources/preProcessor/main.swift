@@ -9,7 +9,17 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
                                                          options: [.skipsHiddenFiles])
 
 for file in files {
+
     let contents = try! String(contentsOf: file)
+
+    // check if valid xml
+    do {
+        let _ = try XMLDocument(xmlString: contents, options: .documentIncludeContentTypeDeclaration)
+    } catch {
+        print("Bad xml \(file)")
+        continue
+    }
+
     var modified = ""
     // decompose any character that needs to be decombposed
     for char in contents {

@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  workflow_dispatch:
+    push:
+      branches:
+        - main
+jobs:
+  run:
+    runs-on: macos-latest
+
+    steps:
+      # Check out the repo
+      - uses: actions/checkout@v2
+
+      - name: Build Swift package & Run the preProcessor
+        run: cd scripts && swift build && swift run preProcessor
