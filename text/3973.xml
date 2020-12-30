@@ -28,7 +28,7 @@
 			<p>شکریہ</p>
 			<p><annotation lang="en">Team</annotation></p>
 			<p><annotation lang="en">IBC URDU</annotation></p>
-			<p><annotation lang="en">ibcurdu@yahoo.com</annotation></p>
+			<p><annotation type="email">ibcurdu@yahoo.com</annotation></p>
 			<p><annotation lang="en">twitter @ibcurdu</annotation></p>
 			<p><annotation lang="en">facebook IBC Urdu</annotation></p>
 		</section>

@@ -57,9 +57,11 @@
 					<blockquote>
 						<p>کسی بھی قانونی مشاورت کے لئے اس ای میل ایڈریس پہ رابطہ کریں۔</p>
 					</blockquote>
-					<blockquote>
-						<p><annotation lang="en">MuddasirAbbasi@outlook.com</annotation></p>
-					</blockquote>
+					<annotation type="email">
+						<blockquote>
+							<p>MuddasirAbbasi@outlook.com</p>
+						</blockquote>
+					</annotation>
 				</p>
 			</blockquote>
 			<p>..................................................</p>
