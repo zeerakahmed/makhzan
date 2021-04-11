@@ -3,3 +3,4 @@
 /scripts/Packages
 /*.xcodeproj
 xcuserdata/
+/tools/__pycache__
