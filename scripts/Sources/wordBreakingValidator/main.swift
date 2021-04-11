@@ -52,8 +52,17 @@ var BigramDict =  try! JSONSerialization.jsonObject(with: inputStream!, options:
 inputStream?.close()
 
 // read approveList
-let data = try String(contentsOfFile: "./Sources/wordBreakingValidator/approveList", encoding: .utf8)
+var data = try String(contentsOfFile: "./Sources/wordBreakingValidator/approveList", encoding: .utf8)
 let approveList = data.components(separatedBy: .newlines)
+
+// read replacements
+data = try String(contentsOfFile: "./Sources/stringReplacer/replacements", encoding: .utf8)
+let replacementPairs = data.components(separatedBy: .newlines)
+var replacements:[String] = []
+for pair in replacementPairs {
+    let strings = pair.components(separatedBy: "\t")
+    replacements.append(strings[0])
+}
 
 // get file URLs from ../text directory
 let textDirectoryPath = "../text/"
@@ -112,7 +121,8 @@ for file in files {
                     s.count > 1 &&
                     t.count > 1 &&
                     BigramDict[s]?[t] ?? 0 > wordFrequencyDict[currentWord]! &&
-                    !approveList.contains(currentWord)) {
+                    !approveList.contains(currentWord) && 
+                    !replacements.contains(currentWord)) {
                     addToCorrectionList(Correction(text: currentWord,
                                                    suggestedCorrection: "\(s) \(t)"))
                 }
@@ -123,6 +133,7 @@ for file in files {
                 let s = currentWord + lastWord!
                 if (wordFrequencyDict[s] != nil &&
                     !approveList.contains(s) &&
+                    !replacements.contains(s) &&
                     wordFrequencyDict[s]! > (wordFrequencyDict[currentWord] ?? 0) &&
                     wordFrequencyDict[s]! > (wordFrequencyDict[lastWord!] ?? 0)
                     ) {
