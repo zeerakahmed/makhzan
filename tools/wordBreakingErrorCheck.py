@@ -62,6 +62,8 @@ with open(input_filename) as file_obj:
       
       if answer in maybe_option:
         do_maybe_things()
+
+      print('\n')
       
       arr = next_n_lines(file_obj)
 
