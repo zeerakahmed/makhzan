@@ -117,10 +117,10 @@ func runNGram(N: Int) {
         }
     }
 
-    // remove nGrams that only have one entry
+    // remove nGrams that have too few entries
     for (prefix, var suffixes) in nGramFreq {
         for (suffix, count) in suffixes {
-            if count <= 3 {
+            if count <= 1 {
                 suffixes.removeValue(forKey: suffix)
             }
         }
