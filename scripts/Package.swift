@@ -41,5 +41,8 @@ let package = Package(
             name: "characterPairFrequency",
             dependencies: ["Naqqash"]
         ),
+        .target(
+            name: "urls"
+        ),
     ]
 )
