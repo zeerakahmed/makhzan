@@ -35,7 +35,7 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
                                                          options: [.skipsHiddenFiles])
 
 // output string
-var output = ""
+var urls:[String: String] = [:]
 
 // process every file
 for file in files {
@@ -50,9 +50,19 @@ for file in files {
     
     // correct xml flags and add to output
     text = text.replacingOccurrences(of: "&amp;", with: "&")
-    output += file.lastPathComponent + "\t" + text + "\n"
-    
+    urls[file.lastPathComponent] = text
+
 }
+
+// format output
+let sorted = urls.sorted { $0.key < $1.key }
+var output = ""
+print("{", to: &output)
+for item in sorted {
+    print("\t\(item.key) : \(item.value),", to: &output)
+}
+output.removeLast(2)
+print("\n}", to: &output)
 
 // write to file
 let file = URL(fileURLWithPath: "../stats/urls")
