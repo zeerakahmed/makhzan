@@ -42,7 +42,8 @@ let package = Package(
             dependencies: ["Naqqash"]
         ),
         .target(
-            name: "urls"
+            name: "urls",
+            dependencies: ["Naqqash"]
         ),
     ]
 )
