@@ -31,7 +31,7 @@ This automated process was then manually reviewed. We then manually searched for
 #### Known issues
 
 - Some documents do not have URLs in metadata
-- Some lists have nested paragraph elements. After transforming _Bunyad_ text we decided that this was perhaps not the best approach, and lists should only contain one line of text per list item. Affected documents need correction.
+- [Some lists have nested paragraph elements. After transforming _Bunyad_ text we decided that this was perhaps not the best approach, and lists should only contain one line of text per list item. Affected documents need correction.](#36)
 
 ### _IBC Urdu_
 
