@@ -30,8 +30,8 @@ This automated process was then manually reviewed. We then manually searched for
 
 #### Known issues
 
-- Some documents do not have URLs in metadata
-- [Some lists have nested paragraph elements. After transforming _Bunyad_ text we decided that this was perhaps not the best approach, and lists should only contain one line of text per list item. Affected documents need correction.](#36)
+- [Some documents do not have URLs in metadata.](https://github.com/zeerakahmed/makhzan/issues/40)
+- [Some lists have nested paragraph elements. After transforming _Bunyad_ text we decided that this was perhaps not the best approach, and lists should only contain one line of text per list item. Affected documents need correction.](https://github.com/zeerakahmed/makhzan/issues/36)
 
 ### _IBC Urdu_
 
@@ -39,9 +39,9 @@ Text was received as a Wordpress export. This text was then programatically tran
 
 #### Known issues
 
-- Some documents appear to be translated (given the names of authors), but translation data is not listed.
-- Some headings have been marked up as blockquotes.
-- Some documents may be duplicates.
+- [Some documents appear to be translated (given the names of authors), but translation data is not listed.](https://github.com/zeerakahmed/makhzan/issues/11)
+- [Some headings have been marked up as blockquotes.](https://github.com/zeerakahmed/makhzan/issues/25)
+- [Some documents may be duplicates.](https://github.com/zeerakahmed/makhzan/issues/35)
 
 ### _Ishraq_
 
@@ -60,7 +60,7 @@ Lists are a part of many documents. In some documents, paragraphs are numbered a
 #### Known issues
 
 - Original language is not listed in some translations.
-- Some documents may be duplicates.
+- [Some documents may be duplicates.](https://github.com/zeerakahmed/makhzan/issues/35)
 
 ### Unicode Common Locale Data Repository
 
