@@ -1,6 +1,8 @@
 # Text Formatting & Markup
 
-### Basic structure
+### Markup
+
+#### Basic structure
 
 Each file in `/text` represents a piece of work by one author. A book with a single set of author(s) is for example, represented by one file. A magazine or journal with a separate author(s) for each piece is represented by a separate file for each piece.
 
@@ -22,13 +24,13 @@ The resulting structure of tags in the text documents is as follows:
 
 Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `&lt;`, `&gt;`, and `&amp;` respectively. This includes the use of these characters in URLs inside `<meta>` tags.
 
-### Annotations
+#### Annotations
 
 - Annotations have been made inline using an `<annotation>` element.
 - A language (`lang`) attribute is added to the `<annotation>` element to indicate text in other languages (such as quoted text or technical vocabulary presented in other languages and scripts). The attribute value a two-character ISO 639-1 code. So the resultant annotation for an Arabic quote for example, will be `<annotation lang="ar"></annotation>`. 
 - A type (`type`) attributed is added to indicate text that is not in a language per se but is not Urdu text. URLs for example are wrapped in an `<annotation type="url">` tag. 
 
-### Encoding
+#### Encoding
 
 - All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding and `LF` line endings.
 - We use NFD normalization for all Unicode characters, i.e. Unicode code points have been chosen in their canonical, fully decomposed form. The primary rationale for decomposition was that it allowed an easier way to remove diacritics and deal with the smallest atomic unit of Unicode characters when performing analyses. This means that rendering engines may occasionally display the wrong glyphs for characters which they expect to be precomposed, but we have compromised on accuracy of visual representation for each of processing (which is the primary goal of this dataset). If rendering this text we encourage ensuring that text is precomposed before representation. [See this discussion for details](https://github.com/zeerakahmed/makhzan/issues/15).
