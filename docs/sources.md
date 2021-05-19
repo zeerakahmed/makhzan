@@ -7,6 +7,7 @@ All text in this repository has been selected for quality of language, upholding
 We have made efforts to ensure this text is as broadly representative as possible. Specifically we have attempted to select for as many authors as possible, and diversity in the gender of the author, as well as years and city of publication. This effort is imperfect, and we appreciate any attempts at pointing us to resources that can help diversify this text further.
 
 At the moment text in Maḵẖzan is sourced from the following publications:
+- [_Bunyad_](https://bunyad.lums.edu.pk/website/)
 - [_IBC Urdu_](http://ibcurdu.com)
 - [_Ishraq_](https://www.javedahmedghamidi.org/#!/ishraq)
 - [Unicode Common Locale Data Repository](http://cldr.unicode.org)
