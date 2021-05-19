@@ -31,7 +31,7 @@ Due to the use of XML syntax, `<`, `>` and `&` characters have been escaped as `
 ### Encoding
 
 - All text has been converted from a variety of original formats into text files using Unicode code points in `utf-8` encoding and `LF` line endings.
-- Unicode code points have been chosen in their fully decomposed form.
+- We use NFD normalization for all Unicode characters, i.e. Unicode code points have been chosen in their canonical, fully decomposed form. The primary rationale for decomposition was that it allowed an easier way to remove diacritics and deal with the smallest atomic unit of Unicode characters when performing analyses. This means that rendering engines may occasionally display the wrong glyphs for characters which they expect to be precomposed, but we have compromised on accuracy of visual representation for each of processing (which is the primary goal of this dataset). If rendering this text we encourage ensuring that text is precomposed before representation. [See this discussion for details](https://github.com/zeerakahmed/makhzan/issues/15).
 
 ### Textual modifications
 
