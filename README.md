@@ -4,6 +4,8 @@ An Urdu text corpus to enable research and applications for the Urdu language. W
 
 This dataset currently comprises 6.26 million words of Urdu text. We have selected source text that we believe to have gone through strong editorial standards, to preserve linguistic integrity. The text is then syntactically marked up, so that headings, paragraphs, and lists can be identified. Metadata is added to each file so data can be intelligently filtered and selected. We annotate non-Urdu text included in source publications. Data also goes through an intense cleaning process to make the text easier to read for software, as well as correcting typograghical errors.
 
+Maḵẖzan is free to use for all commercial and non-commercial purposes. To protect writers' whose writing is part of this dataset, we ask that you not republish the raw text (please see License information below). If you end up using Maḵẖzan for your work, we'd love to hear about it.
+
 ## Navigating this repository
 
 - [`/docs`](/docs): Documentation
