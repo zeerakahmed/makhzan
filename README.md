@@ -31,9 +31,9 @@ All files in the [`/text`](/text) directory are covered under standard copyright
 
 Some cases where a less restrictive license could apply to files in the [`/text`](/text) directory are presented below. 
 
-In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a `notes` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
+In some cases copyright free text has been digitally reproduced through the hard work of our collaborators. In such cases we have credited the appropriate people where possible in a `<notes>` field in the file's metadata, and we strongly encourage you to contact them before redistributing this text in any form.
 
-Where a separate license is provided along with the text, we have provided corresponding data in the `publication` field in a file's metadata. 
+Where a separate license is provided along with the text, we have provided corresponding data in the `<publication>` field in a file's metadata. 
 
 ### All other materials
 
