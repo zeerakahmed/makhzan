@@ -21,7 +21,27 @@ We would love your help in a number of ways. Please get in touch if you:
 - spot an error in the text
 - write a script that should be distributed with the corpus
 
-Start an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact). 
+Start an issue on this repository or get in touch [through our website](https://matnsaz.net/en/contact).
+
+### Contributors
+
+We are grateful to our current contributors
+
+#### Engineering
+
+- Waqas Ali
+- Hassan Talat
+- Shaoor Munir
+- Muhammad Haroon
+
+#### Data Editing
+- Hamza Safdar
+- Akbar Zaman 
+
+Text Contributions
+- Gurmani Center at LUMS
+- IBC Urdu
+- Al-Mawrid Institute 
 
 ## License / Copyright
 
