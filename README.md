@@ -43,6 +43,15 @@ Text Contributions
 - IBC Urdu
 - Al-Mawrid Institute 
 
+## Citation
+
+````
+@misc{makhzan,
+title={Maḵẖzan},
+howpublished = "\url{https://github.com/zeerakahmed/makhzan/}",
+}
+````
+
 ## License / Copyright
 
 ### Material in the [`/text`](/text) directory
