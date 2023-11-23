@@ -1065,10 +1065,6 @@ Text: کاقول
 Suggestion: کا قول
 Frequency: 16
 
-Text: ہوتےہیں
-Suggestion: ہوتے ہیں
-Frequency: 16
-
 Text: جوایک
 Suggestion: جو ایک
 Frequency: 16
@@ -3257,10 +3253,6 @@ Text: کووہ
 Suggestion: کو وہ
 Frequency: 8
 
-Text: کہتےہیں
-Suggestion: کہتے ہیں
-Frequency: 8
-
 Text: ڈاکٹرعظمیٰ
 Suggestion: ڈاکٹر عظمیٰ
 Frequency: 8
@@ -3443,10 +3435,6 @@ Frequency: 8
 
 Text: اورلفظ
 Suggestion: اور لفظ
-Frequency: 8
-
-Text: دیتےہیں
-Suggestion: دیتے ہیں
 Frequency: 8
 
 Text: کاحقیقی
@@ -4293,10 +4281,6 @@ Text: عصرحاضر
 Suggestion: عصر حاضر
 Frequency: 7
 
-Text: گئےہیں
-Suggestion: گئے ہیں
-Frequency: 7
-
 Text: کاحساب
 Suggestion: کا حساب
 Frequency: 7
@@ -4767,10 +4751,6 @@ Frequency: 7
 
 Text: جاسکی
 Suggestion: جا سکی
-Frequency: 7
-
-Text: چاہتےہیں
-Suggestion: چاہتے ہیں
 Frequency: 7
 
 Text: کےپاس
@@ -5561,10 +5541,6 @@ Text: میںکئی
 Suggestion: میں کئی
 Frequency: 6
 
-Text: چکےہیں
-Suggestion: چکے ہیں
-Frequency: 6
-
 Text: مرادلی
 Suggestion: مراد لی
 Frequency: 6
@@ -6035,10 +6011,6 @@ Frequency: 6
 
 Text: اورجان
 Suggestion: اور جان
-Frequency: 6
-
-Text: سکتےہیں
-Suggestion: سکتے ہیں
 Frequency: 6
 
 Text: بنوقریظہ
@@ -6799,10 +6771,6 @@ Frequency: 5
 
 Text: لیاکہ
 Suggestion: لیا کہ
-Frequency: 5
-
-Text: جاتےہیں
-Suggestion: جاتے ہیں
 Frequency: 5
 
 Text: کانہایت
@@ -7809,10 +7777,6 @@ Text: چاہئےکہ
 Suggestion: چاہئے کہ
 Frequency: 5
 
-Text: سےہی
-Suggestion: سے ہی
-Frequency: 5
-
 Text: الفنون
 Suggestion: الف نون
 Frequency: 5
@@ -8101,10 +8065,6 @@ Text: استاذگرامی
 Suggestion: استاذ گرامی
 Frequency: 5
 
-Text: رکھتےہیں
-Suggestion: رکھتے ہیں
-Frequency: 5
-
 Text: آرکے
 Suggestion: آر کے
 Frequency: 5
@@ -8135,10 +8095,6 @@ Frequency: 5
 
 Text: جدیداردو
 Suggestion: جدید اردو
-Frequency: 5
-
-Text: ہوئےہیں
-Suggestion: ہوئے ہیں
 Frequency: 5
 
 Text: کاپر
@@ -8885,10 +8841,6 @@ Text: اورتشدد
 Suggestion: اور تشدد
 Frequency: 4
 
-Text: سےہے
-Suggestion: سے ہے
-Frequency: 4
-
 Text: پربڑی
 Suggestion: پر بڑی
 Frequency: 4
@@ -9373,10 +9325,6 @@ Text: چھاگئے
 Suggestion: چھا گئے
 Frequency: 4
 
-Text: کےہاں
-Suggestion: کے ہاں
-Frequency: 4
-
 Text: پہنچاسکے
 Suggestion: پہنچا سکے
 Frequency: 4
@@ -9691,10 +9639,6 @@ Frequency: 4
 
 Text: اناللہ
 Suggestion: انا للہ
-Frequency: 4
-
-Text: بنتےہیں
-Suggestion: بنتے ہیں
 Frequency: 4
 
 Text: پاسکتا
@@ -10067,10 +10011,6 @@ Frequency: 4
 
 Text: میںحضرت
 Suggestion: میں حضرت
-Frequency: 4
-
-Text: پہلےہی
-Suggestion: پہلے ہی
 Frequency: 4
 
 Text: جانہ
@@ -10901,10 +10841,6 @@ Text: کوپیدا
 Suggestion: کو پیدا
 Frequency: 4
 
-Text: کےہم
-Suggestion: کے ہم
-Frequency: 4
-
 Text: کااجماع
 Suggestion: کا اجماع
 Frequency: 4
@@ -11023,10 +10959,6 @@ Frequency: 4
 
 Text: میںبعض
 Suggestion: میں بعض
-Frequency: 4
-
-Text: چھپےہیں
-Suggestion: چھپے ہیں
 Frequency: 4
 
 Text: مرگئے
@@ -11679,10 +11611,6 @@ Frequency: 3
 
 Text: چاہیےاور
 Suggestion: چاہیے اور
-Frequency: 3
-
-Text: رہتےہیں
-Suggestion: رہتے ہیں
 Frequency: 3
 
 Text: نےدینی
@@ -13269,10 +13197,6 @@ Text: کاکلام
 Suggestion: کا کلام
 Frequency: 3
 
-Text: بےہوش
-Suggestion: بے ہوش
-Frequency: 3
-
 Text: اوروحی
 Suggestion: اور وحی
 Frequency: 3
@@ -14077,10 +14001,6 @@ Text: تصورکرتے
 Suggestion: تصور کرتے
 Frequency: 3
 
-Text: کےہاتھوں
-Suggestion: کے ہاتھوں
-Frequency: 3
-
 Text: تھاتاکہ
 Suggestion: تھا تاکہ
 Frequency: 3
@@ -14603,10 +14523,6 @@ Frequency: 3
 
 Text: میںہوا
 Suggestion: میں ہوا
-Frequency: 3
-
-Text: بناتےہیں
-Suggestion: بناتے ہیں
 Frequency: 3
 
 Text: اورعلاقائی
@@ -15157,10 +15073,6 @@ Text: علیگڑھ
 Suggestion: علی گڑھ
 Frequency: 3
 
-Text: آتےہیں
-Suggestion: آتے ہیں
-Frequency: 3
-
 Text: جوتمھارے
 Suggestion: جو تمھارے
 Frequency: 3
@@ -15237,20 +15149,12 @@ Text: دینااس
 Suggestion: دینا اس
 Frequency: 3
 
-Text: بےہودہ
-Suggestion: بے ہودہ
-Frequency: 3
-
 Text: کوغیر
 Suggestion: کو غیر
 Frequency: 3
 
 Text: جاپہنچے
 Suggestion: جا پہنچے
-Frequency: 3
-
-Text: کےہیں
-Suggestion: کے ہیں
 Frequency: 3
 
 Text: پہنچادیں
@@ -15491,10 +15395,6 @@ Frequency: 3
 
 Text: دوآتشہ
 Suggestion: دو آتشہ
-Frequency: 3
-
-Text: جانتےہیں
-Suggestion: جانتے ہیں
 Frequency: 3
 
 Text: بنظرغائر
@@ -17337,10 +17237,6 @@ Text: لکھنؤکی
 Suggestion: لکھنؤ کی
 Frequency: 3
 
-Text: لیتےہیں
-Suggestion: لیتے ہیں
-Frequency: 3
-
 Text: منظورکی
 Suggestion: منظور کی
 Frequency: 3
@@ -18893,10 +18789,6 @@ Text: سنکا
 Suggestion: سن کا
 Frequency: 2
 
-Text: لڑرہےہیں
-Suggestion: لڑرہے ہیں
-Frequency: 2
-
 Text: لگاسکتے
 Suggestion: لگا سکتے
 Frequency: 2
@@ -19189,10 +19081,6 @@ Text: دیگرمقامات
 Suggestion: دیگر مقامات
 Frequency: 2
 
-Text: چھپےہوئے
-Suggestion: چھپے ہوئے
-Frequency: 2
-
 Text: اورمخالفین
 Suggestion: اور مخالفین
 Frequency: 2
@@ -19399,10 +19287,6 @@ Frequency: 2
 
 Text: کااسیر
 Suggestion: کا اسیر
-Frequency: 2
-
-Text: اچھےہیں
-Suggestion: اچھے ہیں
 Frequency: 2
 
 Text: فیصدکی
@@ -21005,10 +20889,6 @@ Text: میںبالخصوص
 Suggestion: میں بالخصوص
 Frequency: 2
 
-Text: سےہم
-Suggestion: سے ہم
-Frequency: 2
-
 Text: میںطباعت
 Suggestion: میں طباعت
 Frequency: 2
@@ -22453,10 +22333,6 @@ Text: امیرمنتخب
 Suggestion: امیر منتخب
 Frequency: 2
 
-Text: نےہمیشہ
-Suggestion: نے ہمیشہ
-Frequency: 2
-
 Text: فناکی
 Suggestion: فنا کی
 Frequency: 2
@@ -23057,10 +22933,6 @@ Text: کیںلیکن
 Suggestion: کیں لیکن
 Frequency: 2
 
-Text: ملتےہیں
-Suggestion: ملتے ہیں
-Frequency: 2
-
 Text: پرانہوں
 Suggestion: پر انہوں
 Frequency: 2
@@ -23119,10 +22991,6 @@ Frequency: 2
 
 Text: اورسیاست
 Suggestion: اور سیاست
-Frequency: 2
-
-Text: اپنےہی
-Suggestion: اپنے ہی
 Frequency: 2
 
 Text: کاہاتھ
@@ -23487,10 +23355,6 @@ Frequency: 2
 
 Text: مرادنہ
 Suggestion: مراد نہ
-Frequency: 2
-
-Text: رکھتےہوئے
-Suggestion: رکھتے ہوئے
 Frequency: 2
 
 Text: دردر
@@ -25893,10 +25757,6 @@ Text: جوجسم
 Suggestion: جو جسم
 Frequency: 2
 
-Text: ایسےہی
-Suggestion: ایسے ہی
-Frequency: 2
-
 Text: حیدرآبادمیں
 Suggestion: حیدرآباد میں
 Frequency: 2
@@ -28237,10 +28097,6 @@ Text: یزیدبن
 Suggestion: یزید بن
 Frequency: 2
 
-Text: کہلاتےہیں
-Suggestion: کہلاتے ہیں
-Frequency: 2
-
 Text: فردجرم
 Suggestion: فرد جرم
 Frequency: 2
@@ -28311,10 +28167,6 @@ Frequency: 2
 
 Text: پرعوام
 Suggestion: پر عوام
-Frequency: 2
-
-Text: کئےہیں
-Suggestion: کئے ہیں
 Frequency: 2
 
 Text: سےآپ
@@ -29713,10 +29565,6 @@ Text: پرردعمل
 Suggestion: پر ردعمل
 Frequency: 2
 
-Text: سےہدایات
-Suggestion: سے ہدایات
-Frequency: 2
-
 Text: دفترکو
 Suggestion: دفتر کو
 Frequency: 2
@@ -29751,10 +29599,6 @@ Frequency: 2
 
 Text: توساتھ
 Suggestion: تو ساتھ
-Frequency: 2
-
-Text: کےہمراہ
-Suggestion: کے ہمراہ
 Frequency: 2
 
 Text: کھجورکا
@@ -30517,10 +30361,6 @@ Text: دنوںمیں
 Suggestion: دنوں میں
 Frequency: 2
 
-Text: لگےہیں
-Suggestion: لگے ہیں
-Frequency: 2
-
 Text: میڈیاکا
 Suggestion: میڈیا کا
 Frequency: 2
@@ -30961,10 +30801,6 @@ Text: ایساہو
 Suggestion: ایسا ہو
 Frequency: 2
 
-Text: لاتےہوئے
-Suggestion: لاتے ہوئے
-Frequency: 2
-
 Text: اورمعروف
 Suggestion: اور معروف
 Frequency: 2
@@ -31107,10 +30943,6 @@ Frequency: 2
 
 Text: کرناوغیرہ
 Suggestion: کرنا وغیرہ
-Frequency: 2
-
-Text: اٹھاتےہیں
-Suggestion: اٹھاتے ہیں
 Frequency: 2
 
 Text: بزنسمین
@@ -33893,10 +33725,6 @@ Text: اورغیرت
 Suggestion: اور غیرت
 Frequency: 1
 
-Text: لکھتےہیں
-Suggestion: لکھتے ہیں
-Frequency: 1
-
 Text: جاتارہاہے
 Suggestion: جاتارہا ہے
 Frequency: 1
@@ -34377,10 +34205,6 @@ Text: حیدرآبادسے
 Suggestion: حیدرآباد سے
 Frequency: 1
 
-Text: سےہٹانے
-Suggestion: سے ہٹانے
-Frequency: 1
-
 Text: اگرداعش
 Suggestion: اگر داعش
 Frequency: 1
@@ -34599,10 +34423,6 @@ Frequency: 1
 
 Text: اپناسینہ
 Suggestion: اپنا سینہ
-Frequency: 1
-
-Text: بےہنگم
-Suggestion: بے ہنگم
 Frequency: 1
 
 Text: یہاںصرف
@@ -35503,10 +35323,6 @@ Frequency: 1
 
 Text: ہوجاۓ
 Suggestion: ہو جاۓ
-Frequency: 1
-
-Text: بےہوشی
-Suggestion: بے ہوشی
 Frequency: 1
 
 Text: چیرکر
@@ -36825,10 +36641,6 @@ Text: سےدیکھنے
 Suggestion: سے دیکھنے
 Frequency: 1
 
-Text: نےہائی
-Suggestion: نے ہائی
-Frequency: 1
-
 Text: شدیدمذمت
 Suggestion: شدید مذمت
 Frequency: 1
@@ -37837,10 +37649,6 @@ Text: تیسرامسئلہ
 Suggestion: تیسرا مسئلہ
 Frequency: 1
 
-Text: نظرآتےہیں
-Suggestion: نظرآتے ہیں
-Frequency: 1
-
 Text: کےسپاہی
 Suggestion: کے سپاہی
 Frequency: 1
@@ -38601,10 +38409,6 @@ Text: اورکلکتہ
 Suggestion: اور کلکتہ
 Frequency: 1
 
-Text: ہوگئےہیں
-Suggestion: ہوگئے ہیں
-Frequency: 1
-
 Text: دیگرشعبہ
 Suggestion: دیگر شعبہ
 Frequency: 1
@@ -38967,10 +38771,6 @@ Frequency: 1
 
 Text: اورمتبادل
 Suggestion: اور متبادل
-Frequency: 1
-
-Text: نکالتےہیں
-Suggestion: نکالتے ہیں
 Frequency: 1
 
 Text: ہمیںکسی
@@ -40561,10 +40361,6 @@ Text: کرنےکاحکم
 Suggestion: کرنے کاحکم
 Frequency: 1
 
-Text: دیےہیں
-Suggestion: دیے ہیں
-Frequency: 1
-
 Text: چاراضلاع
 Suggestion: چار اضلاع
 Frequency: 1
@@ -41545,10 +41341,6 @@ Text: سےامیدیں
 Suggestion: سے امیدیں
 Frequency: 1
 
-Text: اپنےہاں
-Suggestion: اپنے ہاں
-Frequency: 1
-
 Text: پرتشویش
 Suggestion: پر تشویش
 Frequency: 1
@@ -42191,10 +41983,6 @@ Frequency: 1
 
 Text: زورلگایا
 Suggestion: زور لگایا
-Frequency: 1
-
-Text: کیےہیں
-Suggestion: کیے ہیں
 Frequency: 1
 
 Text: کانسب
@@ -43201,10 +42989,6 @@ Text: واپڈاآڈیٹوریم
 Suggestion: واپڈا آڈیٹوریم
 Frequency: 1
 
-Text: پاتےہیں
-Suggestion: پاتے ہیں
-Frequency: 1
-
 Text: نہیںآتی
 Suggestion: نہیں آتی
 Frequency: 1
@@ -43513,10 +43297,6 @@ Text: بہنسبت
 Suggestion: بہ نسبت
 Frequency: 1
 
-Text: بولتےہیں
-Suggestion: بولتے ہیں
-Frequency: 1
-
 Text: رہناممکن
 Suggestion: رہنا ممکن
 Frequency: 1
@@ -43683,10 +43463,6 @@ Frequency: 1
 
 Text: سترمیں
 Suggestion: ستر میں
-Frequency: 1
-
-Text: والےہیں
-Suggestion: والے ہیں
 Frequency: 1
 
 Text: مارکارروائی
@@ -43949,10 +43725,6 @@ Text: توہو
 Suggestion: تو ہو
 Frequency: 1
 
-Text: چلتےہیں
-Suggestion: چلتے ہیں
-Frequency: 1
-
 Text: بےباکی
 Suggestion: بے باکی
 Frequency: 1
@@ -44207,10 +43979,6 @@ Frequency: 1
 
 Text: اوررسل
 Suggestion: اور رسل
-Frequency: 1
-
-Text: کےہمارے
-Suggestion: کے ہمارے
 Frequency: 1
 
 Text: حقدارہیں
@@ -44525,10 +44293,6 @@ Text: حرامخور
 Suggestion: حرام خور
 Frequency: 1
 
-Text: دیکھتےہیں
-Suggestion: دیکھتے ہیں
-Frequency: 1
-
 Text: بوآتی
 Suggestion: بو آتی
 Frequency: 1
@@ -44607,10 +44371,6 @@ Frequency: 1
 
 Text: گرکی
 Suggestion: گر کی
-Frequency: 1
-
-Text: کےہدایتکار
-Suggestion: کے ہدایتکار
 Frequency: 1
 
 Text: بناقانون
@@ -47305,10 +47065,6 @@ Text: جوشام
 Suggestion: جو شام
 Frequency: 1
 
-Text: سےہر
-Suggestion: سے ہر
-Frequency: 1
-
 Text: پکڑلیتی
 Suggestion: پکڑ لیتی
 Frequency: 1
@@ -48531,10 +48287,6 @@ Frequency: 1
 
 Text: دوتاکہ
 Suggestion: دو تاکہ
-Frequency: 1
-
-Text: لگاتےہیں
-Suggestion: لگاتے ہیں
 Frequency: 1
 
 Text: معیاراور
@@ -49921,10 +49673,6 @@ Text: توبلاشبہ
 Suggestion: تو بلاشبہ
 Frequency: 1
 
-Text: کےہوتے
-Suggestion: کے ہوتے
-Frequency: 1
-
 Text: کوشرکت
 Suggestion: کو شرکت
 Frequency: 1
@@ -49973,10 +49721,6 @@ Text: کرصحیح
 Suggestion: کر صحیح
 Frequency: 1
 
-Text: والےہزاروں
-Suggestion: والے ہزاروں
-Frequency: 1
-
 Text: روپڑے
 Suggestion: رو پڑے
 Frequency: 1
@@ -49991,10 +49735,6 @@ Frequency: 1
 
 Text: کوقابل
 Suggestion: کو قابل
-Frequency: 1
-
-Text: ہمارےہیرو
-Suggestion: ہمارے ہیرو
 Frequency: 1
 
 Text: کرلاہور
@@ -50605,10 +50345,6 @@ Text: جوواقعات
 Suggestion: جو واقعات
 Frequency: 1
 
-Text: ہوئےہے
-Suggestion: ہوئے ہے
-Frequency: 1
-
 Text: کاالہام
 Suggestion: کا الہام
 Frequency: 1
@@ -50951,10 +50687,6 @@ Frequency: 1
 
 Text: پیپراستعمال
 Suggestion: پیپر استعمال
-Frequency: 1
-
-Text: بجائےہمیں
-Suggestion: بجائے ہمیں
 Frequency: 1
 
 Text: ہواب
@@ -51419,10 +51151,6 @@ Frequency: 1
 
 Text: اورمورخ
 Suggestion: اور مورخ
-Frequency: 1
-
-Text: سےہوا
-Suggestion: سے ہوا
 Frequency: 1
 
 Text: ہرگھر
@@ -52385,10 +52113,6 @@ Text: صحابہکے
 Suggestion: صحابہ کے
 Frequency: 1
 
-Text: ہمارےہاں
-Suggestion: ہمارے ہاں
-Frequency: 1
-
 Text: بارودکی
 Suggestion: بارود کی
 Frequency: 1
@@ -52817,10 +52541,6 @@ Text: روڈسے
 Suggestion: روڈ سے
 Frequency: 1
 
-Text: مناتےہیں
-Suggestion: مناتے ہیں
-Frequency: 1
-
 Text: بعدابتدائی
 Suggestion: بعد ابتدائی
 Frequency: 1
@@ -52959,10 +52679,6 @@ Frequency: 1
 
 Text: میںجھول
 Suggestion: میں جھول
-Frequency: 1
-
-Text: سےہمیں
-Suggestion: سے ہمیں
 Frequency: 1
 
 Text: اگرذرا
@@ -53151,10 +52867,6 @@ Frequency: 1
 
 Text: کامرتکب
 Suggestion: کا مرتکب
-Frequency: 1
-
-Text: ہےہے
-Suggestion: ہے ہے
 Frequency: 1
 
 Text: تولگتا
@@ -53367,10 +53079,6 @@ Frequency: 1
 
 Text: کومثال
 Suggestion: کو مثال
-Frequency: 1
-
-Text: کےہی
-Suggestion: کے ہی
 Frequency: 1
 
 Text: بینکاکاؤنٹس
@@ -54135,10 +53843,6 @@ Frequency: 1
 
 Text: ڈاکٹرآصف
 Suggestion: ڈاکٹر آصف
-Frequency: 1
-
-Text: لیےہر
-Suggestion: لیے ہر
 Frequency: 1
 
 Text: کہجدید
@@ -55169,10 +54873,6 @@ Text: میںآرام
 Suggestion: میں آرام
 Frequency: 1
 
-Text: روپےہے
-Suggestion: روپے ہے
-Frequency: 1
-
 Text: میںمغرب
 Suggestion: میں مغرب
 Frequency: 1
@@ -55569,10 +55269,6 @@ Text: اورشائع
 Suggestion: اور شائع
 Frequency: 1
 
-Text: ہوئےہوئے
-Suggestion: ہوئے ہوئے
-Frequency: 1
-
 Text: بعدکیا
 Suggestion: بعد کیا
 Frequency: 1
@@ -55935,10 +55631,6 @@ Frequency: 1
 
 Text: میںنیب
 Suggestion: میں نیب
-Frequency: 1
-
-Text: اکساتےہیں
-Suggestion: اکساتے ہیں
 Frequency: 1
 
 Text: آزادکشمیرکے
@@ -58669,10 +58361,6 @@ Text: ماسٹرزکی
 Suggestion: ماسٹرز کی
 Frequency: 1
 
-Text: کےہاتھ
-Suggestion: کے ہاتھ
-Frequency: 1
-
 Text: بعدآگے
 Suggestion: بعد آگے
 Frequency: 1
@@ -61037,10 +60725,6 @@ Text: دتاسیکے
 Suggestion: دتاسی کے
 Frequency: 1
 
-Text: بتاتےہوئے
-Suggestion: بتاتے ہوئے
-Frequency: 1
-
 Text: مدعاپر
 Suggestion: مدعا پر
 Frequency: 1
@@ -61191,10 +60875,6 @@ Frequency: 1
 
 Text: سےآیا
 Suggestion: سے آیا
-Frequency: 1
-
-Text: لیےہم
-Suggestion: لیے ہم
 Frequency: 1
 
 Text: پرتبصرہ
@@ -61901,10 +61581,6 @@ Text: صدائیںبلند
 Suggestion: صدائیں بلند
 Frequency: 1
 
-Text: لئےہم
-Suggestion: لئے ہم
-Frequency: 1
-
 Text: راکہ
 Suggestion: را کہ
 Frequency: 1
@@ -62227,10 +61903,6 @@ Frequency: 1
 
 Text: لیےتاحال
 Suggestion: لیے تاحال
-Frequency: 1
-
-Text: ئےہیں
-Suggestion: ئے ہیں
 Frequency: 1
 
 Text: کرفیصلے
@@ -64449,10 +64121,6 @@ Text: اگرنہیں
 Suggestion: اگر نہیں
 Frequency: 1
 
-Text: رہےہوں
-Suggestion: رہے ہوں
-Frequency: 1
-
 Text: کھینچتاہے
 Suggestion: کھینچتا ہے
 Frequency: 1
@@ -64595,10 +64263,6 @@ Frequency: 1
 
 Text: کامنشا
 Suggestion: کا منشا
-Frequency: 1
-
-Text: دیتےہوئے
-Suggestion: دیتے ہوئے
 Frequency: 1
 
 Text: پھرجاتا
@@ -66185,10 +65849,6 @@ Text: علماومشائخ
 Suggestion: علما ومشائخ
 Frequency: 1
 
-Text: کیسےہو
-Suggestion: کیسے ہو
-Frequency: 1
-
 Text: صدرکا
 Suggestion: صدر کا
 Frequency: 1
@@ -66467,10 +66127,6 @@ Frequency: 1
 
 Text: بےترتیب
 Suggestion: بے ترتیب
-Frequency: 1
-
-Text: نےہاجرہ
-Suggestion: نے ہاجرہ
 Frequency: 1
 
 Text: توفائدہ
@@ -66763,10 +66419,6 @@ Frequency: 1
 
 Text: والامیں
 Suggestion: والا میں
-Frequency: 1
-
-Text: سکتےہو
-Suggestion: سکتے ہو
 Frequency: 1
 
 Text: سےجیتنے
@@ -67213,10 +66865,6 @@ Text: کییہ
 Suggestion: کی یہ
 Frequency: 1
 
-Text: پسےہوئے
-Suggestion: پسے ہوئے
-Frequency: 1
-
 Text: اسوار
 Suggestion: اس وار
 Frequency: 1
@@ -67359,10 +67007,6 @@ Frequency: 1
 
 Text: بھجوادیں
 Suggestion: بھجوا دیں
-Frequency: 1
-
-Text: دیکھتےہوئے
-Suggestion: دیکھتے ہوئے
 Frequency: 1
 
 Text: پرماتم
@@ -68805,10 +68449,6 @@ Text: نہیںملتا
 Suggestion: نہیں ملتا
 Frequency: 1
 
-Text: دئیےہیں
-Suggestion: دئیے ہیں
-Frequency: 1
-
 Text: بعدانتقال
 Suggestion: بعد انتقال
 Frequency: 1
@@ -68825,10 +68465,6 @@ Text: منظرکے
 Suggestion: منظر کے
 Frequency: 1
 
-Text: چاہتےہوں
-Suggestion: چاہتے ہوں
-Frequency: 1
-
 Text: اوروجدان
 Suggestion: اور وجدان
 Frequency: 1
@@ -68839,10 +68475,6 @@ Frequency: 1
 
 Text: جلدکے
 Suggestion: جلد کے
-Frequency: 1
-
-Text: رھےہیں
-Suggestion: رھے ہیں
 Frequency: 1
 
 Text: بسترمرگ
@@ -69113,10 +68745,6 @@ Text: کاحکومت
 Suggestion: کا حکومت
 Frequency: 1
 
-Text: پوچھتےہیں
-Suggestion: پوچھتے ہیں
-Frequency: 1
-
 Text: چہاردانگ
 Suggestion: چہار دانگ
 Frequency: 1
@@ -69259,10 +68887,6 @@ Frequency: 1
 
 Text: جہانگیرکرامت
 Suggestion: جہانگیر کرامت
-Frequency: 1
-
-Text: اسےہمارے
-Suggestion: اسے ہمارے
 Frequency: 1
 
 Text: شرکاءسے
@@ -70873,10 +70497,6 @@ Text: پرہوتی
 Suggestion: پر ہوتی
 Frequency: 1
 
-Text: دیئےہیں
-Suggestion: دیئے ہیں
-Frequency: 1
-
 Text: پرحسین
 Suggestion: پر حسین
 Frequency: 1
@@ -71003,10 +70623,6 @@ Frequency: 1
 
 Text: بھرپورطریقے
 Suggestion: بھرپور طریقے
-Frequency: 1
-
-Text: لارہےہیں
-Suggestion: لارہے ہیں
 Frequency: 1
 
 Text: پربیچ
@@ -75757,10 +75373,6 @@ Text: خودپرست
 Suggestion: خود پرست
 Frequency: 1
 
-Text: کےہوٹل
-Suggestion: کے ہوٹل
-Frequency: 1
-
 Text: اوراکیسویں
 Suggestion: اور اکیسویں
 Frequency: 1
@@ -77421,10 +77033,6 @@ Text: پابندتھا
 Suggestion: پابند تھا
 Frequency: 1
 
-Text: سےہاتھ
-Suggestion: سے ہاتھ
-Frequency: 1
-
 Text: کےمتاثرہ
 Suggestion: کے متاثرہ
 Frequency: 1
@@ -78797,10 +78405,6 @@ Text: پرمعمور
 Suggestion: پر معمور
 Frequency: 1
 
-Text: کےہیڈ
-Suggestion: کے ہیڈ
-Frequency: 1
-
 Text: زیرقلم
 Suggestion: زیر قلم
 Frequency: 1
@@ -80009,10 +79613,6 @@ Text: اورکارکنان
 Suggestion: اور کارکنان
 Frequency: 1
 
-Text: آجاتےہیں
-Suggestion: آجاتے ہیں
-Frequency: 1
-
 Text: جگربھی
 Suggestion: جگر بھی
 Frequency: 1
@@ -80549,20 +80149,8 @@ Text: روزانہوں
 Suggestion: روز انہوں
 Frequency: 1
 
-Text: کےہر
-Suggestion: کے ہر
-Frequency: 1
-
-Text: ذریعےہی
-Suggestion: ذریعے ہی
-Frequency: 1
-
 Text: والادنیا
 Suggestion: والا دنیا
-Frequency: 1
-
-Text: ہےہماری
-Suggestion: ہے ہماری
 Frequency: 1
 
 Text: پرجان
@@ -80695,10 +80283,6 @@ Frequency: 1
 
 Text: کوروزے
 Suggestion: کو روزے
-Frequency: 1
-
-Text: چھوٹےہیں
-Suggestion: چھوٹے ہیں
 Frequency: 1
 
 Text: کوہٹا
@@ -80875,10 +80459,6 @@ Frequency: 1
 
 Text: بڑھادیں
 Suggestion: بڑھا دیں
-Frequency: 1
-
-Text: میرےہم
-Suggestion: میرے ہم
 Frequency: 1
 
 Text: توصدر
@@ -81703,10 +81283,6 @@ Frequency: 1
 
 Text: اورمومنوں
 Suggestion: اور مومنوں
-Frequency: 1
-
-Text: ہےہی
-Suggestion: ہے ہی
 Frequency: 1
 
 Text: پکچرابھی
