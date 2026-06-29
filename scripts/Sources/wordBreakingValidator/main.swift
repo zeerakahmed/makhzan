@@ -82,8 +82,9 @@ func addToCorrectionList(_ c: Correction) {
 }
 
 // process every file
-for file in files {
-    
+for (index, file) in files.enumerated() {
+    fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\r", stderr)
+
     // get the relevant text from the text file
     let parserDelegate = ParserDelegate()
     if let parser = XMLParser(contentsOf: file) {
@@ -166,5 +167,6 @@ for c in sortedCorrections {
 }
 
 // write to file
+fputs("\nWriting wordBreakingErrors...\n", stderr)
 let file = URL(fileURLWithPath: "../stats/wordBreakingErrors")
 try! output.write(to: file, atomically: false, encoding: .utf8)
