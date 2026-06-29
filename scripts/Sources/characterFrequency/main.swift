@@ -43,7 +43,7 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
 
 // process every file
 for (index, file) in files.enumerated() {
-    fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\n", stderr)
+    fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\r", stderr)
 
     // get the relevant text from the text file
     let parserDelegate = ParserDelegate()
@@ -80,7 +80,7 @@ output.removeLast(2)
 print("\n}", to: &output)
 
 // write to file
-fputs("Writing characterFrequency...\n", stderr)
+fputs("\nWriting characterFrequency...\n", stderr)
 let file = URL(fileURLWithPath: "../stats/characterFrequency")
 try! output.write(to: file, atomically: false, encoding: .utf8)
 

@@ -46,7 +46,7 @@ func runNGram(N: Int) {
 
     // process every file
     for (index, file) in files.enumerated() {
-        fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\n", stderr)
+        fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\r", stderr)
 
         // get the relevant text from the text file
         let parserDelegate = ParserDelegate()
@@ -130,7 +130,7 @@ func runNGram(N: Int) {
     }
     
     // write to file
-    fputs("Writing \(N)-Gram...\n", stderr)
+    fputs("\nWriting \(N)-Gram...\n", stderr)
     let outputPath = "../stats/\(N)-Gram"
     let outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
     outputStream?.open()
