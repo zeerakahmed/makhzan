@@ -42,8 +42,9 @@ let files = try! FileManager.default.contentsOfDirectory(at: textDirectoryURL,
                                                          options: [.skipsHiddenFiles])
 
 // process every file
-for file in files {
-    
+for (index, file) in files.enumerated() {
+    fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\n", stderr)
+
     // get the relevant text from the text file
     let parserDelegate = ParserDelegate()
     if let parser = XMLParser(contentsOf: file) {
@@ -107,5 +108,6 @@ output.removeLast(2)
 print("\n}", to: &output)
 
 // write to file
+fputs("Writing wordFrequency...\n", stderr)
 let file = URL(fileURLWithPath: "../stats/wordFrequency")
 try! output.write(to: file, atomically: false, encoding: .utf8)

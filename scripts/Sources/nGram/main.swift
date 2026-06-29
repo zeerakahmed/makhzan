@@ -45,8 +45,9 @@ func runNGram(N: Int) {
                                                              options: [.skipsHiddenFiles])
 
     // process every file
-    for file in files {
-        
+    for (index, file) in files.enumerated() {
+        fputs("[\(index + 1)/\(files.count)] \(file.lastPathComponent)\n", stderr)
+
         // get the relevant text from the text file
         let parserDelegate = ParserDelegate()
         if let parser = XMLParser(contentsOf: file) {
@@ -129,6 +130,7 @@ func runNGram(N: Int) {
     }
     
     // write to file
+    fputs("Writing \(N)-Gram...\n", stderr)
     let outputPath = "../stats/\(N)-Gram"
     let outputStream = OutputStream.init(toFileAtPath: outputPath, append: false)
     outputStream?.open()
@@ -141,5 +143,6 @@ func runNGram(N: Int) {
 
 // Choices of N to run the script on
 for N in 2...4 {
+    fputs("--- Running \(N)-Gram ---\n", stderr)
     runNGram(N: N)
 }
