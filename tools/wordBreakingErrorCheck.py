@@ -8,8 +8,11 @@ import termios
 yes_option = ['y']
 no_option = ['n']
 maybe_option = ['m']
+zwnj_option = ['z']
 quit_option = ['q']
-acceptable_keys = yes_option + no_option + maybe_option + quit_option
+acceptable_keys = yes_option + no_option + maybe_option + zwnj_option + quit_option
+
+ZWNJ = '‌'
 
 # files
 input_filename = "../stats/wordBreakingErrors"
@@ -66,7 +69,7 @@ with open(input_filename) as file_obj:
       first = False
 
       print('Text: {}, Suggestion: {}, Frequency: {}'.format(text[1], suggestion[1], frequency[1]))
-      print('Yes (y) | No (n) | Maybe (m) | Quit (q)? ', end='', flush=True)
+      print('Yes (y) | No (n) | Maybe (m) | Zwnj (z) | Quit (q)? ', end='', flush=True)
 
       answer = read_single_key().lower()
       while answer not in acceptable_keys:
@@ -85,6 +88,9 @@ with open(input_filename) as file_obj:
 
       if answer in maybe_option:
         do_maybe_things()
+
+      if answer in zwnj_option:
+        do_yes_things(text[1], suggestion[1].replace(' ', ZWNJ))
 
       arr = next_n_lines(file_obj)
 
